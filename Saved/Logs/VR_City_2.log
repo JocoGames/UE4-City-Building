@@ -1,0 +1,1171 @@
+﻿Log file open, 06/07/16 15:32:21
+LogInit:Display: Running engine for game: VR_City
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(368363362) SRandInit(368363363).
+LogTaskGraph: Started task graph with 4 named threads and 6 total threads.
+LogStats: Stats thread started at 0.069357
+LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
+LogInit: API Version: 2927265
+LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.11/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.06.07-20.32.22:199][  0]LogInit: Selected Device Profile: [Windows]
+[2016.06.07-20.32.22:199][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.06.07-20.32.22:210][  0]LogInit: Computer: MY-PC
+[2016.06.07-20.32.22:210][  0]LogInit: User: My
+[2016.06.07-20.32.22:210][  0]LogInit: CPU Page size=65536, Cores=3
+[2016.06.07-20.32.22:210][  0]LogInit: High frequency timer resolution =3.703828 MHz
+[2016.06.07-20.32.22:210][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.06.07-20.32.22:210][  0]LogMemory: Platform Memory Stats for Windows
+[2016.06.07-20.32.22:210][  0]LogMemory: Process Physical Memory: 313.60 MB used, 313.60 MB peak
+[2016.06.07-20.32.22:210][  0]LogMemory: Process Virtual Memory: 317.36 MB used, 317.36 MB peak
+[2016.06.07-20.32.22:210][  0]LogMemory: Physical Memory: 6232.63 MB used, 8094.93 MB total
+[2016.06.07-20.32.22:210][  0]LogMemory: Virtual Memory: 622.76 MB used, 8388608.00 MB total
+[2016.06.07-20.32.22:257][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.06.07-20.32.22:808][  0]LogD3D11RHI: D3D11 adapters:
+[2016.06.07-20.32.22:835][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2016.06.07-20.32.22:835][  0]LogD3D11RHI:       4007MB of dedicated video memory, 0MB of dedicated system memory, and 3791MB of shared system memory, 1 output[s]
+[2016.06.07-20.32.22:835][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.06.07-20.32.22:845][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.06.07-20.32.22:846][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2016.06.07-20.32.22:846][  0]LogD3D11RHI:   Driver Version: 10.18.13.6175 (internal 10.18.13.6175)
+[2016.06.07-20.32.22:846][  0]LogD3D11RHI:      Driver Date: 1-22-2016
+[2016.06.07-20.32.22:846][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.06.07-20.32.22:861][  0]LogD3D11RHI: Async texture creation enabled
+[2016.06.07-20.32.23:411][  0]LogShaderCompilers: Guid format shader working directory is 1 characters bigger than the processId version (../../../../../../Users/My/Desktop/VR_City/Intermediate/Shaders/WorkingDirectory/2700/).
+[2016.06.07-20.32.23:411][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/My/AppData/Local/Temp/UnrealShaderWorkingDir/80691F8349C79C6062F8B7B5BCCCDDF8/'.
+[2016.06.07-20.32.23:411][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.06.07-20.32.24:777][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.06.07-20.32.24:783][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.06.07-20.32.24:790][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.06.07-20.32.24:796][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.06.07-20.32.24:801][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.06.07-20.32.24:806][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.06.07-20.32.24:810][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.06.07-20.32.24:815][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.06.07-20.32.24:820][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.06.07-20.32.24:826][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.06.07-20.32.24:830][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.06.07-20.32.24:839][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.06.07-20.32.24:839][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.06.07-20.32.24:840][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.06.07-20.32.24:857][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.06.07-20.32.24:861][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.06.07-20.32.24:865][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.06.07-20.32.24:870][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.06.07-20.32.24:875][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.06.07-20.32.24:875][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.06.07-20.32.24:957][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.06.07-20.32.25:122][  0]LogDerivedDataCache: Loaded boot cache 0.16s 72MB C:/Users/My/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.06.07-20.32.25:122][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/My/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.06.07-20.32.25:122][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/My/Desktop/VR_City/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.06.07-20.32.25:122][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.06.07-20.32.25:122][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/My/Desktop/VR_City/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.06.07-20.32.25:122][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.06.07-20.32.25:142][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.06.07-20.32.25:154][  0]LogDerivedDataCache: Using Local data cache path C:/Users/My/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.06.07-20.32.25:407][  0]LogInit: Selected Device Profile: [Windows]
+[2016.06.07-20.32.25:408][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.06.07-20.32.25:445][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.06.07-20.32.25:632][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.06.07-20.32.25:632][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.06.07-20.32.25:632][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.06.07-20.32.26:028][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2016.06.07-20.32.26:028][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
+[2016.06.07-20.32.26:028][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.06.07-20.32.26:035][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.06.07-20.32.26:314][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.06.07-20.32.26:314][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.06.07-20.32.26:429][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.06.07-20.32.26:429][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.06.07-20.32.26:429][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.06.07-20.32.26:429][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.06.07-20.32.26:429][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.06.07-20.32.26:429][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.06.07-20.32.27:117][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.06.07-20.32.27:219][  0]LogAssetRegistry: FAssetRegistry took 0.0199 seconds to start up
+[2016.06.07-20.32.27:442][  0]SourceControl: Info Source control is disabled
+[2016.06.07-20.32.27:538][  0]SourceControl: Info Source control is disabled
+[2016.06.07-20.32.27:548][  0]SourceControl: Info Source control is disabled
+[2016.06.07-20.32.27:556][  0]SourceControl: Info Source control is disabled
+[2016.06.07-20.32.27:798][  0]LogEngine: Initializing Engine...
+[2016.06.07-20.32.27:800][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-9B2D22F0
+[2016.06.07-20.32.28:048][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.06.07-20.32.28:075][  0]LogInit: XAudio2 using 'Speakers (9- Logitech G930 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.07-20.32.28:096][  0]LogInit: FAudioDevice initialized.
+[2016.06.07-20.32.28:778][  0]LogDerivedDataCache: Saved boot cache 0.68s 72MB C:/Users/My/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.06.07-20.32.28:804][  0]LogInit: Texture streaming: Enabled
+[2016.06.07-20.32.28:832][  0]LogInit: Transaction tracking system initialized
+[2016.06.07-20.32.28:857][  0]BlueprintLog: New page: Editor Load
+[2016.06.07-20.32.28:934][  0]LocalizationService: Info Localization service is disabled
+[2016.06.07-20.32.29:013][  0]LogConsoleResponse:Display: 
+[2016.06.07-20.32.29:145][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.06.07-20.32.29:145][  0]LogCook:Display: Mobile HDR setting 1
+[2016.06.07-20.32.29:145][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.06.07-20.32.29:206][  0]LogFileCache: Scanning file cache for directory 'C:/Users/My/Desktop/VR_City/Content/' took 0.01s
+[2016.06.07-20.32.29:206][  0]SourceControl: Info Source control is disabled
+[2016.06.07-20.32.29:206][  0]Cmd: MAP LOAD FILE="../../../../../../Users/My/Desktop/VR_City/Content/Maps/VR_Basic.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.06.07-20.32.29:206][  0]LightingResults: New page: Lighting Build
+[2016.06.07-20.32.29:210][  0]MapCheck: New page: Map Check
+[2016.06.07-20.32.29:210][  0]LightingResults: New page: Lighting Build
+[2016.06.07-20.32.29:583][  0]LogAIModule: Creating AISystem for world VR_Basic
+[2016.06.07-20.32.29:588][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.06.07-20.32.29:589][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.06.07-20.32.29:637][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 48.023ms to complete.
+[2016.06.07-20.32.29:637][  0]LogFileHelpers: Loading map 'VR_Basic' took 0.432
+[2016.06.07-20.32.29:718][  0]LogCollectionManager: Loaded 0 collections in 0.001646 seconds
+[2016.06.07-20.32.29:758][  0]LogFileCache: Scanning file cache for directory 'C:/Users/My/Desktop/VR_City/Saved/Collections/' took 0.01s
+[2016.06.07-20.32.29:758][  0]LogFileCache: Scanning file cache for directory 'C:/Users/My/Desktop/VR_City/Content/Developers/My/Collections/' took 0.01s
+[2016.06.07-20.32.29:758][  0]LogFileCache: Scanning file cache for directory 'C:/Users/My/Desktop/VR_City/Content/Collections/' took 0.01s
+[2016.06.07-20.32.29:758][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.06.07-20.32.29:769][  0]LogContentBrowser: Native class hierarchy populated in 0.0111 seconds. Added 1978 classes and 340 folders.
+[2016.06.07-20.32.29:773][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.06.07-20.32.29:773][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.06.07-20.32.29:774][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0005 seconds. Added 12 classes and 0 folders.
+[2016.06.07-20.32.29:779][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.06.07-20.32.29:794][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.06.07-20.32.32:260][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.06.07-20.32.35:022][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.06.07-20.32.35:784][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.06.07-20.32.36:540][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.06.07-20.32.36:630][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2016.06.07-20.32.36:631][  0]LogLoad: Full Startup: 15.45 seconds (BP compile: 0.05 seconds)
+[2016.06.07-20.32.36:631][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.06.07-20.32.36:631][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.06.07-20.32.36:640][  0]LogOcInput: OculusInput pre-init called
+[2016.06.07-20.32.38:027][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.06.07-20.32.40:132][  0]LogRenderer: Reallocating scene render targets to support 1580x1140 (Frame:2).
+[2016.06.07-20.32.41:026][  1]LogAssetRegistry: Asset discovery search completed in 13.8272 seconds
+[2016.06.07-20.32.41:026][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.06.07-20.32.41:026][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000027 seconds (updated 0 objects)
+[2016.06.07-20.37.14:005][644]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2016.06.07-20.37.15:720][722]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.06.07-20.37.16:531][808]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.06.07-20.37.17:353][895]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.06.07-20.38.54:818][106]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/My/Desktop/VR_City/road.fbx)
+[2016.06.07-20.38.54:967][106]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.06.07-20.38.54:968][106]LogFbx: ItemName: Geometry, ItemCount : 1
+[2016.06.07-20.38.54:968][106]LogFbx: ItemName: Model, ItemCount : 1
+[2016.06.07-20.38.54:968][106]LogFbx: ItemName: Material, ItemCount : 1
+[2016.06.07-20.38.54:978][106]LogFbx: Loading FBX Scene from ../../../../../../Users/My/Desktop/VR_City/road.fbx
+[2016.06.07-20.38.54:991][106]LogFbx: FBX Scene Loaded Succesfully
+[2016.06.07-20.38.58:593][106]LogFbx: Loading FBX Scene from ../../../../../../Users/My/Desktop/VR_City/road.fbx
+[2016.06.07-20.38.58:603][106]LogFbx: FBX Scene Loaded Succesfully
+[2016.06.07-20.38.58:607][106]LogLinker:Warning: Can't find file '/Game/LevelContent/Material'
+[2016.06.07-20.38.58:608][106]LogLinker:Warning: Can't find file '/Game/LevelContent/Material'
+[2016.06.07-20.38.58:618][106]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2016.06.07-20.38.58:731][106]LogFbx:Warning: Triangulating static mesh Cube
+[2016.06.07-20.38.58:738][106]LogStaticMesh: Building static mesh road...
+[2016.06.07-20.38.58:766][106]LogStaticMesh: Built static mesh [0.03s] /Game/LevelContent/road.road
+[2016.06.07-20.38.58:844][106]LogStaticMesh:Warning: road has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.06.07-20.38.58:851][106]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.06.07-20.38.58:852][106]FBXImport:Warning: Warning road has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.06.07-20.39.05:636][667]LogActorFactory: Actor Factory created road
+[2016.06.07-20.39.07:186][816]LogActorFactory: Actor Factory created road
+[2016.06.07-20.39.55:186][196]Cmd: UpdateLandscapeSetup
+[2016.06.07-20.39.59:502][674]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.07-20.39.59:502][674]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.07-20.39.59:627][674]PIE: New page: PIE session: VR_Basic (Jun 7, 2016, 9:39:59 AM)
+[2016.06.07-20.39.59:627][674]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_VR_Basic
+[2016.06.07-20.39.59:647][674]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020155s)
+[2016.06.07-20.39.59:648][674]LogAIModule: Creating AISystem for world VR_Basic
+[2016.06.07-20.39.59:649][674]LogPlayLevel: PIE: World Init took: (0.000952s)
+[2016.06.07-20.39.59:652][674]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/VR_Basic.VR_Basic to /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic (0.024892s)
+[2016.06.07-20.39.59:703][674]LogInit: XAudio2 using 'Speakers (9- Logitech G930 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.07-20.39.59:726][674]LogInit: FAudioDevice initialized.
+[2016.06.07-20.40.00:483][674]LogWorld: Game class is 'VR_GameMode_C'
+[2016.06.07-20.40.00:523][674]LogWorld: Bringing World /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic up for play (max tick rate 0) at 2016.06.07-15.40.00
+[2016.06.07-20.40.00:524][674]LogWorld: Bringing up level for play took: 0.002312
+[2016.06.07-20.40.00:672][674]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 9 classes and 0 folders.
+[2016.06.07-20.40.00:685][674]Cmd: FULL SCREEN
+[2016.06.07-20.40.00:685][674]Command not recognized: FULL SCREEN
+[2016.06.07-20.40.00:685][674]Cmd: Stereo On
+[2016.06.07-20.40.00:779][674]LogRenderer: Reallocating scene render targets to support 3024x1680 (Frame:42794).
+[2016.06.07-20.40.00:779][674]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_VR_Basic 2.247
+[2016.06.07-20.40.00:779][674]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.07-20.40.00:793][676]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 670/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-20.40.05:796][896]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.07-20.40.05:967][896]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.07-20.40.09:716][  7]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 805/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-20.40.55:170][381]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 805/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-20.41.02:399][471]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.07-20.41.02:399][471]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.07-20.41.02:400][471]PIE: New page: PIE session: VR_Basic (Jun 7, 2016, 9:41:02 AM)
+[2016.06.07-20.41.02:400][471]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_VR_Basic
+[2016.06.07-20.41.02:406][471]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006102s)
+[2016.06.07-20.41.02:407][471]LogAIModule: Creating AISystem for world VR_Basic
+[2016.06.07-20.41.02:407][471]LogPlayLevel: PIE: World Init took: (0.001319s)
+[2016.06.07-20.41.02:408][471]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/VR_Basic.VR_Basic to /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic (0.008147s)
+[2016.06.07-20.41.02:445][471]LogInit: XAudio2 using 'Speakers (9- Logitech G930 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.07-20.41.02:465][471]LogInit: FAudioDevice initialized.
+[2016.06.07-20.41.02:577][471]LogWorld: Game class is 'VR_GameMode_C'
+[2016.06.07-20.41.02:582][471]LogWorld: Bringing World /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic up for play (max tick rate 0) at 2016.06.07-15.41.02
+[2016.06.07-20.41.02:583][471]LogWorld: Bringing up level for play took: 0.002950
+[2016.06.07-20.41.02:586][471]Cmd: FULL SCREEN
+[2016.06.07-20.41.02:586][471]Command not recognized: FULL SCREEN
+[2016.06.07-20.41.02:586][471]Cmd: Stereo On
+[2016.06.07-20.41.02:658][471]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_VR_Basic 0.127
+[2016.06.07-20.41.02:659][471]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.07-20.41.02:666][473]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 720/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-20.41.23:960][659]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.07-20.41.24:300][659]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.07-20.41.26:327][846]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 805/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-20.41.26:665][875]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 805/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-20.41.28:714][ 76]Cmd: UpdateLandscapeSetup
+[2016.06.07-20.41.30:191][215]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.07-20.41.30:191][215]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.07-20.41.30:191][215]PIE: New page: PIE session: VR_Basic (Jun 7, 2016, 9:41:30 AM)
+[2016.06.07-20.41.30:191][215]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_VR_Basic
+[2016.06.07-20.41.30:197][215]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005887s)
+[2016.06.07-20.41.30:199][215]LogAIModule: Creating AISystem for world VR_Basic
+[2016.06.07-20.41.30:199][215]LogPlayLevel: PIE: World Init took: (0.001078s)
+[2016.06.07-20.41.30:199][215]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/VR_Basic.VR_Basic to /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic (0.007604s)
+[2016.06.07-20.41.30:243][215]LogInit: XAudio2 using 'Speakers (9- Logitech G930 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.07-20.41.30:265][215]LogInit: FAudioDevice initialized.
+[2016.06.07-20.41.30:375][215]LogWorld: Game class is 'VR_GameMode_C'
+[2016.06.07-20.41.30:380][215]LogWorld: Bringing World /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic up for play (max tick rate 0) at 2016.06.07-15.41.30
+[2016.06.07-20.41.30:380][215]LogWorld: Bringing up level for play took: 0.003252
+[2016.06.07-20.41.30:383][215]Cmd: FULL SCREEN
+[2016.06.07-20.41.30:383][215]Command not recognized: FULL SCREEN
+[2016.06.07-20.41.30:383][215]Cmd: Stereo On
+[2016.06.07-20.41.30:425][215]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_VR_Basic -0.107
+[2016.06.07-20.41.30:425][215]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.07-20.41.30:436][217]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 720/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-20.41.39:052][791]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.07-20.41.39:308][791]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.07-20.41.41:707][ 22]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 805/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-20.41.44:064][264]Cmd: UpdateLandscapeSetup
+[2016.06.07-20.41.45:769][425]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.07-20.41.45:769][425]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.07-20.41.45:769][425]PIE: New page: PIE session: VR_Basic (Jun 7, 2016, 9:41:45 AM)
+[2016.06.07-20.41.45:769][425]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_VR_Basic
+[2016.06.07-20.41.45:776][425]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006291s)
+[2016.06.07-20.41.45:777][425]LogAIModule: Creating AISystem for world VR_Basic
+[2016.06.07-20.41.45:778][425]LogPlayLevel: PIE: World Init took: (0.001419s)
+[2016.06.07-20.41.45:778][425]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/VR_Basic.VR_Basic to /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic (0.008454s)
+[2016.06.07-20.41.45:822][425]LogInit: XAudio2 using 'Speakers (9- Logitech G930 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.07-20.41.45:841][425]LogInit: FAudioDevice initialized.
+[2016.06.07-20.41.45:962][425]LogWorld: Game class is 'VR_GameMode_C'
+[2016.06.07-20.41.45:965][425]LogWorld: Bringing World /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic up for play (max tick rate 0) at 2016.06.07-15.41.45
+[2016.06.07-20.41.45:966][425]LogWorld: Bringing up level for play took: 0.002902
+[2016.06.07-20.41.45:969][425]Cmd: FULL SCREEN
+[2016.06.07-20.41.45:970][425]Command not recognized: FULL SCREEN
+[2016.06.07-20.41.45:970][425]Cmd: Stereo On
+[2016.06.07-20.41.46:014][425]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_VR_Basic -0.518
+[2016.06.07-20.41.46:015][425]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.07-20.41.46:034][427]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 720/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-20.41.56:608][899]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.07-20.41.56:758][899]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.07-20.41.58:464][ 62]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 805/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-20.42.01:675][381]Cmd: UpdateLandscapeSetup
+[2016.06.07-20.42.03:293][540]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.07-20.42.03:293][540]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.07-20.42.03:293][540]PIE: New page: PIE session: VR_Basic (Jun 7, 2016, 9:42:03 AM)
+[2016.06.07-20.42.03:293][540]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_VR_Basic
+[2016.06.07-20.42.03:299][540]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005439s)
+[2016.06.07-20.42.03:300][540]LogAIModule: Creating AISystem for world VR_Basic
+[2016.06.07-20.42.03:301][540]LogPlayLevel: PIE: World Init took: (0.001566s)
+[2016.06.07-20.42.03:301][540]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/VR_Basic.VR_Basic to /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic (0.007536s)
+[2016.06.07-20.42.03:348][540]LogInit: XAudio2 using 'Speakers (9- Logitech G930 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.07-20.42.03:369][540]LogInit: FAudioDevice initialized.
+[2016.06.07-20.42.03:480][540]LogWorld: Game class is 'VR_GameMode_C'
+[2016.06.07-20.42.03:484][540]LogWorld: Bringing World /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic up for play (max tick rate 0) at 2016.06.07-15.42.03
+[2016.06.07-20.42.03:484][540]LogWorld: Bringing up level for play took: 0.002291
+[2016.06.07-20.42.03:486][540]Cmd: FULL SCREEN
+[2016.06.07-20.42.03:486][540]Command not recognized: FULL SCREEN
+[2016.06.07-20.42.03:486][540]Cmd: Stereo On
+[2016.06.07-20.42.03:524][540]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_VR_Basic 0.992
+[2016.06.07-20.42.03:525][540]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.07-20.42.03:540][542]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 720/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-20.42.11:003][875]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.07-20.42.11:147][875]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.07-20.43.32:105][415]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/VR_Basic" FILE="../../../../../../Users/My/Desktop/VR_City/Saved/Autosaves/Game/Maps/VR_Basic_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.06.07-20.43.32:524][415]LogSavePackage: Save=359.49ms
+[2016.06.07-20.43.32:524][415]LogSavePackage: Moving '../../../../../../Users/My/Desktop/VR_City/Saved/VR_Basic_Auto162A3DAEF49D7E0AAE0ACA4A7B5BAA714.tmp' to '../../../../../../Users/My/Desktop/VR_City/Saved/Autosaves/Game/Maps/VR_Basic_Auto1.umap'
+[2016.06.07-20.43.32:526][415]LogSavePackage: Total save time: 402.62ms
+[2016.06.07-20.43.32:526][415]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/My/Desktop/VR_City/Saved/Autosaves/Game/Maps/VR_Basic_Auto1.umap
+[2016.06.07-20.43.32:528][415]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/VR_Basic' took 0.563
+[2016.06.07-20.43.32:528][415]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.563
+[2016.06.07-20.43.32:533][415]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/LevelContent/road] ([1] browsable assets)...
+[2016.06.07-20.43.32:606][415]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/LevelContent/road.road]
+[2016.06.07-20.43.32:606][415]OBJ SavePackage: Finished generating thumbnails for package [/Game/LevelContent/road]
+[2016.06.07-20.43.32:606][415]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelContent/road" FILE="../../../../../../Users/My/Desktop/VR_City/Saved/Autosaves/Game/LevelContent/road_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.06.07-20.43.32:665][415]LogSavePackage: Save=57.29ms
+[2016.06.07-20.43.32:665][415]LogSavePackage: Moving '../../../../../../Users/My/Desktop/VR_City/Saved/road_Auto1AE32456244726CC6A77640BF544611DF.tmp' to '../../../../../../Users/My/Desktop/VR_City/Saved/Autosaves/Game/LevelContent/road_Auto1.uasset'
+[2016.06.07-20.43.32:666][415]LogSavePackage: Total save time: 59.04ms
+[2016.06.07-20.43.32:666][415]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/My/Desktop/VR_City/Saved/Autosaves/Game/LevelContent/road_Auto1.uasset
+[2016.06.07-20.43.32:670][415]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/LevelContent/Material] ([1] browsable assets)...
+[2016.06.07-20.43.32:703][415]OBJ SavePackage:     Rendered thumbnail for [Material /Game/LevelContent/Material.Material]
+[2016.06.07-20.43.32:703][415]OBJ SavePackage: Finished generating thumbnails for package [/Game/LevelContent/Material]
+[2016.06.07-20.43.32:703][415]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelContent/Material" FILE="../../../../../../Users/My/Desktop/VR_City/Saved/Autosaves/Game/LevelContent/Material_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.06.07-20.43.32:718][415]LogSavePackage: Save=12.38ms
+[2016.06.07-20.43.32:718][415]LogSavePackage: Moving '../../../../../../Users/My/Desktop/VR_City/Saved/Material_Auto1F5EBBF8D4B29C30B7AEF4DB06A666AF4.tmp' to '../../../../../../Users/My/Desktop/VR_City/Saved/Autosaves/Game/LevelContent/Material_Auto1.uasset'
+[2016.06.07-20.43.32:719][415]LogSavePackage: Total save time: 13.75ms
+[2016.06.07-20.43.32:719][415]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/My/Desktop/VR_City/Saved/Autosaves/Game/LevelContent/Material_Auto1.uasset
+[2016.06.07-20.43.32:719][415]LogFileHelpers: Auto-saving content packages took 0.189
+[2016.06.07-20.43.33:079][418]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 805/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-20.44.56:446][670]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 805/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-20.45.00:333][725]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/My/Desktop/VR_City/office1.fbx)
+[2016.06.07-20.45.00:338][725]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.06.07-20.45.00:338][725]LogFbx: ItemName: Geometry, ItemCount : 1
+[2016.06.07-20.45.00:339][725]LogFbx: ItemName: Model, ItemCount : 1
+[2016.06.07-20.45.00:339][725]LogFbx: ItemName: Material, ItemCount : 1
+[2016.06.07-20.45.00:346][725]LogFbx: Loading FBX Scene from ../../../../../../Users/My/Desktop/VR_City/office1.fbx
+[2016.06.07-20.45.00:354][725]LogFbx: FBX Scene Loaded Succesfully
+[2016.06.07-20.45.01:922][725]LogFbx: Loading FBX Scene from ../../../../../../Users/My/Desktop/VR_City/office1.fbx
+[2016.06.07-20.45.01:930][725]LogFbx: FBX Scene Loaded Succesfully
+[2016.06.07-20.45.01:934][725]LogFbx:Warning: Triangulating static mesh Cube
+[2016.06.07-20.45.01:944][725]LogStaticMesh: Building static mesh office1...
+[2016.06.07-20.45.01:945][725]LogStaticMesh: Built static mesh [0.00s] /Game/LevelContent/office1.office1
+[2016.06.07-20.45.01:945][725]LogStaticMesh:Warning: office1 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.06.07-20.45.01:951][725]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.06.07-20.45.01:951][725]FBXImport:Warning: Warning office1 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2016.06.07-20.45.01:995][726]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 539/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-20.45.03:635][879]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 805/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-20.45.16:451][ 19]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 805/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-20.45.40:102][391]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 539/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-20.45.45:246][772]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 806/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-20.45.46:405][862]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 806/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-20.45.48:241][ 13]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 806/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-20.45.50:183][147]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 805/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-20.46.41:743][888]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 539/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-20.46.46:677][295]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 422/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-20.46.46:742][299]LogActorFactory: Actor Factory created office1
+[2016.06.07-20.46.46:764][301]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 825/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-20.46.49:860][614]LogActorFactory: Actor Factory created office1
+[2016.06.07-20.46.49:881][616]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 825/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-20.46.50:833][708]LogActorFactory: Actor Factory created office1
+[2016.06.07-20.47.01:398][837]Cmd: DELETE
+[2016.06.07-20.47.01:398][837]Cmd: ACTOR DELETE
+[2016.06.07-20.47.01:422][837]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.06.07-20.47.01:443][837]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2016.06.07-20.47.02:880][991]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (road)
+[2016.06.07-20.47.04:037][ 93]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 805/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-20.47.04:100][ 95]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (road)
+[2016.06.07-20.47.04:672][151]Cmd: DELETE
+[2016.06.07-20.47.04:672][151]Cmd: ACTOR DELETE
+[2016.06.07-20.47.04:673][151]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.06.07-20.47.04:692][151]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.06.07-20.47.21:845][568]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-20.49.00:319][988]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 805/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-20.49.04:272][384]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/VR_Basic" FILE="../../../../../../Users/My/Desktop/VR_City/Content/Maps/VR_Basic.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.06.07-20.49.04:383][384]LogSavePackage: Save=91.10ms
+[2016.06.07-20.49.04:383][384]LogSavePackage: Moving '../../../../../../Users/My/Desktop/VR_City/Saved/VR_Basic0E26CDDA413C85AD23D4D9BD9FEEF18E.tmp' to '../../../../../../Users/My/Desktop/VR_City/Content/Maps/VR_Basic.umap'
+[2016.06.07-20.49.06:277][384]LogSavePackage: Total save time: 1988.84ms
+[2016.06.07-20.49.06:277][384]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/My/Desktop/VR_City/Content/Maps/VR_Basic.umap
+[2016.06.07-20.49.06:361][387]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-20.49.10:427][754]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-20.49.14:930][104]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-20.49.21:669][836]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-20.49.24:355][124]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-20.49.27:014][407]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-20.49.28:821][599]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-20.59.04:332][602]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/VR_Basic' took 0.018
+[2016.06.07-20.59.04:339][602]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/LevelContent/office1] ([1] browsable assets)...
+[2016.06.07-20.59.04:374][602]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/LevelContent/office1.office1]
+[2016.06.07-20.59.04:374][602]OBJ SavePackage: Finished generating thumbnails for package [/Game/LevelContent/office1]
+[2016.06.07-20.59.04:374][602]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelContent/office1" FILE="../../../../../../Users/My/Desktop/VR_City/Saved/Autosaves/Game/LevelContent/office1_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2016.06.07-20.59.04:389][602]LogSavePackage: Save=12.30ms
+[2016.06.07-20.59.04:389][602]LogSavePackage: Moving '../../../../../../Users/My/Desktop/VR_City/Saved/office1_Auto2CE434EF84E674A82EE3FC58EFE0BBCF2.tmp' to '../../../../../../Users/My/Desktop/VR_City/Saved/Autosaves/Game/LevelContent/office1_Auto2.uasset'
+[2016.06.07-20.59.04:390][602]LogSavePackage: Total save time: 14.15ms
+[2016.06.07-20.59.04:390][602]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/My/Desktop/VR_City/Saved/Autosaves/Game/LevelContent/office1_Auto2.uasset
+[2016.06.07-20.59.04:390][602]LogFileHelpers: Auto-saving content packages took 0.057
+[2016.06.07-20.59.04:560][604]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 805/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.09.27:339][474]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 805/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.09.28:684][608]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.09.36:967][431]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 805/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.09.38:443][598]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.09.42:841][119]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.09.47:389][546]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 805/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.09.50:131][863]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.09.54:736][398]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.10.10:777][687]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.10.19:537][541]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 108 classes and 0 folders.
+[2016.06.07-21.10.20:936][544]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.10.22:975][717]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.10.28:588][149]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.10.30:041][303]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.10.30:443][342]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.11.48:594][249]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.11.50:181][414]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.11.52:041][595]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.06.07-21.17.17:322][721]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.17.29:121][814]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.17.30:972][998]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.17.32:989][210]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.17.34:244][337]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.17.35:994][517]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.17.58:484][769]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.18.02:514][195]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.18.12:828][218]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.18.14:096][353]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.18.15:381][473]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.18.16:805][618]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.18.16:881][622]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.18.18:685][795]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.18.23:048][129]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.18.24:983][320]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.18.26:118][430]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.18.27:665][587]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.18.28:453][666]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.18.30:086][826]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.18.35:677][403]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.18.43:696][191]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.18.44:939][313]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.18.46:331][463]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.18.46:633][490]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.18.50:482][893]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.18.53:627][210]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.18.54:380][290]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.18.56:351][484]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.19.01:445][  3]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.19.03:441][205]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.19.05:054][362]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.19.09:035][771]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.19.17:280][640]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.19.19:696][836]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.19.22:079][114]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.06.07-21.19.24:996][431]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.19.26:464][593]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.19.28:349][718]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 805/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.19.30:044][903]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.19.31:453][ 19]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 805/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.19.31:941][ 49]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 805/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.19.32:974][118]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 805/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.19.34:376][207]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 422/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.19.36:223][389]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelContent/Meshes/office1" FILE="../../../../../../Users/My/Desktop/VR_City/Content/LevelContent/Meshes/office1.uasset" SILENT=true
+[2016.06.07-21.19.36:237][389]LogSavePackage: Save=12.07ms
+[2016.06.07-21.19.36:237][389]LogSavePackage: Moving '../../../../../../Users/My/Desktop/VR_City/Saved/office14575FD1E4BFFAF6BE99D0D8AEC22128F.tmp' to '../../../../../../Users/My/Desktop/VR_City/Content/LevelContent/Meshes/office1.uasset'
+[2016.06.07-21.19.36:426][389]LogSavePackage: Total save time: 201.33ms
+[2016.06.07-21.19.36:426][389]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/My/Desktop/VR_City/Content/LevelContent/Meshes/office1.uasset
+[2016.06.07-21.19.36:460][389]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelContent/Meshes/road" FILE="../../../../../../Users/My/Desktop/VR_City/Content/LevelContent/Meshes/road.uasset" SILENT=true
+[2016.06.07-21.19.36:473][389]LogSavePackage: Save=12.18ms
+[2016.06.07-21.19.36:474][389]LogSavePackage: Moving '../../../../../../Users/My/Desktop/VR_City/Saved/roadD0C5C46743A3E9B81778EE89D6BAA32F.tmp' to '../../../../../../Users/My/Desktop/VR_City/Content/LevelContent/Meshes/road.uasset'
+[2016.06.07-21.19.36:476][389]LogSavePackage: Total save time: 14.81ms
+[2016.06.07-21.19.36:476][389]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/My/Desktop/VR_City/Content/LevelContent/Meshes/road.uasset
+[2016.06.07-21.19.36:737][390]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 539/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.19.38:039][507]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 805/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.19.39:537][672]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.19.40:932][826]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.19.45:292][312]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.19.45:836][370]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.19.47:397][544]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.19.48:635][679]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.19.49:503][750]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 805/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.19.51:309][859]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 423/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.19.56:512][205]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.20.14:983][627]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.20.20:447][992]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 806/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.20.21:089][ 26]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.06.07-21.20.21:125][ 26]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/VR_Basic' took 0.056
+[2016.06.07-21.20.21:129][ 26]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelContent/road" FILE="../../../../../../Users/My/Desktop/VR_City/Saved/Autosaves/Game/LevelContent/road_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2016.06.07-21.20.21:133][ 26]LogSavePackage: Save=1.55ms
+[2016.06.07-21.20.21:133][ 26]LogSavePackage: Moving '../../../../../../Users/My/Desktop/VR_City/Saved/road_Auto3CC327F47451B930ABB56F18BBA7CC442.tmp' to '../../../../../../Users/My/Desktop/VR_City/Saved/Autosaves/Game/LevelContent/road_Auto3.uasset'
+[2016.06.07-21.20.21:134][ 26]LogSavePackage: Total save time: 3.59ms
+[2016.06.07-21.20.21:134][ 26]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/My/Desktop/VR_City/Saved/Autosaves/Game/LevelContent/road_Auto3.uasset
+[2016.06.07-21.20.21:138][ 26]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelContent/office1" FILE="../../../../../../Users/My/Desktop/VR_City/Saved/Autosaves/Game/LevelContent/office1_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2016.06.07-21.20.21:141][ 26]LogSavePackage: Save=1.39ms
+[2016.06.07-21.20.21:141][ 26]LogSavePackage: Moving '../../../../../../Users/My/Desktop/VR_City/Saved/office1_Auto347E883E943E736FECE3EA9847BECCD0E.tmp' to '../../../../../../Users/My/Desktop/VR_City/Saved/Autosaves/Game/LevelContent/office1_Auto3.uasset'
+[2016.06.07-21.20.21:143][ 26]LogSavePackage: Total save time: 3.14ms
+[2016.06.07-21.20.21:143][ 26]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/My/Desktop/VR_City/Saved/Autosaves/Game/LevelContent/office1_Auto3.uasset
+[2016.06.07-21.20.21:146][ 26]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Placer] ([1] browsable assets)...
+[2016.06.07-21.20.21:147][ 26]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Placer]
+[2016.06.07-21.20.21:147][ 26]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Placer" FILE="../../../../../../Users/My/Desktop/VR_City/Saved/Autosaves/Game/Blueprints/Placer_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2016.06.07-21.20.21:165][ 26]LogSavePackage: Save=17.21ms
+[2016.06.07-21.20.21:166][ 26]LogSavePackage: Moving '../../../../../../Users/My/Desktop/VR_City/Saved/Placer_Auto3450114A34A27C2893F11B4BB90690E51.tmp' to '../../../../../../Users/My/Desktop/VR_City/Saved/Autosaves/Game/Blueprints/Placer_Auto3.uasset'
+[2016.06.07-21.20.21:167][ 26]LogSavePackage: Total save time: 18.70ms
+[2016.06.07-21.20.21:167][ 26]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/My/Desktop/VR_City/Saved/Autosaves/Game/Blueprints/Placer_Auto3.uasset
+[2016.06.07-21.20.21:167][ 26]LogFileHelpers: Auto-saving content packages took 0.041
+[2016.06.07-21.20.22:651][121]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.20.27:299][442]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.20.28:484][524]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.20.29:446][588]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.20.34:535][953]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.20.53:050][406]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.22.15:061][ 73]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.22.19:586][455]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.22.20:397][517]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.22.50:232][771]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.22.52:017][910]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.23.28:863][683]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.23.47:659][ 62]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.23.50:805][308]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.24.00:193][602]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.24.01:511][706]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.24.46:453][785]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.24.54:532][367]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.24.55:639][450]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.24.57:683][605]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.25.00:355][818]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.25.10:902][535]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.25.12:280][627]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.25.13:897][745]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.25.14:487][784]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.25.16:314][919]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.25.17:010][970]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.25.17:343][992]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.25.18:380][ 68]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.25.20:816][258]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.25.22:568][398]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.25.22:785][414]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.25.23:371][462]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.25.26:705][738]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.25.38:409][824]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.25.46:190][388]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.25.47:882][517]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.25.50:779][737]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.25.52:212][842]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.26.00:874][508]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.26.07:136][622]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.26.23:813][879]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.26.40:252][672]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.26.40:929][721]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.26.56:560][823]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.27.00:536][106]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.27.04:118][386]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.27.06:564][566]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.27.09:549][805]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.27.11:916][980]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.27.15:170][208]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.27.15:810][252]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/PlayerCharacter/Blueprints/VR_Character/VR_PlayerCharacter.VR_PlayerCharacter:UserConstructionScript.K2Node_CallFunction_2449 or K2Node_CallFunction /Game/PlayerCharacter/Blueprints/VR_Character/VR_PlayerCharacter.VR_PlayerCharacter:EventGraph.K2Node_CallFunction_2449
+[2016.06.07-21.27.15:817][252]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/PlayerCharacter/Blueprints/VR_Character/VR_PlayerCharacter.VR_PlayerCharacter:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_22 or K2Node_CommutativeAssociativeBinaryOperator /Game/PlayerCharacter/Blueprints/VR_Character/VR_PlayerCharacter.VR_PlayerCharacter:UserConstructionScript.K2Node_CommutativeAssociativeBinaryOperator_22
+[2016.06.07-21.27.18:345][433]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.27.28:280][112]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.27.30:253][248]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.27.31:670][341]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.27.33:393][462]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.27.35:513][626]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.27.39:031][902]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.27.41:563][ 80]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.27.48:797][604]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.27.53:025][878]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.27.54:160][947]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.27.55:151][ 12]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.28.07:671][755]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.28.08:762][827]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.28.10:526][944]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.28.18:617][440]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.28.20:722][559]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.28.22:665][681]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.28.23:780][742]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.28.56:071][776]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.28.57:241][850]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.29.14:796][ 36]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.29.17:152][200]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.29.19:198][344]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.29.32:318][254]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.29.36:253][542]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.29.38:135][671]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.29.39:995][800]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.29.45:765][192]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.29.50:677][546]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.29.52:427][668]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.29.56:014][912]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.29.59:180][131]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.30.00:621][233]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.30.03:387][419]BlueprintLog: New page: Compile VR_PlayerCharacter
+[2016.06.07-21.30.03:651][419]BlueprintEditorCompileResults: Info [3462.46] Compile of VR_PlayerCharacter successful! [in 246 ms]
+[2016.06.07-21.30.03:726][421]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.30.04:549][472]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.06.07-21.30.08:430][749]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.30.09:342][809]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.30.10:212][866]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.30.16:097][240]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.30.17:154][302]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 806/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.30.17:291][310]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 806/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.30.18:083][359]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 806/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.30.18:958][413]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 806/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.30.20:954][538]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.30.25:799][845]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 423/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.30.27:195][944]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 806/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.30.29:302][ 82]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 423/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.30.30:718][180]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 806/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.30.32:115][262]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 520/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.30.37:285][594]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.30.49:011][291]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.30.54:223][633]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 806/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.30.55:595][716]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.30.57:945][855]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.31.06:013][319]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.31.07:160][386]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.31.19:030][109]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 806/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.31.20:988][236]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.31.24:025][434]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 806/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.31.25:585][536]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.31.29:427][786]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 806/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.31.31:280][904]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.31.31:741][934]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.31.34:582][125]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.32.04:522][615]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/VR_Basic' took 0.027
+[2016.06.07-21.32.04:529][615]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PlayerCharacter/Blueprints/VR_Character/VR_PlayerCharacter] ([1] browsable assets)...
+[2016.06.07-21.32.04:567][615]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/PlayerCharacter/Blueprints/VR_Character/VR_PlayerCharacter.VR_PlayerCharacter]
+[2016.06.07-21.32.04:567][615]OBJ SavePackage: Finished generating thumbnails for package [/Game/PlayerCharacter/Blueprints/VR_Character/VR_PlayerCharacter]
+[2016.06.07-21.32.04:847][615]LogSavePackage: Save=89.39ms
+[2016.06.07-21.32.04:847][615]LogSavePackage: Moving '../../../../../../Users/My/Desktop/VR_City/Saved/VR_PlayerCharacter_Auto4AFCE03CF46E1E107FF70419126431E28.tmp' to '../../../../../../Users/My/Desktop/VR_City/Saved/Autosaves/Game/PlayerCharacter/Blueprints/VR_Character/VR_PlayerCharacter_Auto4.uasset'
+[2016.06.07-21.32.04:849][615]LogSavePackage: Total save time: 280.01ms
+[2016.06.07-21.32.04:849][615]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/My/Desktop/VR_City/Saved/Autosaves/Game/PlayerCharacter/Blueprints/VR_Character/VR_PlayerCharacter_Auto4.uasset
+[2016.06.07-21.32.04:849][615]LogFileHelpers: Auto-saving content packages took 0.326
+[2016.06.07-21.32.04:889][617]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 806/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.32.23:265][673]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.32.50:229][416]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 806/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.32.53:893][655]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.06.07-21.32.53:914][656]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.32.55:469][756]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.32.57:450][890]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.32.57:896][919]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.32.58:517][962]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.32.59:878][ 50]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.33.03:078][238]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 806/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.33.06:849][452]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 806/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.33.12:639][807]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 806/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.33.14:510][919]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 806/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.33.16:025][  8]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.33.17:609][ 98]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 806/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.33.19:126][193]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.33.20:472][279]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.33.23:719][481]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.33.24:834][551]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 806/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.33.47:289][742]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 806/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.33.48:331][801]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.33.50:813][955]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.33.55:293][  6]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.34.02:403][472]BlueprintLog: New page: Compile VR_PlayerCharacter
+[2016.06.07-21.34.02:417][472]LogBlueprint:Error: [compiler VR_PlayerCharacter] Error Spawn node  SpawnActor NONE  must have a class specified.
+[2016.06.07-21.34.02:418][472]LogClass:Warning: Type mismatch in Road of VR_PlayerCharacter_C - Previous (ObjectProperty) Current(ArrayProperty) for package:  FObjectReader
+[2016.06.07-21.34.02:423][472]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_0) Not registered. Aborting.
+[2016.06.07-21.34.02:658][472]LogBlueprint:Warning: [compiler VR_PlayerCharacter] Warning [3701.48] Compile of VR_PlayerCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 254 ms]
+[2016.06.07-21.34.02:658][472]BlueprintEditorCompileResults:Error: Error Spawn node  SpawnActor NONE  must have a class specified.
+[2016.06.07-21.34.02:658][472]BlueprintEditorCompileResults:Warning: Warning [3701.48] Compile of VR_PlayerCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 254 ms]
+[2016.06.07-21.34.02:715][474]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.34.13:410][112]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.34.26:142][813]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.34.31:120][132]BlueprintLog: New page: Compile VR_PlayerCharacter
+[2016.06.07-21.34.31:133][132]LogBlueprint:Error: [compiler VR_PlayerCharacter] Error Spawn node  SpawnActor NONE  must have a class specified.
+[2016.06.07-21.34.31:379][132]LogBlueprint:Warning: [compiler VR_PlayerCharacter] Warning [3730.20] Compile of VR_PlayerCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 258 ms]
+[2016.06.07-21.34.31:379][132]BlueprintEditorCompileResults:Error: Error Spawn node  SpawnActor NONE  must have a class specified.
+[2016.06.07-21.34.31:379][132]BlueprintEditorCompileResults:Warning: Warning [3730.20] Compile of VR_PlayerCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 258 ms]
+[2016.06.07-21.34.31:441][134]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.34.32:287][191]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.34.33:567][277]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.34.34:691][348]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.06.07-21.34.37:641][546]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.34.39:030][631]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 806/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.34.40:973][755]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.34.42:798][873]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.34.44:100][960]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.34.44:995][ 19]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.34.46:156][ 94]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.34.46:883][143]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.34.47:241][166]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.34.50:410][375]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.34.51:206][428]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.34.51:515][448]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.34.52:457][511]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.34.55:068][598]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.34.56:972][721]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.34.57:945][783]BlueprintLog: New page: Compile VR_PlayerCharacter
+[2016.06.07-21.34.57:957][783]LogBlueprint:Error: [compiler VR_PlayerCharacter] Error Spawn node  SpawnActor NONE  must have a class specified.
+[2016.06.07-21.34.58:220][783]LogBlueprint:Warning: [compiler VR_PlayerCharacter] Warning [3757.04] Compile of VR_PlayerCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 273 ms]
+[2016.06.07-21.34.58:220][783]BlueprintEditorCompileResults:Error: Error Spawn node  SpawnActor NONE  must have a class specified.
+[2016.06.07-21.34.58:220][783]BlueprintEditorCompileResults:Warning: Warning [3757.04] Compile of VR_PlayerCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 273 ms]
+[2016.06.07-21.34.58:277][785]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 806/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.35.01:783][ 21]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.06.07-21.35.13:854][866]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.35.19:102][201]LogSavePackage: Save=74.19ms
+[2016.06.07-21.35.19:102][201]LogSavePackage: Moving '../../../../../../Users/My/Desktop/VR_City/Saved/VR_PlayerCharacterCA2A9A58488EF5594045A2A272AFE1F3.tmp' to '../../../../../../Users/My/Desktop/VR_City/Content/PlayerCharacter/Blueprints/VR_Character/VR_PlayerCharacter.uasset'
+[2016.06.07-21.35.19:106][201]LogSavePackage: Total save time: 80.34ms
+[2016.06.07-21.35.19:106][201]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/My/Desktop/VR_City/Content/PlayerCharacter/Blueprints/VR_Character/VR_PlayerCharacter.uasset
+[2016.06.07-21.35.19:125][202]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 806/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.35.20:220][266]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.35.21:363][373]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 422/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.35.21:472][382]LogActorFactory: Actor Factory created road
+[2016.06.07-21.35.21:494][384]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 825/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.35.21:635][387]LogActorFactory: Actor Factory created road
+[2016.06.07-21.35.28:907][138]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 805/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.35.33:385][642]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 805/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.35.35:078][779]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 805/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.35.40:827][182]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 805/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.35.43:762][424]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 805/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.35.44:875][508]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 805/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.35.46:549][689]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 805/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.35.49:120][964]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 805/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.35.53:219][429]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 805/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.35.53:854][497]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 805/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.35.54:880][601]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 805/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.35.55:608][667]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 805/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.35.56:855][755]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 423/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.35.59:084][893]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 806/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.36.06:479][350]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 806/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.36.12:839][759]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 806/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.36.29:893][890]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 806/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.36.31:933][ 21]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 806/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.36.32:769][ 69]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 806/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.37.12:845][389]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 806/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.37.16:999][623]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 806/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.37.19:744][808]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 806/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.37.20:590][861]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 806/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.37.21:863][940]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 806/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.37.43:090][361]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 806/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.38.05:052][ 37]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 806/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.38.09:645][344]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 805/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.38.12:339][633]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.06.07-21.38.17:585][685]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (road)
+[2016.06.07-21.38.18:261][752]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 805/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.38.18:326][755]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (road)
+[2016.06.07-21.38.19:310][858]Cmd: DELETE
+[2016.06.07-21.38.19:310][858]Cmd: ACTOR DELETE
+[2016.06.07-21.38.19:311][858]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.06.07-21.38.19:338][858]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2016.06.07-21.38.26:607][626]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 805/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.38.27:895][775]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.38.28:816][879]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.38.29:351][930]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 805/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.38.30:755][ 40]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 423/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.38.35:924][406]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 806/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.38.38:625][609]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.38.39:255][653]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 806/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.38.40:465][731]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 423/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.38.40:956][769]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 806/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.38.55:020][802]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.39.12:791][115]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.39.16:342][424]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 520/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.39.17:012][474]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.39.19:294][636]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.39.20:999][755]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.39.23:060][897]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.39.31:990][675]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.39.36:517][ 55]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.39.39:519][287]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.39.44:176][625]BlueprintLog: New page: Compile VR_PlayerCharacter
+[2016.06.07-21.39.44:205][625]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.06.07-21.39.44:303][625]BlueprintEditorCompileResults: Info [4043.13] Compile of VR_PlayerCharacter successful! [in 125 ms]
+[2016.06.07-21.39.44:345][626]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.39.45:222][678]LogSavePackage: Save=91.42ms
+[2016.06.07-21.39.45:222][678]LogSavePackage: Moving '../../../../../../Users/My/Desktop/VR_City/Saved/VR_PlayerCharacterDB37D2454794F1A92F4BB083C3CFDDE9.tmp' to '../../../../../../Users/My/Desktop/VR_City/Content/PlayerCharacter/Blueprints/VR_Character/VR_PlayerCharacter.uasset'
+[2016.06.07-21.39.45:226][678]LogSavePackage: Total save time: 97.68ms
+[2016.06.07-21.39.45:226][678]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/My/Desktop/VR_City/Content/PlayerCharacter/Blueprints/VR_Character/VR_PlayerCharacter.uasset
+[2016.06.07-21.39.45:244][679]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 806/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.39.51:891][155]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.42.04:883][ 31]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.06.07-21.42.04:916][ 31]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/VR_Basic" FILE="../../../../../../Users/My/Desktop/VR_City/Saved/Autosaves/Game/Maps/VR_Basic_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.06.07-21.42.05:177][ 31]LogSavePackage: Save=114.31ms
+[2016.06.07-21.42.05:177][ 31]LogSavePackage: Moving '../../../../../../Users/My/Desktop/VR_City/Saved/VR_Basic_Auto547E2CA2647955F3AE10C848CCDC6D1CC.tmp' to '../../../../../../Users/My/Desktop/VR_City/Saved/Autosaves/Game/Maps/VR_Basic_Auto5.umap'
+[2016.06.07-21.42.05:178][ 31]LogSavePackage: Total save time: 260.69ms
+[2016.06.07-21.42.05:179][ 31]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/My/Desktop/VR_City/Saved/Autosaves/Game/Maps/VR_Basic_Auto5.umap
+[2016.06.07-21.42.05:181][ 31]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/VR_Basic' took 0.298
+[2016.06.07-21.42.05:181][ 31]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.298
+[2016.06.07-21.43.08:716][335]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.43.15:536][590]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.43.17:780][833]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.07-21.43.17:780][833]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.06.07-21.43.17:781][833]LogPlayLevel: [PlayLevel] Compiling Placer before play...
+[2016.06.07-21.43.17:789][833]LogBlueprint:Error: [compiler Placer] Error Spawn node  SpawnActor NONE  must have a class specified.
+[2016.06.07-21.43.17:957][833]LogBlueprint:Warning: [compiler Placer] Warning [4256.78] Compile of Placer failed. 1 Fatal Issue(s) 0 Warning(s) [in 172 ms]
+[2016.06.07-21.43.17:958][833]LogBlueprint:Warning: [compiler Placer] Warning [4256.78] Compile of Placer failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2016.06.07-21.43.17:958][833]LogBlueprint:Warning: [compiler Placer] Warning [4256.78] Compile of Placer failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2016.06.07-21.43.17:958][833]LogBlueprint:Warning: [compiler Placer] Warning [4256.78] Compile of Placer failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2016.06.07-21.43.17:959][833]LogBlueprint:Warning: [compiler Placer] Warning [4256.78] Compile of Placer failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms]
+[2016.06.07-21.43.17:959][833]LogBlueprint:Warning: [compiler Placer] Warning [4256.79] Compile of Placer failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2016.06.07-21.43.17:960][833]LogPlayLevel: PlayLevel: Blueprint regeneration took 179 ms (1 blueprints)
+[2016.06.07-21.43.17:997][833]BlueprintLog: Info Blueprint Placer failed to compile
+[2016.06.07-21.43.22:748][836]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.43.25:690][189]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 805/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.43.27:356][393]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.43.28:113][476]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.43.34:312][875]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Placer_C_0' or package '/Engine/Transient'.
+[2016.06.07-21.43.34:312][875]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Placer_C_1' or package '/Engine/Transient'.
+[2016.06.07-21.43.34:312][875]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_Placer_C_123' or package '/Engine/Transient'.
+[2016.06.07-21.43.34:312][875]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BlueprintComponentNodeSpawner_126' or package '/Engine/Transient'.
+[2016.06.07-21.43.34:312][875]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Placer' or package '/Engine/Transient'.
+[2016.06.07-21.43.34:312][875]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_Placer_C_130' or package '/Engine/Transient'.
+[2016.06.07-21.43.34:313][875]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_Placer_C_129' or package '/Engine/Transient'.
+[2016.06.07-21.43.34:679][876]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 420/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.43.36:114][ 24]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/VR_Basic" FILE="../../../../../../Users/My/Desktop/VR_City/Content/Maps/VR_Basic.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.06.07-21.43.36:315][ 24]LogSavePackage: Save=144.01ms
+[2016.06.07-21.43.36:316][ 24]LogSavePackage: Moving '../../../../../../Users/My/Desktop/VR_City/Saved/VR_Basic6C2A39EE4D2A9D2041AB9396D6CA2732.tmp' to '../../../../../../Users/My/Desktop/VR_City/Content/Maps/VR_Basic.umap'
+[2016.06.07-21.43.36:327][ 24]LogSavePackage: Total save time: 177.36ms
+[2016.06.07-21.43.36:327][ 24]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/My/Desktop/VR_City/Content/Maps/VR_Basic.umap
+[2016.06.07-21.43.36:478][ 26]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.43.37:377][120]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.07-21.43.37:377][120]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.07-21.43.37:378][120]PIE: New page: PIE session: VR_Basic (Jun 7, 2016, 10:43:37 AM)
+[2016.06.07-21.43.37:378][120]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_VR_Basic
+[2016.06.07-21.43.37:383][120]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004729s)
+[2016.06.07-21.43.37:384][120]LogAIModule: Creating AISystem for world VR_Basic
+[2016.06.07-21.43.37:384][120]LogPlayLevel: PIE: World Init took: (0.001133s)
+[2016.06.07-21.43.37:384][120]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/VR_Basic.VR_Basic to /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic (0.006376s)
+[2016.06.07-21.43.37:444][120]LogInit: XAudio2 using 'Speakers (9- Logitech G930 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.07-21.43.37:471][120]LogInit: FAudioDevice initialized.
+[2016.06.07-21.43.37:590][120]LogWorld: Game class is 'VR_GameMode_C'
+[2016.06.07-21.43.37:593][120]LogWorld: Bringing World /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic up for play (max tick rate 0) at 2016.06.07-16.43.37
+[2016.06.07-21.43.37:593][120]LogWorld: Bringing up level for play took: 0.002193
+[2016.06.07-21.43.37:625][120]Cmd: FULL SCREEN
+[2016.06.07-21.43.37:625][120]Command not recognized: FULL SCREEN
+[2016.06.07-21.43.37:625][120]Cmd: Stereo On
+[2016.06.07-21.43.37:666][120]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_VR_Basic 1.135
+[2016.06.07-21.43.37:667][120]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.07-21.43.37:682][122]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 701/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.45.47:988][929]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.07-21.45.48:126][929]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.07-21.45.53:094][478]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.45.53:686][540]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.45.54:224][595]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.45.54:879][653]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 805/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.45.56:637][798]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 423/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.46.00:006][  9]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 806/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.46.01:667][117]BlueprintLog: New page: Compile VR_PlayerCharacter
+[2016.06.07-21.46.01:699][117]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.06.07-21.46.01:805][117]BlueprintEditorCompileResults: Info [4420.63] Compile of VR_PlayerCharacter successful! [in 137 ms]
+[2016.06.07-21.46.01:850][118]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 806/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.46.02:859][182]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.07-21.46.02:859][182]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.07-21.46.02:860][182]PIE: New page: PIE session: VR_Basic (Jun 7, 2016, 10:46:02 AM)
+[2016.06.07-21.46.02:860][182]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_VR_Basic
+[2016.06.07-21.46.02:867][182]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006735s)
+[2016.06.07-21.46.02:868][182]LogAIModule: Creating AISystem for world VR_Basic
+[2016.06.07-21.46.02:868][182]LogPlayLevel: PIE: World Init took: (0.001371s)
+[2016.06.07-21.46.02:869][182]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/VR_Basic.VR_Basic to /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic (0.008727s)
+[2016.06.07-21.46.02:869][182]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.06.07-21.46.02:924][182]LogInit: XAudio2 using 'Speakers (9- Logitech G930 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.07-21.46.02:947][182]LogInit: FAudioDevice initialized.
+[2016.06.07-21.46.03:104][182]LogWorld: Game class is 'VR_GameMode_C'
+[2016.06.07-21.46.03:108][182]LogWorld: Bringing World /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic up for play (max tick rate 0) at 2016.06.07-16.46.03
+[2016.06.07-21.46.03:108][182]LogWorld: Bringing up level for play took: 0.002213
+[2016.06.07-21.46.03:111][182]Cmd: FULL SCREEN
+[2016.06.07-21.46.03:111][182]Command not recognized: FULL SCREEN
+[2016.06.07-21.46.03:111][182]Cmd: Stereo On
+[2016.06.07-21.46.03:163][182]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_VR_Basic 0.631
+[2016.06.07-21.46.03:163][182]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.07-21.46.03:173][184]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 701/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.46.28:779][355]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.07-21.46.28:941][355]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.07-21.46.43:445][316]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 806/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.47.01:878][470]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 806/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.47.03:615][591]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.47.08:657][959]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 806/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.47.13:564][331]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 806/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.47.14:854][419]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.07-21.47.14:854][419]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.06.07-21.47.14:857][419]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.06.07-21.47.14:865][419]LogPlayLevel: [PlayLevel] Compiling VR_PlayerCharacter before play...
+[2016.06.07-21.47.14:965][419]LogPlayLevel: PlayLevel: Blueprint regeneration took 110 ms (1 blueprints)
+[2016.06.07-21.47.14:996][419]PIE: New page: PIE session: VR_Basic (Jun 7, 2016, 10:47:14 AM)
+[2016.06.07-21.47.14:996][419]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_VR_Basic
+[2016.06.07-21.47.15:002][419]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005716s)
+[2016.06.07-21.47.15:003][419]LogAIModule: Creating AISystem for world VR_Basic
+[2016.06.07-21.47.15:004][419]LogPlayLevel: PIE: World Init took: (0.001306s)
+[2016.06.07-21.47.15:004][419]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/VR_Basic.VR_Basic to /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic (0.007676s)
+[2016.06.07-21.47.15:063][419]LogInit: XAudio2 using 'Speakers (9- Logitech G930 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.07-21.47.15:084][419]LogInit: FAudioDevice initialized.
+[2016.06.07-21.47.15:208][419]LogWorld: Game class is 'VR_GameMode_C'
+[2016.06.07-21.47.15:212][419]LogWorld: Bringing World /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic up for play (max tick rate 0) at 2016.06.07-16.47.15
+[2016.06.07-21.47.15:213][419]LogWorld: Bringing up level for play took: 0.002642
+[2016.06.07-21.47.15:217][419]Cmd: FULL SCREEN
+[2016.06.07-21.47.15:217][419]Command not recognized: FULL SCREEN
+[2016.06.07-21.47.15:217][419]Cmd: Stereo On
+[2016.06.07-21.47.15:264][419]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_VR_Basic 0.732
+[2016.06.07-21.47.15:265][419]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.07-21.47.15:275][421]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 701/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.47.39:266][494]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.07-21.47.39:450][494]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.07-21.47.39:450][494]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.06.07-21.47.43:844][816]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 806/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.47.45:779][957]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 806/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.47.48:478][142]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.47.49:609][229]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.47.52:146][419]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.47.54:482][585]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.47.55:761][676]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.47.57:517][792]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 806/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.47.59:590][930]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.07-21.47.59:591][930]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.06.07-21.47.59:593][930]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.06.07-21.47.59:601][930]LogPlayLevel: [PlayLevel] Compiling VR_PlayerCharacter before play...
+[2016.06.07-21.47.59:698][930]LogPlayLevel: PlayLevel: Blueprint regeneration took 107 ms (1 blueprints)
+[2016.06.07-21.47.59:734][930]PIE: New page: PIE session: VR_Basic (Jun 7, 2016, 10:47:59 AM)
+[2016.06.07-21.47.59:735][930]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_VR_Basic
+[2016.06.07-21.47.59:740][930]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004809s)
+[2016.06.07-21.47.59:741][930]LogAIModule: Creating AISystem for world VR_Basic
+[2016.06.07-21.47.59:741][930]LogPlayLevel: PIE: World Init took: (0.001107s)
+[2016.06.07-21.47.59:741][930]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/VR_Basic.VR_Basic to /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic (0.006620s)
+[2016.06.07-21.47.59:797][930]LogInit: XAudio2 using 'Speakers (9- Logitech G930 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.07-21.47.59:819][930]LogInit: FAudioDevice initialized.
+[2016.06.07-21.47.59:936][930]LogWorld: Game class is 'VR_GameMode_C'
+[2016.06.07-21.47.59:942][930]LogWorld: Bringing World /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic up for play (max tick rate 0) at 2016.06.07-16.47.59
+[2016.06.07-21.47.59:942][930]LogWorld: Bringing up level for play took: 0.002790
+[2016.06.07-21.47.59:945][930]Cmd: FULL SCREEN
+[2016.06.07-21.47.59:945][930]Command not recognized: FULL SCREEN
+[2016.06.07-21.47.59:945][930]Cmd: Stereo On
+[2016.06.07-21.47.59:994][930]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_VR_Basic -0.539
+[2016.06.07-21.47.59:994][930]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.07-21.48.00:006][932]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 701/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.48.40:811][796]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.07-21.48.40:991][796]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.07-21.48.40:991][796]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.06.07-21.48.42:996][909]LogSavePackage: Save=75.63ms
+[2016.06.07-21.48.42:996][909]LogSavePackage: Moving '../../../../../../Users/My/Desktop/VR_City/Saved/VR_PlayerCharacter96D0837A4F72E085F702DCA58A3A6D1F.tmp' to '../../../../../../Users/My/Desktop/VR_City/Content/PlayerCharacter/Blueprints/VR_Character/VR_PlayerCharacter.uasset'
+[2016.06.07-21.48.43:000][909]LogSavePackage: Total save time: 83.72ms
+[2016.06.07-21.48.43:000][909]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/My/Desktop/VR_City/Content/PlayerCharacter/Blueprints/VR_Character/VR_PlayerCharacter.uasset
+[2016.06.07-21.48.43:020][910]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 806/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.48.43:661][950]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/VR_Basic" FILE="../../../../../../Users/My/Desktop/VR_City/Content/Maps/VR_Basic.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.06.07-21.48.43:662][950]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.06.07-21.48.43:828][950]LogSavePackage: Save=133.33ms
+[2016.06.07-21.48.43:828][950]LogSavePackage: Moving '../../../../../../Users/My/Desktop/VR_City/Saved/VR_Basic331B8BD048CF4F5675056C9042EE7D14.tmp' to '../../../../../../Users/My/Desktop/VR_City/Content/Maps/VR_Basic.umap'
+[2016.06.07-21.48.43:831][950]LogSavePackage: Total save time: 139.85ms
+[2016.06.07-21.48.43:831][950]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/My/Desktop/VR_City/Content/Maps/VR_Basic.umap
+[2016.06.07-21.48.43:888][951]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.48.44:798][  6]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 786/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.48.46:767][ 24]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelContent/Material" FILE="../../../../../../Users/My/Desktop/VR_City/Content/LevelContent/Material.uasset" SILENT=true
+[2016.06.07-21.48.46:783][ 24]LogSavePackage: Save=13.39ms
+[2016.06.07-21.48.46:783][ 24]LogSavePackage: Moving '../../../../../../Users/My/Desktop/VR_City/Saved/Material14C638EF4BD08B217769909538EB1DE6.tmp' to '../../../../../../Users/My/Desktop/VR_City/Content/LevelContent/Material.uasset'
+[2016.06.07-21.48.46:838][ 24]LogSavePackage: Total save time: 68.54ms
+[2016.06.07-21.48.46:838][ 24]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/My/Desktop/VR_City/Content/LevelContent/Material.uasset
+[2016.06.07-21.48.46:844][ 24]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelContent/office1" FILE="../../../../../../Users/My/Desktop/VR_City/Content/LevelContent/office1.uasset" SILENT=true
+[2016.06.07-21.48.46:847][ 24]LogSavePackage: Save=1.44ms
+[2016.06.07-21.48.46:848][ 24]LogSavePackage: Moving '../../../../../../Users/My/Desktop/VR_City/Saved/office12ABD03F24172DEE788EEC3AB85BDF8E5.tmp' to '../../../../../../Users/My/Desktop/VR_City/Content/LevelContent/office1.uasset'
+[2016.06.07-21.48.46:851][ 24]LogSavePackage: Total save time: 5.49ms
+[2016.06.07-21.48.46:851][ 24]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/My/Desktop/VR_City/Content/LevelContent/office1.uasset
+[2016.06.07-21.48.46:859][ 24]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelContent/road" FILE="../../../../../../Users/My/Desktop/VR_City/Content/LevelContent/road.uasset" SILENT=true
+[2016.06.07-21.48.46:862][ 24]LogSavePackage: Save=1.58ms
+[2016.06.07-21.48.46:862][ 24]LogSavePackage: Moving '../../../../../../Users/My/Desktop/VR_City/Saved/road8E3CE073420DB2D7C65E3A855D308DBC.tmp' to '../../../../../../Users/My/Desktop/VR_City/Content/LevelContent/road.uasset'
+[2016.06.07-21.48.46:866][ 24]LogSavePackage: Total save time: 5.42ms
+[2016.06.07-21.48.46:866][ 24]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/My/Desktop/VR_City/Content/LevelContent/road.uasset
+[2016.06.07-21.48.47:732][ 25]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 499/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.07-21.48.47:733][ 25]Cmd: QUIT_EDITOR
+[2016.06.07-21.48.49:453][ 25]LogExit: Preparing to exit.
+[2016.06.07-21.48.51:127][ 25]LogExit: Editor shut down
+[2016.06.07-21.48.51:128][ 25]LogExit: Transaction tracking system shut down
+[2016.06.07-21.48.53:143][ 25]LogObj: Freed 0b from 0 cluster array pools.
+[2016.06.07-21.48.53:143][ 25]LogExit: Object subsystem successfully closed.
+[2016.06.07-21.48.53:411][ 25]LogD3D11RHI: Shutdown
+[2016.06.07-21.48.53:411][ 25]LogD3D11RHI: CleanupD3DDevice
+[2016.06.07-21.48.53:470][ 25]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.06.07-21.48.53:615][ 25]LogDerivedDataCache: Shutdown
+[2016.06.07-21.48.54:653][ 25]LogModuleManager: Shutting down and abandoning module BlueprintGraph (207)
+[2016.06.07-21.48.54:653][ 25]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (206)
+[2016.06.07-21.48.54:653][ 25]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (205)
+[2016.06.07-21.48.54:653][ 25]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (204)
+[2016.06.07-21.48.54:655][ 25]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (203)
+[2016.06.07-21.48.54:671][ 25]LogModuleManager: Shutting down and abandoning module CrashTracker (202)
+[2016.06.07-21.48.54:672][ 25]LogModuleManager: Shutting down and abandoning module SceneOutliner (201)
+[2016.06.07-21.48.54:695][ 25]LogModuleManager: Shutting down and abandoning module SuperSearch (200)
+[2016.06.07-21.48.54:695][ 25]LogModuleManager: Shutting down and abandoning module WidgetCarousel (199)
+[2016.06.07-21.48.54:695][ 25]LogModuleManager: Shutting down and abandoning module AddContentDialog (198)
+[2016.06.07-21.48.54:733][ 25]LogModuleManager: Shutting down and abandoning module GameplayTags (197)
+[2016.06.07-21.48.54:733][ 25]LogModuleManager: Shutting down and abandoning module EditorWidgets (196)
+[2016.06.07-21.48.54:733][ 25]LogModuleManager: Shutting down and abandoning module CollectionManager (195)
+[2016.06.07-21.48.54:759][ 25]LogModuleManager: Shutting down and abandoning module StatsViewer (194)
+[2016.06.07-21.48.54:784][ 25]LogModuleManager: Shutting down and abandoning module FoliageEdit (193)
+[2016.06.07-21.48.54:785][ 25]LogModuleManager: Shutting down and abandoning module LandscapeEditor (192)
+[2016.06.07-21.48.54:809][ 25]LogModuleManager: Shutting down and abandoning module ActorPickerMode (191)
+[2016.06.07-21.48.54:809][ 25]LogModuleManager: Shutting down and abandoning module GeometryMode (190)
+[2016.06.07-21.48.54:809][ 25]LogModuleManager: Shutting down and abandoning module TextureAlignMode (189)
+[2016.06.07-21.48.54:809][ 25]LogModuleManager: Shutting down and abandoning module BspMode (188)
+[2016.06.07-21.48.54:809][ 25]LogModuleManager: Shutting down and abandoning module PlacementMode (187)
+[2016.06.07-21.48.54:809][ 25]LogModuleManager: Shutting down and abandoning module AutomationWorker (186)
+[2016.06.07-21.48.54:809][ 25]LogModuleManager: Shutting down and abandoning module CharacterAI (185)
+[2016.06.07-21.48.54:809][ 25]LogModuleManager: Shutting down and abandoning module SmartSnapping (184)
+[2016.06.07-21.48.54:809][ 25]LogModuleManager: Shutting down and abandoning module ViewportSnapping (183)
+[2016.06.07-21.48.54:809][ 25]LogModuleManager: Shutting down and abandoning module LogVisualizer (182)
+[2016.06.07-21.48.54:843][ 25]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (181)
+[2016.06.07-21.48.54:843][ 25]LogModuleManager: Shutting down and abandoning module IntroTutorials (180)
+[2016.06.07-21.48.54:870][ 25]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (179)
+[2016.06.07-21.48.54:870][ 25]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (178)
+[2016.06.07-21.48.54:898][ 25]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (177)
+[2016.06.07-21.48.54:898][ 25]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (176)
+[2016.06.07-21.48.55:307][ 25]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (175)
+[2016.06.07-21.48.55:307][ 25]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (174)
+[2016.06.07-21.48.55:307][ 25]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (173)
+[2016.06.07-21.48.55:307][ 25]LogModuleManager: Shutting down and abandoning module MergeActors (172)
+[2016.06.07-21.48.55:359][ 25]LogModuleManager: Shutting down and abandoning module SizeMap (171)
+[2016.06.07-21.48.55:368][ 25]LogModuleManager: Shutting down and abandoning module TreeMap (170)
+[2016.06.07-21.48.55:392][ 25]LogModuleManager: Shutting down and abandoning module ReferenceViewer (169)
+[2016.06.07-21.48.55:392][ 25]LogModuleManager: Shutting down and abandoning module LocalizationService (168)
+[2016.06.07-21.48.55:408][ 25]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (167)
+[2016.06.07-21.48.55:419][ 25]LogModuleManager: Shutting down and abandoning module HardwareTargeting (166)
+[2016.06.07-21.48.55:419][ 25]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (165)
+[2016.06.07-21.48.55:424][ 25]LogModuleManager: Shutting down and abandoning module UndoHistory (164)
+[2016.06.07-21.48.55:448][ 25]LogModuleManager: Shutting down and abandoning module UserFeedback (163)
+[2016.06.07-21.48.55:449][ 25]LogModuleManager: Shutting down and abandoning module XmlParser (162)
+[2016.06.07-21.48.55:454][ 25]LogModuleManager: Shutting down and abandoning module Blutility (161)
+[2016.06.07-21.48.55:471][ 25]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (160)
+[2016.06.07-21.48.55:471][ 25]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (159)
+[2016.06.07-21.48.55:471][ 25]LogModuleManager: Shutting down and abandoning module InputBindingEditor (158)
+[2016.06.07-21.48.55:522][ 25]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (157)
+[2016.06.07-21.48.55:522][ 25]LogModuleManager: Shutting down and abandoning module SettingsEditor (156)
+[2016.06.07-21.48.55:522][ 25]LogModuleManager: Shutting down and abandoning module ProjectLauncher (155)
+[2016.06.07-21.48.55:541][ 25]LogModuleManager: Shutting down and abandoning module SessionFrontend (154)
+[2016.06.07-21.48.55:546][ 25]LogModuleManager: Shutting down and abandoning module ProfilerClient (153)
+[2016.06.07-21.48.55:574][ 25]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (152)
+[2016.06.07-21.48.55:574][ 25]LogModuleManager: Shutting down and abandoning module DeviceManager (151)
+[2016.06.07-21.48.55:627][ 25]LogModuleManager: Shutting down and abandoning module AutomationController (150)
+[2016.06.07-21.48.55:656][ 25]LogModuleManager: Shutting down and abandoning module AutomationWindow (149)
+[2016.06.07-21.48.55:663][ 25]LogModuleManager: Shutting down and abandoning module Layers (148)
+[2016.06.07-21.48.55:686][ 25]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (147)
+[2016.06.07-21.48.55:686][ 25]LogModuleManager: Shutting down and abandoning module DetailCustomizations (146)
+[2016.06.07-21.48.55:686][ 25]LogModuleManager: Shutting down and abandoning module PackagesDialog (145)
+[2016.06.07-21.48.55:686][ 25]LogModuleManager: Shutting down and abandoning module Persona (144)
+[2016.06.07-21.48.55:740][ 25]LogModuleManager: Shutting down and abandoning module Kismet (143)
+[2016.06.07-21.48.55:740][ 25]LogModuleManager: Shutting down and abandoning module GraphEditor (142)
+[2016.06.07-21.48.55:740][ 25]LogModuleManager: Shutting down and abandoning module ClassViewer (141)
+[2016.06.07-21.48.55:742][ 25]LogModuleManager: Shutting down and abandoning module Toolbox (140)
+[2016.06.07-21.48.55:758][ 25]LogModuleManager: Shutting down and abandoning module ModuleUI (139)
+[2016.06.07-21.48.55:758][ 25]LogModuleManager: Shutting down and abandoning module MovieSceneTools (138)
+[2016.06.07-21.48.55:773][ 25]LogModuleManager: Shutting down and abandoning module OutputLog (137)
+[2016.06.07-21.48.55:773][ 25]LogModuleManager: Shutting down and abandoning module GammaUI (136)
+[2016.06.07-21.48.55:819][ 25]LogModuleManager: Shutting down and abandoning module Documentation (135)
+[2016.06.07-21.48.55:819][ 25]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (134)
+[2016.06.07-21.48.55:819][ 25]LogModuleManager: Shutting down and abandoning module AnalyticsET (133)
+[2016.06.07-21.48.55:819][ 25]LogModuleManager: Shutting down and abandoning module Analytics (132)
+[2016.06.07-21.48.55:819][ 25]LogModuleManager: Shutting down and abandoning module PortalServices (131)
+[2016.06.07-21.48.55:819][ 25]LogModuleManager: Shutting down and abandoning module PortalRpc (130)
+[2016.06.07-21.48.55:819][ 25]LogModuleManager: Shutting down and abandoning module MessagingRpc (129)
+[2016.06.07-21.48.55:819][ 25]LogModuleManager: Shutting down and abandoning module AITestSuite (128)
+[2016.06.07-21.48.55:839][ 25]LogModuleManager: Shutting down and abandoning module GameplayDebugger (127)
+[2016.06.07-21.48.55:848][ 25]LogModuleManager: Shutting down and abandoning module AIModule (126)
+[2016.06.07-21.48.55:848][ 25]LogModuleManager: Shutting down and abandoning module ProfilerService (125)
+[2016.06.07-21.48.56:062][ 25]LogModuleManager: Shutting down and abandoning module TaskGraph (124)
+[2016.06.07-21.48.56:082][ 25]LogModuleManager: Shutting down and abandoning module SlateRemote (123)
+[2016.06.07-21.48.56:084][ 25]LogModuleManager: Shutting down and abandoning module SteamVRController (122)
+[2016.06.07-21.48.56:084][ 25]LogModuleManager: Shutting down and abandoning module SteamVR (121)
+[2016.06.07-21.48.56:084][ 25]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (120)
+[2016.06.07-21.48.56:084][ 25]LogModuleManager: Shutting down and abandoning module OculusLibrary (119)
+[2016.06.07-21.48.56:084][ 25]LogModuleManager: Shutting down and abandoning module OculusInput (118)
+[2016.06.07-21.48.56:084][ 25]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (117)
+[2016.06.07-21.48.56:084][ 25]LogModuleManager: Shutting down and abandoning module CableComponent (116)
+[2016.06.07-21.48.56:084][ 25]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (115)
+[2016.06.07-21.48.56:084][ 25]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (114)
+[2016.06.07-21.48.56:121][ 25]LogModuleManager: Shutting down and abandoning module HTML5Networking (113)
+[2016.06.07-21.48.56:121][ 25]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (112)
+[2016.06.07-21.48.56:121][ 25]LogModuleManager: Shutting down and abandoning module PluginBrowser (111)
+[2016.06.07-21.48.56:144][ 25]LogModuleManager: Shutting down and abandoning module EpicSurvey (110)
+[2016.06.07-21.48.56:160][ 25]LogModuleManager: Shutting down and abandoning module DesktopPlatform (109)
+[2016.06.07-21.48.56:195][ 25]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (108)
+[2016.06.07-21.48.56:214][ 25]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (107)
+[2016.06.07-21.48.56:221][ 25]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (106)
+[2016.06.07-21.48.56:238][ 25]LogModuleManager: Shutting down and abandoning module SourceControl (105)
+[2016.06.07-21.48.56:253][ 25]LogModuleManager: Shutting down and abandoning module GitSourceControl (104)
+[2016.06.07-21.48.56:277][ 25]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (103)
+[2016.06.07-21.48.56:277][ 25]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (102)
+[2016.06.07-21.48.56:288][ 25]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (101)
+[2016.06.07-21.48.56:288][ 25]LogModuleManager: Shutting down and abandoning module MeshPaint (100)
+[2016.06.07-21.48.56:288][ 25]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.06.07-21.48.56:306][ 25]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.06.07-21.48.56:306][ 25]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.06.07-21.48.56:307][ 25]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (96)
+[2016.06.07-21.48.56:309][ 25]LogModuleManager: Shutting down and abandoning module AssetRegistry (95)
+[2016.06.07-21.48.56:576][ 25]LogModuleManager: Shutting down and abandoning module ContentBrowser (94)
+[2016.06.07-21.48.56:577][ 25]LogModuleManager: Shutting down and abandoning module Paper2DEditor (93)
+[2016.06.07-21.48.56:605][ 25]LogModuleManager: Shutting down and abandoning module UdpMessaging (92)
+[2016.06.07-21.48.56:705][ 25]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (91)
+[2016.06.07-21.48.56:705][ 25]LogModuleManager: Shutting down and abandoning module Paper2D (90)
+[2016.06.07-21.48.56:725][ 25]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (89)
+[2016.06.07-21.48.56:739][ 25]LogModuleManager: Shutting down and abandoning module Media (88)
+[2016.06.07-21.48.56:739][ 25]LogModuleManager: Shutting down and abandoning module WmfMedia (87)
+[2016.06.07-21.48.56:812][ 25]LogModuleManager: Shutting down and abandoning module MediaAssets (86)
+[2016.06.07-21.48.56:812][ 25]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
+[2016.06.07-21.48.56:812][ 25]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
+[2016.06.07-21.48.56:812][ 25]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
+[2016.06.07-21.48.56:812][ 25]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
+[2016.06.07-21.48.56:812][ 25]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
+[2016.06.07-21.48.56:812][ 25]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
+[2016.06.07-21.48.56:834][ 25]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
+[2016.06.07-21.48.56:834][ 25]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
+[2016.06.07-21.48.56:856][ 25]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.06.07-21.48.56:856][ 25]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.06.07-21.48.56:856][ 25]LogModuleManager: Shutting down and abandoning module Sequencer (75)
+[2016.06.07-21.48.56:878][ 25]LogModuleManager: Shutting down and abandoning module AssetTools (74)
+[2016.06.07-21.48.56:900][ 25]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
+[2016.06.07-21.48.56:931][ 25]LogModuleManager: Shutting down and abandoning module UMG (72)
+[2016.06.07-21.48.56:962][ 25]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
+[2016.06.07-21.48.56:990][ 25]LogModuleManager: Shutting down and abandoning module Slate (70)
+[2016.06.07-21.48.56:990][ 25]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
+[2016.06.07-21.48.56:993][ 25]LogModuleManager: Shutting down and abandoning module SessionServices (68)
+[2016.06.07-21.48.56:993][ 25]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
+[2016.06.07-21.48.56:993][ 25]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
+[2016.06.07-21.48.56:993][ 25]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
+[2016.06.07-21.48.56:993][ 25]LogModuleManager: Shutting down and abandoning module Networking (63)
+[2016.06.07-21.48.56:993][ 25]LogModuleManager: Shutting down and abandoning module Core (62)
+[2016.06.07-21.48.56:993][ 25]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.06.07-21.48.57:008][ 25]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.06.07-21.48.57:008][ 25]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.06.07-21.48.57:017][ 25]LogModuleManager: Shutting down and abandoning module CookingStats (58)
+[2016.06.07-21.48.57:017][ 25]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
+[2016.06.07-21.48.57:017][ 25]LogDerivedDataCache: Shutdown
+[2016.06.07-21.48.57:017][ 25]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.06.07-21.48.57:045][ 25]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.06.07-21.48.57:080][ 25]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.06.07-21.48.57:114][ 25]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.06.07-21.48.57:114][ 25]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.06.07-21.48.57:132][ 25]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.06.07-21.48.57:140][ 25]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.06.07-21.48.57:151][ 25]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.06.07-21.48.57:151][ 25]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.06.07-21.48.57:151][ 25]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.06.07-21.48.57:151][ 25]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.06.07-21.48.57:151][ 25]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.06.07-21.48.57:167][ 25]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.06.07-21.48.57:173][ 25]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.06.07-21.48.57:173][ 25]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.06.07-21.48.57:197][ 25]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.06.07-21.48.57:204][ 25]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.06.07-21.48.57:206][ 25]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.06.07-21.48.57:206][ 25]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.06.07-21.48.57:206][ 25]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.06.07-21.48.57:206][ 25]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.06.07-21.48.57:206][ 25]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.06.07-21.48.57:212][ 25]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.06.07-21.48.57:212][ 25]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.06.07-21.48.57:212][ 25]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.06.07-21.48.57:212][ 25]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.06.07-21.48.57:212][ 25]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.06.07-21.48.57:212][ 25]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.06.07-21.48.57:212][ 25]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.06.07-21.48.57:212][ 25]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.06.07-21.48.57:235][ 25]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.06.07-21.48.57:254][ 25]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.06.07-21.48.57:279][ 25]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.06.07-21.48.57:279][ 25]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.06.07-21.48.57:279][ 25]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.06.07-21.48.57:279][ 25]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.06.07-21.48.57:279][ 25]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.06.07-21.48.57:279][ 25]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.06.07-21.49.01:279][ 25]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.06.07-21.49.01:305][ 25]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.06.07-21.49.01:325][ 25]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.06.07-21.49.01:325][ 25]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.06.07-21.49.01:362][ 25]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.06.07-21.49.01:362][ 25]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.06.07-21.49.01:362][ 25]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.06.07-21.49.01:383][ 25]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.06.07-21.49.01:410][ 25]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.06.07-21.49.01:410][ 25]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.06.07-21.49.01:410][ 25]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.06.07-21.49.01:410][ 25]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.06.07-21.49.01:410][ 25]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.06.07-21.49.01:410][ 25]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.06.07-21.49.01:428][ 25]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.06.07-21.49.01:444][ 25]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.06.07-21.49.01:475][ 25]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.06.07-21.49.01:509][ 25]LogExit: Exiting.
+[2016.06.07-21.49.01:551][ 25]Log file closed, 06/07/16 16:49:01

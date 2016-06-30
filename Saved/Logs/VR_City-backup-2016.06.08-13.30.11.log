@@ -1,0 +1,680 @@
+﻿Log file open, 06/07/16 19:34:53
+LogInit:Display: Running engine for game: VR_City
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1572009274) SRandInit(-1572009272).
+LogTaskGraph: Started task graph with 4 named threads and 6 total threads.
+LogStats: Stats thread started at 0.071765
+LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
+LogInit: API Version: 2927265
+LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.11/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.06.08-00.34.53:569][  0]LogInit: Selected Device Profile: [Windows]
+[2016.06.08-00.34.53:569][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.06.08-00.34.53:602][  0]LogInit: Computer: MY-PC
+[2016.06.08-00.34.53:602][  0]LogInit: User: My
+[2016.06.08-00.34.53:602][  0]LogInit: CPU Page size=65536, Cores=3
+[2016.06.08-00.34.53:602][  0]LogInit: High frequency timer resolution =3.703828 MHz
+[2016.06.08-00.34.53:602][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.06.08-00.34.53:602][  0]LogMemory: Platform Memory Stats for Windows
+[2016.06.08-00.34.53:602][  0]LogMemory: Process Physical Memory: 313.48 MB used, 313.48 MB peak
+[2016.06.08-00.34.53:602][  0]LogMemory: Process Virtual Memory: 317.24 MB used, 317.24 MB peak
+[2016.06.08-00.34.53:602][  0]LogMemory: Physical Memory: 5907.98 MB used, 8094.93 MB total
+[2016.06.08-00.34.53:602][  0]LogMemory: Virtual Memory: 622.76 MB used, 8388608.00 MB total
+[2016.06.08-00.34.53:650][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.06.08-00.34.54:204][  0]LogD3D11RHI: D3D11 adapters:
+[2016.06.08-00.34.54:238][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2016.06.08-00.34.54:238][  0]LogD3D11RHI:       4007MB of dedicated video memory, 0MB of dedicated system memory, and 3791MB of shared system memory, 1 output[s]
+[2016.06.08-00.34.54:238][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.06.08-00.34.54:248][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.06.08-00.34.54:249][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2016.06.08-00.34.54:249][  0]LogD3D11RHI:   Driver Version: 10.18.13.6175 (internal 10.18.13.6175)
+[2016.06.08-00.34.54:249][  0]LogD3D11RHI:      Driver Date: 1-22-2016
+[2016.06.08-00.34.54:249][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.06.08-00.34.54:261][  0]LogD3D11RHI: Async texture creation enabled
+[2016.06.08-00.34.54:741][  0]LogShaderCompilers: Guid format shader working directory is 1 characters bigger than the processId version (../../../../../../Users/My/Desktop/VR_City/Intermediate/Shaders/WorkingDirectory/4104/).
+[2016.06.08-00.34.54:741][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/My/AppData/Local/Temp/UnrealShaderWorkingDir/B11DE85B4EDA61AFCA275FAE9E2EFE52/'.
+[2016.06.08-00.34.54:741][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.06.08-00.34.56:149][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.06.08-00.34.56:154][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.06.08-00.34.56:160][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.06.08-00.34.56:166][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.06.08-00.34.56:172][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.06.08-00.34.56:176][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.06.08-00.34.56:180][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.06.08-00.34.56:185][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.06.08-00.34.56:189][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.06.08-00.34.56:193][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.06.08-00.34.56:198][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.06.08-00.34.56:207][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.06.08-00.34.56:207][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.06.08-00.34.56:208][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.06.08-00.34.56:226][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.06.08-00.34.56:230][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.06.08-00.34.56:234][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.06.08-00.34.56:238][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.06.08-00.34.56:243][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.06.08-00.34.56:243][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.06.08-00.34.56:329][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.06.08-00.34.56:561][  0]LogDerivedDataCache: Loaded boot cache 0.23s 72MB C:/Users/My/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.06.08-00.34.56:561][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/My/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.06.08-00.34.56:561][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/My/Desktop/VR_City/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.06.08-00.34.56:561][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.06.08-00.34.56:561][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/My/Desktop/VR_City/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.06.08-00.34.56:561][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.06.08-00.34.56:594][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.06.08-00.34.56:606][  0]LogDerivedDataCache: Using Local data cache path C:/Users/My/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.06.08-00.34.56:948][  0]LogInit: Selected Device Profile: [Windows]
+[2016.06.08-00.34.56:949][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.06.08-00.34.56:984][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.06.08-00.34.57:174][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.06.08-00.34.57:174][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.06.08-00.34.57:174][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.06.08-00.34.57:550][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2016.06.08-00.34.57:550][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
+[2016.06.08-00.34.57:550][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.06.08-00.34.57:557][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.06.08-00.34.57:673][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.06.08-00.34.57:674][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.06.08-00.34.57:796][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.06.08-00.34.57:796][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.06.08-00.34.57:796][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.06.08-00.34.57:796][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.06.08-00.34.57:796][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.06.08-00.34.57:796][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.06.08-00.34.58:517][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.06.08-00.34.58:621][  0]LogAssetRegistry: FAssetRegistry took 0.0197 seconds to start up
+[2016.06.08-00.34.58:836][  0]SourceControl: Info Source control is disabled
+[2016.06.08-00.34.58:943][  0]SourceControl: Info Source control is disabled
+[2016.06.08-00.34.58:953][  0]SourceControl: Info Source control is disabled
+[2016.06.08-00.34.58:964][  0]SourceControl: Info Source control is disabled
+[2016.06.08-00.34.59:204][  0]LogEngine: Initializing Engine...
+[2016.06.08-00.34.59:206][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-9B2D22F0
+[2016.06.08-00.34.59:429][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.06.08-00.34.59:453][  0]LogInit: XAudio2 using 'Speakers (9- Logitech G930 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.08-00.34.59:477][  0]LogInit: FAudioDevice initialized.
+[2016.06.08-00.34.59:560][  0]LogDerivedDataCache: Saved boot cache 0.08s 72MB C:/Users/My/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.06.08-00.34.59:588][  0]LogInit: Texture streaming: Enabled
+[2016.06.08-00.34.59:618][  0]LogInit: Transaction tracking system initialized
+[2016.06.08-00.34.59:644][  0]BlueprintLog: New page: Editor Load
+[2016.06.08-00.34.59:730][  0]LocalizationService: Info Localization service is disabled
+[2016.06.08-00.34.59:814][  0]LogConsoleResponse:Display: 
+[2016.06.08-00.35.00:303][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.06.08-00.35.00:303][  0]LogCook:Display: Mobile HDR setting 1
+[2016.06.08-00.35.00:303][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.06.08-00.35.00:353][  0]LogFileCache: Scanning file cache for directory 'C:/Users/My/Desktop/VR_City/Content/' took 0.01s
+[2016.06.08-00.35.00:353][  0]SourceControl: Info Source control is disabled
+[2016.06.08-00.35.00:354][  0]Cmd: MAP LOAD FILE="../../../../../../Users/My/Desktop/VR_City/Content/Maps/VR_Basic.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.06.08-00.35.00:354][  0]LightingResults: New page: Lighting Build
+[2016.06.08-00.35.00:357][  0]MapCheck: New page: Map Check
+[2016.06.08-00.35.00:357][  0]LightingResults: New page: Lighting Build
+[2016.06.08-00.35.00:758][  0]LogAIModule: Creating AISystem for world VR_Basic
+[2016.06.08-00.35.00:763][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.06.08-00.35.00:764][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.06.08-00.35.00:813][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 49.076ms to complete.
+[2016.06.08-00.35.00:813][  0]LogFileHelpers: Loading map 'VR_Basic' took 0.460
+[2016.06.08-00.35.00:960][  0]LogCollectionManager: Loaded 0 collections in 0.002495 seconds
+[2016.06.08-00.35.01:002][  0]LogFileCache: Scanning file cache for directory 'C:/Users/My/Desktop/VR_City/Saved/Collections/' took 0.01s
+[2016.06.08-00.35.01:002][  0]LogFileCache: Scanning file cache for directory 'C:/Users/My/Desktop/VR_City/Content/Developers/My/Collections/' took 0.01s
+[2016.06.08-00.35.01:002][  0]LogFileCache: Scanning file cache for directory 'C:/Users/My/Desktop/VR_City/Content/Collections/' took 0.01s
+[2016.06.08-00.35.01:002][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.06.08-00.35.01:013][  0]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 1978 classes and 340 folders.
+[2016.06.08-00.35.01:018][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.06.08-00.35.01:018][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.06.08-00.35.01:019][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0006 seconds. Added 12 classes and 0 folders.
+[2016.06.08-00.35.01:024][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.06.08-00.35.01:129][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.06.08-00.35.01:835][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.06.08-00.35.02:064][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.06.08-00.35.02:372][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.06.08-00.35.02:380][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.06.08-00.35.02:405][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.06.08-00.35.02:405][  0]LogLoad: Full Startup: 10.27 seconds (BP compile: 0.05 seconds)
+[2016.06.08-00.35.02:405][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.06.08-00.35.02:405][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.06.08-00.35.02:414][  0]LogOcInput: OculusInput pre-init called
+[2016.06.08-00.35.02:506][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.06.08-00.35.02:902][  0]LogRenderer: Reallocating scene render targets to support 1580x1140 (Frame:2).
+[2016.06.08-00.35.03:011][  1]LogAssetRegistry: Asset discovery search completed in 4.4094 seconds
+[2016.06.08-00.35.03:011][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.06.08-00.35.03:011][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000026 seconds (updated 0 objects)
+[2016.06.08-00.35.21:265][  5]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 108 classes and 0 folders.
+[2016.06.08-00.35.44:660][689]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.06.08-00.35.45:744][765]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_0) Not registered. Aborting.
+[2016.06.08-00.35.47:111][864]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_1) Not registered. Aborting.
+[2016.06.08-00.35.50:293][ 92]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_2) Not registered. Aborting.
+[2016.06.08-00.35.51:730][195]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_3) Not registered. Aborting.
+[2016.06.08-00.35.53:284][304]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_4) Not registered. Aborting.
+[2016.06.08-00.35.58:167][497]BlueprintLog: New page: Compile VR_PlayerCharacter
+[2016.06.08-00.35.58:236][497]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_5) Not registered. Aborting.
+[2016.06.08-00.35.58:371][497]BlueprintEditorCompileResults: Info [0066.23] Compile of VR_PlayerCharacter successful! [in 203 ms]
+[2016.06.08-00.35.59:495][550]LogSavePackage: Save=226.91ms
+[2016.06.08-00.35.59:495][550]LogSavePackage: Moving '../../../../../../Users/My/Desktop/VR_City/Saved/VR_PlayerCharacter690C69AF479347214AE1718C7093B84E.tmp' to '../../../../../../Users/My/Desktop/VR_City/Content/PlayerCharacter/Blueprints/VR_Character/VR_PlayerCharacter.uasset'
+[2016.06.08-00.35.59:498][550]LogSavePackage: Total save time: 234.27ms
+[2016.06.08-00.35.59:498][550]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/My/Desktop/VR_City/Content/PlayerCharacter/Blueprints/VR_Character/VR_PlayerCharacter.uasset
+[2016.06.08-00.36.00:810][643]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.08-00.36.00:811][643]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.08-00.36.00:831][643]PIE: New page: PIE session: VR_Basic (Jun 7, 2016, 1:36:00 PM)
+[2016.06.08-00.36.00:831][643]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_VR_Basic
+[2016.06.08-00.36.00:837][643]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005515s)
+[2016.06.08-00.36.00:839][643]LogAIModule: Creating AISystem for world VR_Basic
+[2016.06.08-00.36.00:839][643]LogPlayLevel: PIE: World Init took: (0.001694s)
+[2016.06.08-00.36.00:840][643]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/VR_Basic.VR_Basic to /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic (0.008557s)
+[2016.06.08-00.36.00:840][643]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.06.08-00.36.00:893][643]LogInit: XAudio2 using 'Speakers (9- Logitech G930 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.08-00.36.00:914][643]LogInit: FAudioDevice initialized.
+[2016.06.08-00.36.01:063][643]LogWorld: Game class is 'VR_GameMode_C'
+[2016.06.08-00.36.01:067][643]LogWorld: Bringing World /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic up for play (max tick rate 0) at 2016.06.07-19.36.01
+[2016.06.08-00.36.01:068][643]LogWorld: Bringing up level for play took: 0.002764
+[2016.06.08-00.36.01:073][643]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 9 classes and 0 folders.
+[2016.06.08-00.36.01:075][643]Cmd: FULL SCREEN
+[2016.06.08-00.36.01:075][643]Command not recognized: FULL SCREEN
+[2016.06.08-00.36.01:075][643]Cmd: Stereo On
+[2016.06.08-00.36.01:122][643]LogRenderer: Reallocating scene render targets to support 3024x1680 (Frame:6336).
+[2016.06.08-00.36.01:123][643]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_VR_Basic 0.569
+[2016.06.08-00.36.01:123][643]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.08-00.36.01:137][645]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 664/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-00.36.02:688][710]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.08-00.36.02:847][710]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.08-00.36.04:392][810]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 800/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-00.36.08:457][ 93]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.06.08-00.36.09:672][177]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_6) Not registered. Aborting.
+[2016.06.08-00.36.09:774][184]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 800/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-00.36.10:894][260]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_7) Not registered. Aborting.
+[2016.06.08-00.36.12:971][406]BlueprintLog: New page: Compile VR_PlayerCharacter
+[2016.06.08-00.36.13:037][406]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_8) Not registered. Aborting.
+[2016.06.08-00.36.13:135][406]BlueprintEditorCompileResults: Info [0081.00] Compile of VR_PlayerCharacter successful! [in 162 ms]
+[2016.06.08-00.36.13:201][406]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 800/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-00.36.13:791][443]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 780/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-00.36.14:977][523]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 800/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-00.36.16:326][615]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.06.08-00.36.16:859][653]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_9) Not registered. Aborting.
+[2016.06.08-00.36.18:083][738]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_10) Not registered. Aborting.
+[2016.06.08-00.36.20:336][902]BlueprintLog: New page: Compile VR_PlayerCharacter
+[2016.06.08-00.36.20:403][902]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_11) Not registered. Aborting.
+[2016.06.08-00.36.20:500][902]BlueprintEditorCompileResults: Info [0088.36] Compile of VR_PlayerCharacter successful! [in 164 ms]
+[2016.06.08-00.36.20:568][903]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 800/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-00.36.21:406][940]LogSavePackage: Save=219.71ms
+[2016.06.08-00.36.21:406][940]LogSavePackage: Moving '../../../../../../Users/My/Desktop/VR_City/Saved/VR_PlayerCharacter674CD4CC434D0B8B88E6E4BB46EB36B9.tmp' to '../../../../../../Users/My/Desktop/VR_City/Content/PlayerCharacter/Blueprints/VR_Character/VR_PlayerCharacter.uasset'
+[2016.06.08-00.36.21:414][940]LogSavePackage: Total save time: 230.67ms
+[2016.06.08-00.36.21:414][940]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/My/Desktop/VR_City/Content/PlayerCharacter/Blueprints/VR_Character/VR_PlayerCharacter.uasset
+[2016.06.08-00.36.21:433][941]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 417/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-00.36.22:281][995]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 780/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-00.36.22:955][ 70]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.08-00.36.22:955][ 70]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.08-00.36.22:955][ 70]PIE: New page: PIE session: VR_Basic (Jun 7, 2016, 1:36:22 PM)
+[2016.06.08-00.36.22:955][ 70]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_VR_Basic
+[2016.06.08-00.36.22:960][ 70]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004763s)
+[2016.06.08-00.36.22:964][ 70]LogAIModule: Creating AISystem for world VR_Basic
+[2016.06.08-00.36.22:964][ 70]LogPlayLevel: PIE: World Init took: (0.003698s)
+[2016.06.08-00.36.22:965][ 70]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/VR_Basic.VR_Basic to /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic (0.009208s)
+[2016.06.08-00.36.22:965][ 70]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.06.08-00.36.23:015][ 70]LogInit: XAudio2 using 'Speakers (9- Logitech G930 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.08-00.36.23:035][ 70]LogInit: FAudioDevice initialized.
+[2016.06.08-00.36.23:138][ 70]LogWorld: Game class is 'VR_GameMode_C'
+[2016.06.08-00.36.23:142][ 70]LogWorld: Bringing World /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic up for play (max tick rate 0) at 2016.06.07-19.36.23
+[2016.06.08-00.36.23:143][ 70]LogWorld: Bringing up level for play took: 0.002855
+[2016.06.08-00.36.23:145][ 70]Cmd: FULL SCREEN
+[2016.06.08-00.36.23:145][ 70]Command not recognized: FULL SCREEN
+[2016.06.08-00.36.23:145][ 70]Cmd: Stereo On
+[2016.06.08-00.36.23:181][ 70]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_VR_Basic 0.628
+[2016.06.08-00.36.23:181][ 70]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.08-00.36.23:190][ 72]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 714/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-00.36.39:355][795]LogScript:Warning: Accessed None trying to read property CallFunc_AddComponent_ReturnValue
+	VR_PlayerCharacter_C /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic:PersistentLevel.VR_PlayerCharacter_C_8
+	Function /Game/PlayerCharacter/Blueprints/VR_Character/VR_PlayerCharacter.VR_PlayerCharacter_C:ExecuteUbergraph_VR_PlayerCharacter:088F
+[2016.06.08-00.36.39:355][795]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.39:377][796]LogScript:Warning: Accessed None trying to read property CallFunc_AddComponent_ReturnValue
+	VR_PlayerCharacter_C /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic:PersistentLevel.VR_PlayerCharacter_C_8
+	Function /Game/PlayerCharacter/Blueprints/VR_Character/VR_PlayerCharacter.VR_PlayerCharacter_C:ExecuteUbergraph_VR_PlayerCharacter:088F
+[2016.06.08-00.36.39:377][796]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.39:400][797]LogScript:Warning: Accessed None trying to read property CallFunc_AddComponent_ReturnValue
+	VR_PlayerCharacter_C /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic:PersistentLevel.VR_PlayerCharacter_C_8
+	Function /Game/PlayerCharacter/Blueprints/VR_Character/VR_PlayerCharacter.VR_PlayerCharacter_C:ExecuteUbergraph_VR_PlayerCharacter:088F
+[2016.06.08-00.36.39:400][797]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.39:422][798]LogScript:Warning: Accessed None trying to read property CallFunc_AddComponent_ReturnValue
+	VR_PlayerCharacter_C /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic:PersistentLevel.VR_PlayerCharacter_C_8
+	Function /Game/PlayerCharacter/Blueprints/VR_Character/VR_PlayerCharacter.VR_PlayerCharacter_C:ExecuteUbergraph_VR_PlayerCharacter:088F
+[2016.06.08-00.36.39:422][798]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.39:444][799]LogScript:Warning: Accessed None trying to read property CallFunc_AddComponent_ReturnValue
+	VR_PlayerCharacter_C /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic:PersistentLevel.VR_PlayerCharacter_C_8
+	Function /Game/PlayerCharacter/Blueprints/VR_Character/VR_PlayerCharacter.VR_PlayerCharacter_C:ExecuteUbergraph_VR_PlayerCharacter:088F
+[2016.06.08-00.36.39:445][799]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.39:467][800]LogScript:Warning: Accessed None trying to read property CallFunc_AddComponent_ReturnValue
+	VR_PlayerCharacter_C /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic:PersistentLevel.VR_PlayerCharacter_C_8
+	Function /Game/PlayerCharacter/Blueprints/VR_Character/VR_PlayerCharacter.VR_PlayerCharacter_C:ExecuteUbergraph_VR_PlayerCharacter:088F
+[2016.06.08-00.36.39:467][800]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.39:489][801]LogScript:Warning: Accessed None trying to read property CallFunc_AddComponent_ReturnValue
+	VR_PlayerCharacter_C /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic:PersistentLevel.VR_PlayerCharacter_C_8
+	Function /Game/PlayerCharacter/Blueprints/VR_Character/VR_PlayerCharacter.VR_PlayerCharacter_C:ExecuteUbergraph_VR_PlayerCharacter:088F
+[2016.06.08-00.36.39:489][801]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.39:511][802]LogScript:Warning: Accessed None trying to read property CallFunc_AddComponent_ReturnValue
+	VR_PlayerCharacter_C /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic:PersistentLevel.VR_PlayerCharacter_C_8
+	Function /Game/PlayerCharacter/Blueprints/VR_Character/VR_PlayerCharacter.VR_PlayerCharacter_C:ExecuteUbergraph_VR_PlayerCharacter:088F
+[2016.06.08-00.36.39:512][802]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.39:534][803]LogScript:Warning: Accessed None trying to read property CallFunc_AddComponent_ReturnValue
+	VR_PlayerCharacter_C /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic:PersistentLevel.VR_PlayerCharacter_C_8
+	Function /Game/PlayerCharacter/Blueprints/VR_Character/VR_PlayerCharacter.VR_PlayerCharacter_C:ExecuteUbergraph_VR_PlayerCharacter:088F
+[2016.06.08-00.36.39:534][803]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.39:556][804]LogScript:Warning: Accessed None trying to read property CallFunc_AddComponent_ReturnValue
+	VR_PlayerCharacter_C /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic:PersistentLevel.VR_PlayerCharacter_C_8
+	Function /Game/PlayerCharacter/Blueprints/VR_Character/VR_PlayerCharacter.VR_PlayerCharacter_C:ExecuteUbergraph_VR_PlayerCharacter:088F
+[2016.06.08-00.36.39:556][804]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.39:578][805]LogScript:Warning: Accessed None trying to read property CallFunc_AddComponent_ReturnValue
+	VR_PlayerCharacter_C /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic:PersistentLevel.VR_PlayerCharacter_C_8
+	Function /Game/PlayerCharacter/Blueprints/VR_Character/VR_PlayerCharacter.VR_PlayerCharacter_C:ExecuteUbergraph_VR_PlayerCharacter:088F
+[2016.06.08-00.36.39:578][805]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.39:601][806]LogScript:Warning: Accessed None trying to read property CallFunc_AddComponent_ReturnValue
+	VR_PlayerCharacter_C /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic:PersistentLevel.VR_PlayerCharacter_C_8
+	Function /Game/PlayerCharacter/Blueprints/VR_Character/VR_PlayerCharacter.VR_PlayerCharacter_C:ExecuteUbergraph_VR_PlayerCharacter:088F
+[2016.06.08-00.36.39:601][806]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.39:623][807]LogScript:Warning: Accessed None trying to read property CallFunc_AddComponent_ReturnValue
+	VR_PlayerCharacter_C /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic:PersistentLevel.VR_PlayerCharacter_C_8
+	Function /Game/PlayerCharacter/Blueprints/VR_Character/VR_PlayerCharacter.VR_PlayerCharacter_C:ExecuteUbergraph_VR_PlayerCharacter:088F
+[2016.06.08-00.36.39:623][807]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.39:645][808]LogScript:Warning: Accessed None trying to read property CallFunc_AddComponent_ReturnValue
+	VR_PlayerCharacter_C /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic:PersistentLevel.VR_PlayerCharacter_C_8
+	Function /Game/PlayerCharacter/Blueprints/VR_Character/VR_PlayerCharacter.VR_PlayerCharacter_C:ExecuteUbergraph_VR_PlayerCharacter:088F
+[2016.06.08-00.36.39:645][808]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.39:668][809]LogScript:Warning: Accessed None trying to read property CallFunc_AddComponent_ReturnValue
+	VR_PlayerCharacter_C /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic:PersistentLevel.VR_PlayerCharacter_C_8
+	Function /Game/PlayerCharacter/Blueprints/VR_Character/VR_PlayerCharacter.VR_PlayerCharacter_C:ExecuteUbergraph_VR_PlayerCharacter:088F
+[2016.06.08-00.36.39:668][809]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.39:690][810]LogScript:Warning: Accessed None trying to read property CallFunc_AddComponent_ReturnValue
+	VR_PlayerCharacter_C /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic:PersistentLevel.VR_PlayerCharacter_C_8
+	Function /Game/PlayerCharacter/Blueprints/VR_Character/VR_PlayerCharacter.VR_PlayerCharacter_C:ExecuteUbergraph_VR_PlayerCharacter:088F
+[2016.06.08-00.36.39:690][810]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.39:713][811]LogScript:Warning: Accessed None trying to read property CallFunc_AddComponent_ReturnValue
+	VR_PlayerCharacter_C /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic:PersistentLevel.VR_PlayerCharacter_C_8
+	Function /Game/PlayerCharacter/Blueprints/VR_Character/VR_PlayerCharacter.VR_PlayerCharacter_C:ExecuteUbergraph_VR_PlayerCharacter:088F
+[2016.06.08-00.36.39:714][811]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.39:734][812]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.39:757][813]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.39:780][814]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.39:802][815]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.39:824][816]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.39:847][817]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.39:868][818]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.39:891][819]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.39:914][820]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.39:935][821]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.39:959][822]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.39:980][823]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.40:003][824]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.40:025][825]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.40:047][826]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.40:069][827]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.40:092][828]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.40:115][829]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.40:136][830]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.40:160][831]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.40:182][832]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.40:204][833]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.40:226][834]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.40:248][835]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.40:271][836]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.40:293][837]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.40:315][838]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.40:339][839]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.40:361][840]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.40:382][841]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.40:404][842]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.40:427][843]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.40:449][844]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.40:472][845]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.40:494][846]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.40:516][847]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.40:539][848]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.40:561][849]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.40:583][850]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.40:605][851]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.40:628][852]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.40:652][853]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.40:673][854]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.40:695][855]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.40:717][856]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.40:740][857]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.40:763][858]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.40:784][859]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.40:806][860]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.40:830][861]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.40:852][862]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.40:874][863]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.40:896][864]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.40:919][865]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.40:941][866]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.40:963][867]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.40:986][868]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.41:008][869]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.41:030][870]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.41:052][871]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.41:074][872]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.41:097][873]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.41:120][874]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.36.41:141][875]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_AddComponent_ReturnValue from function: 'ExecuteUbergraph_VR_PlayerCharacter' from node: SetWorldLocation in graph: EventGraph in object: VR_PlayerCharacter
+[2016.06.08-00.51.43:939][287]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.08-00.51.44:055][287]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.08-00.51.55:200][429]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 417/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-00.51.57:676][585]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 780/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-00.51.59:739][717]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 780/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-00.52.08:331][234]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 800/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-00.52.12:819][533]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 800/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-00.52.14:235][632]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 780/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-00.52.17:025][823]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 780/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-00.52.22:131][215]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 780/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-01.00.25:673][466]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.06.08-01.00.25:706][466]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/VR_Basic' took 0.033
+[2016.06.08-01.00.25:771][466]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PlayerCharacter/Blueprints/VR_Character/VR_PlayerCharacter] ([1] browsable assets)...
+[2016.06.08-01.00.25:816][466]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/PlayerCharacter/Blueprints/VR_Character/VR_PlayerCharacter.VR_PlayerCharacter]
+[2016.06.08-01.00.25:816][466]OBJ SavePackage: Finished generating thumbnails for package [/Game/PlayerCharacter/Blueprints/VR_Character/VR_PlayerCharacter]
+[2016.06.08-01.00.26:263][466]LogSavePackage: Save=243.56ms
+[2016.06.08-01.00.26:263][466]LogSavePackage: Moving '../../../../../../Users/My/Desktop/VR_City/Saved/VR_PlayerCharacter_Auto150B6C2FD49DB05EF275DC78D3C75D4AA.tmp' to '../../../../../../Users/My/Desktop/VR_City/Saved/Autosaves/Game/PlayerCharacter/Blueprints/VR_Character/VR_PlayerCharacter_Auto1.uasset'
+[2016.06.08-01.00.26:282][466]LogSavePackage: Total save time: 464.23ms
+[2016.06.08-01.00.26:282][466]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/My/Desktop/VR_City/Saved/Autosaves/Game/PlayerCharacter/Blueprints/VR_Character/VR_PlayerCharacter_Auto1.uasset
+[2016.06.08-01.00.26:282][466]LogFileHelpers: Auto-saving content packages took 0.576
+[2016.06.08-01.00.26:700][469]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 800/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-01.05.00:427][292]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 780/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-01.05.02:231][422]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 780/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-01.05.21:783][504]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.06.08-01.05.22:035][505]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 417/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-01.05.24:387][641]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_12) Not registered. Aborting.
+[2016.06.08-01.05.34:895][309]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 800/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-01.05.38:080][527]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 780/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-01.05.47:235][122]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 800/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-01.05.48:813][232]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 780/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-01.05.50:364][342]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 800/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-01.05.52:571][499]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 780/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-01.05.54:445][637]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 780/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-01.06.04:025][275]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 800/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-01.06.05:115][351]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 780/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-01.06.05:815][398]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 780/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-01.06.08:810][611]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 780/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-01.06.10:217][714]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 780/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-01.06.11:762][822]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 800/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-01.06.14:445][ 17]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 800/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-01.06.16:180][140]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 780/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-01.06.17:514][238]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 780/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-01.06.35:407][425]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 780/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-01.06.46:952][247]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 780/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-01.06.50:314][470]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 780/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-01.06.50:888][504]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 780/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-01.06.54:839][757]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 800/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-01.06.57:601][929]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 780/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-01.06.58:886][  3]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2803.EdGraphPin_30413''
+[2016.06.08-01.06.58:893][  3]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2803.EdGraphPin_30412''
+[2016.06.08-01.07.00:142][ 68]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 780/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-01.07.05:515][345]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 780/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-01.07.07:770][469]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 800/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-01.07.09:532][595]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 780/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-01.07.14:071][913]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_13) Not registered. Aborting.
+[2016.06.08-01.07.14:193][914]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 800/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-01.07.16:139][ 43]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_14) Not registered. Aborting.
+[2016.06.08-01.07.19:306][240]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_15) Not registered. Aborting.
+[2016.06.08-01.07.19:483][241]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 800/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-01.07.24:729][610]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_16) Not registered. Aborting.
+[2016.06.08-01.07.24:843][611]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 800/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-01.07.27:732][799]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 780/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-01.07.28:449][848]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 780/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-01.07.33:920][245]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 800/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-01.07.44:927][508]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 780/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-01.07.47:873][706]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 800/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-01.07.49:625][825]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 780/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-01.07.51:656][955]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 800/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-01.07.52:804][ 29]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 800/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-01.07.54:331][126]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 800/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-01.08.01:460][605]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 800/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-01.08.02:693][681]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 800/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-01.08.04:954][828]BlueprintLog: New page: Compile VR_PlayerCharacter
+[2016.06.08-01.08.05:034][828]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_17) Not registered. Aborting.
+[2016.06.08-01.08.05:301][828]BlueprintEditorCompileResults: Info [1993.16] Compile of VR_PlayerCharacter successful! [in 347 ms]
+[2016.06.08-01.08.05:340][829]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 417/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-01.08.20:289][188]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 780/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-01.08.22:495][337]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 780/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-01.08.24:086][506]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/VR_Basic" FILE="../../../../../../Users/My/Desktop/VR_City/Content/Maps/VR_Basic.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.06.08-01.08.24:095][506]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.06.08-01.08.24:338][506]LogSavePackage: Save=209.05ms
+[2016.06.08-01.08.24:338][506]LogSavePackage: Moving '../../../../../../Users/My/Desktop/VR_City/Saved/VR_Basic3B5496974048381E706BBCAEB3F24E31.tmp' to '../../../../../../Users/My/Desktop/VR_City/Content/Maps/VR_Basic.umap'
+[2016.06.08-01.08.24:340][506]LogSavePackage: Total save time: 216.47ms
+[2016.06.08-01.08.24:340][506]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/My/Desktop/VR_City/Content/Maps/VR_Basic.umap
+[2016.06.08-01.08.24:402][509]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 780/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-01.08.26:388][585]LogSavePackage: Save=252.04ms
+[2016.06.08-01.08.26:388][585]LogSavePackage: Moving '../../../../../../Users/My/Desktop/VR_City/Saved/VR_PlayerCharacterCA7AE3344CC090BD44E0CCAE05F2145F.tmp' to '../../../../../../Users/My/Desktop/VR_City/Content/PlayerCharacter/Blueprints/VR_Character/VR_PlayerCharacter.uasset'
+[2016.06.08-01.08.26:393][585]LogSavePackage: Total save time: 262.23ms
+[2016.06.08-01.08.26:394][585]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/My/Desktop/VR_City/Content/PlayerCharacter/Blueprints/VR_Character/VR_PlayerCharacter.uasset
+[2016.06.08-01.08.27:052][586]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 435/400 MB (ok in editor, bad on fixed memory platform)
+[2016.06.08-01.08.27:052][586]Cmd: QUIT_EDITOR
+[2016.06.08-01.08.27:425][586]LogExit: Preparing to exit.
+[2016.06.08-01.08.28:117][586]LogExit: Editor shut down
+[2016.06.08-01.08.28:117][586]LogExit: Transaction tracking system shut down
+[2016.06.08-01.08.29:174][586]LogObj: Freed 0b from 0 cluster array pools.
+[2016.06.08-01.08.29:174][586]LogExit: Object subsystem successfully closed.
+[2016.06.08-01.08.29:311][586]LogD3D11RHI: Shutdown
+[2016.06.08-01.08.29:311][586]LogD3D11RHI: CleanupD3DDevice
+[2016.06.08-01.08.29:366][586]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.06.08-01.08.29:466][586]LogDerivedDataCache: Shutdown
+[2016.06.08-01.08.29:666][586]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (205)
+[2016.06.08-01.08.29:677][586]LogModuleManager: Shutting down and abandoning module BlueprintGraph (204)
+[2016.06.08-01.08.29:677][586]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (203)
+[2016.06.08-01.08.29:677][586]LogModuleManager: Shutting down and abandoning module CrashTracker (202)
+[2016.06.08-01.08.29:677][586]LogModuleManager: Shutting down and abandoning module SceneOutliner (201)
+[2016.06.08-01.08.29:692][586]LogModuleManager: Shutting down and abandoning module SuperSearch (200)
+[2016.06.08-01.08.29:693][586]LogModuleManager: Shutting down and abandoning module WidgetCarousel (199)
+[2016.06.08-01.08.29:693][586]LogModuleManager: Shutting down and abandoning module AddContentDialog (198)
+[2016.06.08-01.08.29:695][586]LogModuleManager: Shutting down and abandoning module GameplayTags (197)
+[2016.06.08-01.08.29:695][586]LogModuleManager: Shutting down and abandoning module EditorWidgets (196)
+[2016.06.08-01.08.29:695][586]LogModuleManager: Shutting down and abandoning module CollectionManager (195)
+[2016.06.08-01.08.29:707][586]LogModuleManager: Shutting down and abandoning module StatsViewer (194)
+[2016.06.08-01.08.29:730][586]LogModuleManager: Shutting down and abandoning module FoliageEdit (193)
+[2016.06.08-01.08.29:730][586]LogModuleManager: Shutting down and abandoning module LandscapeEditor (192)
+[2016.06.08-01.08.29:731][586]LogModuleManager: Shutting down and abandoning module ActorPickerMode (191)
+[2016.06.08-01.08.29:731][586]LogModuleManager: Shutting down and abandoning module GeometryMode (190)
+[2016.06.08-01.08.29:731][586]LogModuleManager: Shutting down and abandoning module TextureAlignMode (189)
+[2016.06.08-01.08.29:731][586]LogModuleManager: Shutting down and abandoning module BspMode (188)
+[2016.06.08-01.08.29:731][586]LogModuleManager: Shutting down and abandoning module PlacementMode (187)
+[2016.06.08-01.08.29:731][586]LogModuleManager: Shutting down and abandoning module AutomationWorker (186)
+[2016.06.08-01.08.29:731][586]LogModuleManager: Shutting down and abandoning module CharacterAI (185)
+[2016.06.08-01.08.29:731][586]LogModuleManager: Shutting down and abandoning module SmartSnapping (184)
+[2016.06.08-01.08.29:731][586]LogModuleManager: Shutting down and abandoning module ViewportSnapping (183)
+[2016.06.08-01.08.29:731][586]LogModuleManager: Shutting down and abandoning module LogVisualizer (182)
+[2016.06.08-01.08.29:754][586]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (181)
+[2016.06.08-01.08.29:783][586]LogModuleManager: Shutting down and abandoning module IntroTutorials (180)
+[2016.06.08-01.08.29:795][586]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (179)
+[2016.06.08-01.08.29:805][586]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (178)
+[2016.06.08-01.08.29:805][586]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (177)
+[2016.06.08-01.08.29:805][586]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (176)
+[2016.06.08-01.08.29:929][586]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (175)
+[2016.06.08-01.08.29:929][586]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (174)
+[2016.06.08-01.08.29:929][586]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (173)
+[2016.06.08-01.08.29:929][586]LogModuleManager: Shutting down and abandoning module MergeActors (172)
+[2016.06.08-01.08.29:948][586]LogModuleManager: Shutting down and abandoning module SizeMap (171)
+[2016.06.08-01.08.29:948][586]LogModuleManager: Shutting down and abandoning module TreeMap (170)
+[2016.06.08-01.08.29:964][586]LogModuleManager: Shutting down and abandoning module ReferenceViewer (169)
+[2016.06.08-01.08.29:964][586]LogModuleManager: Shutting down and abandoning module LocalizationService (168)
+[2016.06.08-01.08.29:988][586]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (167)
+[2016.06.08-01.08.29:999][586]LogModuleManager: Shutting down and abandoning module HardwareTargeting (166)
+[2016.06.08-01.08.30:026][586]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (165)
+[2016.06.08-01.08.30:026][586]LogModuleManager: Shutting down and abandoning module UndoHistory (164)
+[2016.06.08-01.08.30:026][586]LogModuleManager: Shutting down and abandoning module UserFeedback (163)
+[2016.06.08-01.08.30:026][586]LogModuleManager: Shutting down and abandoning module XmlParser (162)
+[2016.06.08-01.08.30:034][586]LogModuleManager: Shutting down and abandoning module Blutility (161)
+[2016.06.08-01.08.30:034][586]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (160)
+[2016.06.08-01.08.30:035][586]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (159)
+[2016.06.08-01.08.30:035][586]LogModuleManager: Shutting down and abandoning module InputBindingEditor (158)
+[2016.06.08-01.08.30:046][586]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (157)
+[2016.06.08-01.08.30:046][586]LogModuleManager: Shutting down and abandoning module SettingsEditor (156)
+[2016.06.08-01.08.30:075][586]LogModuleManager: Shutting down and abandoning module ProjectLauncher (155)
+[2016.06.08-01.08.30:075][586]LogModuleManager: Shutting down and abandoning module SessionFrontend (154)
+[2016.06.08-01.08.30:075][586]LogModuleManager: Shutting down and abandoning module ProfilerClient (153)
+[2016.06.08-01.08.30:075][586]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (152)
+[2016.06.08-01.08.30:098][586]LogModuleManager: Shutting down and abandoning module DeviceManager (151)
+[2016.06.08-01.08.30:128][586]LogModuleManager: Shutting down and abandoning module AutomationController (150)
+[2016.06.08-01.08.30:144][586]LogModuleManager: Shutting down and abandoning module AutomationWindow (149)
+[2016.06.08-01.08.30:144][586]LogModuleManager: Shutting down and abandoning module Layers (148)
+[2016.06.08-01.08.30:165][586]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (147)
+[2016.06.08-01.08.30:165][586]LogModuleManager: Shutting down and abandoning module DetailCustomizations (146)
+[2016.06.08-01.08.30:186][586]LogModuleManager: Shutting down and abandoning module PackagesDialog (145)
+[2016.06.08-01.08.30:187][586]LogModuleManager: Shutting down and abandoning module Persona (144)
+[2016.06.08-01.08.30:187][586]LogModuleManager: Shutting down and abandoning module Kismet (143)
+[2016.06.08-01.08.30:201][586]LogModuleManager: Shutting down and abandoning module GraphEditor (142)
+[2016.06.08-01.08.30:201][586]LogModuleManager: Shutting down and abandoning module ClassViewer (141)
+[2016.06.08-01.08.30:215][586]LogModuleManager: Shutting down and abandoning module Toolbox (140)
+[2016.06.08-01.08.30:216][586]LogModuleManager: Shutting down and abandoning module ModuleUI (139)
+[2016.06.08-01.08.30:216][586]LogModuleManager: Shutting down and abandoning module MovieSceneTools (138)
+[2016.06.08-01.08.30:216][586]LogModuleManager: Shutting down and abandoning module OutputLog (137)
+[2016.06.08-01.08.30:216][586]LogModuleManager: Shutting down and abandoning module GammaUI (136)
+[2016.06.08-01.08.30:216][586]LogModuleManager: Shutting down and abandoning module Documentation (135)
+[2016.06.08-01.08.30:216][586]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (134)
+[2016.06.08-01.08.30:216][586]LogModuleManager: Shutting down and abandoning module AnalyticsET (133)
+[2016.06.08-01.08.30:216][586]LogModuleManager: Shutting down and abandoning module Analytics (132)
+[2016.06.08-01.08.30:216][586]LogModuleManager: Shutting down and abandoning module PortalServices (131)
+[2016.06.08-01.08.30:216][586]LogModuleManager: Shutting down and abandoning module PortalRpc (130)
+[2016.06.08-01.08.30:216][586]LogModuleManager: Shutting down and abandoning module MessagingRpc (129)
+[2016.06.08-01.08.30:216][586]LogModuleManager: Shutting down and abandoning module AITestSuite (128)
+[2016.06.08-01.08.30:216][586]LogModuleManager: Shutting down and abandoning module GameplayDebugger (127)
+[2016.06.08-01.08.30:229][586]LogModuleManager: Shutting down and abandoning module AIModule (126)
+[2016.06.08-01.08.30:229][586]LogModuleManager: Shutting down and abandoning module ProfilerService (125)
+[2016.06.08-01.08.30:441][586]LogModuleManager: Shutting down and abandoning module TaskGraph (124)
+[2016.06.08-01.08.30:441][586]LogModuleManager: Shutting down and abandoning module SlateRemote (123)
+[2016.06.08-01.08.30:441][586]LogModuleManager: Shutting down and abandoning module SteamVRController (122)
+[2016.06.08-01.08.30:441][586]LogModuleManager: Shutting down and abandoning module SteamVR (121)
+[2016.06.08-01.08.30:441][586]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (120)
+[2016.06.08-01.08.30:458][586]LogModuleManager: Shutting down and abandoning module OculusLibrary (119)
+[2016.06.08-01.08.30:458][586]LogModuleManager: Shutting down and abandoning module OculusInput (118)
+[2016.06.08-01.08.30:458][586]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (117)
+[2016.06.08-01.08.30:458][586]LogModuleManager: Shutting down and abandoning module CableComponent (116)
+[2016.06.08-01.08.30:470][586]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (115)
+[2016.06.08-01.08.30:470][586]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (114)
+[2016.06.08-01.08.30:479][586]LogModuleManager: Shutting down and abandoning module HTML5Networking (113)
+[2016.06.08-01.08.30:479][586]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (112)
+[2016.06.08-01.08.30:479][586]LogModuleManager: Shutting down and abandoning module PluginBrowser (111)
+[2016.06.08-01.08.30:499][586]LogModuleManager: Shutting down and abandoning module EpicSurvey (110)
+[2016.06.08-01.08.30:499][586]LogModuleManager: Shutting down and abandoning module DesktopPlatform (109)
+[2016.06.08-01.08.30:526][586]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (108)
+[2016.06.08-01.08.30:526][586]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (107)
+[2016.06.08-01.08.30:559][586]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (106)
+[2016.06.08-01.08.30:568][586]LogModuleManager: Shutting down and abandoning module SourceControl (105)
+[2016.06.08-01.08.30:583][586]LogModuleManager: Shutting down and abandoning module GitSourceControl (104)
+[2016.06.08-01.08.30:583][586]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (103)
+[2016.06.08-01.08.30:583][586]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (102)
+[2016.06.08-01.08.30:583][586]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (101)
+[2016.06.08-01.08.30:603][586]LogModuleManager: Shutting down and abandoning module MeshPaint (100)
+[2016.06.08-01.08.30:603][586]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.06.08-01.08.30:641][586]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.06.08-01.08.30:653][586]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.06.08-01.08.30:658][586]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (96)
+[2016.06.08-01.08.30:659][586]LogModuleManager: Shutting down and abandoning module AssetRegistry (95)
+[2016.06.08-01.08.30:815][586]LogModuleManager: Shutting down and abandoning module ContentBrowser (94)
+[2016.06.08-01.08.30:816][586]LogModuleManager: Shutting down and abandoning module Paper2DEditor (93)
+[2016.06.08-01.08.30:833][586]LogModuleManager: Shutting down and abandoning module UdpMessaging (92)
+[2016.06.08-01.08.30:933][586]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (91)
+[2016.06.08-01.08.30:933][586]LogModuleManager: Shutting down and abandoning module Paper2D (90)
+[2016.06.08-01.08.30:933][586]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (89)
+[2016.06.08-01.08.30:944][586]LogModuleManager: Shutting down and abandoning module Media (88)
+[2016.06.08-01.08.30:944][586]LogModuleManager: Shutting down and abandoning module WmfMedia (87)
+[2016.06.08-01.08.30:984][586]LogModuleManager: Shutting down and abandoning module MediaAssets (86)
+[2016.06.08-01.08.30:984][586]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
+[2016.06.08-01.08.31:000][586]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
+[2016.06.08-01.08.31:000][586]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
+[2016.06.08-01.08.31:000][586]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
+[2016.06.08-01.08.31:000][586]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
+[2016.06.08-01.08.31:000][586]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
+[2016.06.08-01.08.31:014][586]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
+[2016.06.08-01.08.31:014][586]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
+[2016.06.08-01.08.31:029][586]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.06.08-01.08.31:029][586]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.06.08-01.08.31:029][586]LogModuleManager: Shutting down and abandoning module Sequencer (75)
+[2016.06.08-01.08.31:049][586]LogModuleManager: Shutting down and abandoning module AssetTools (74)
+[2016.06.08-01.08.31:066][586]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
+[2016.06.08-01.08.31:085][586]LogModuleManager: Shutting down and abandoning module UMG (72)
+[2016.06.08-01.08.31:085][586]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
+[2016.06.08-01.08.31:088][586]LogModuleManager: Shutting down and abandoning module Slate (70)
+[2016.06.08-01.08.31:088][586]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
+[2016.06.08-01.08.31:091][586]LogModuleManager: Shutting down and abandoning module SessionServices (68)
+[2016.06.08-01.08.31:091][586]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
+[2016.06.08-01.08.31:091][586]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
+[2016.06.08-01.08.31:091][586]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
+[2016.06.08-01.08.31:091][586]LogModuleManager: Shutting down and abandoning module Networking (63)
+[2016.06.08-01.08.31:091][586]LogModuleManager: Shutting down and abandoning module Core (62)
+[2016.06.08-01.08.31:091][586]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.06.08-01.08.31:105][586]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.06.08-01.08.31:120][586]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.06.08-01.08.31:139][586]LogModuleManager: Shutting down and abandoning module CookingStats (58)
+[2016.06.08-01.08.31:139][586]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
+[2016.06.08-01.08.31:139][586]LogDerivedDataCache: Shutdown
+[2016.06.08-01.08.31:139][586]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.06.08-01.08.31:139][586]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.06.08-01.08.31:139][586]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.06.08-01.08.31:139][586]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.06.08-01.08.31:139][586]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.06.08-01.08.31:139][586]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.06.08-01.08.31:139][586]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.06.08-01.08.31:139][586]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.06.08-01.08.31:139][586]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.06.08-01.08.31:139][586]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.06.08-01.08.31:139][586]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.06.08-01.08.31:139][586]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.06.08-01.08.31:139][586]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.06.08-01.08.31:139][586]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.06.08-01.08.31:153][586]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.06.08-01.08.31:160][586]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.06.08-01.08.31:166][586]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.06.08-01.08.31:166][586]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.06.08-01.08.31:166][586]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.06.08-01.08.31:166][586]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.06.08-01.08.31:166][586]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.06.08-01.08.31:166][586]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.06.08-01.08.31:166][586]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.06.08-01.08.31:166][586]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.06.08-01.08.31:166][586]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.06.08-01.08.31:166][586]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.06.08-01.08.31:166][586]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.06.08-01.08.31:166][586]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.06.08-01.08.31:166][586]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.06.08-01.08.31:166][586]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.06.08-01.08.31:166][586]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.06.08-01.08.31:166][586]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.06.08-01.08.31:166][586]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.06.08-01.08.31:166][586]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.06.08-01.08.31:166][586]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.06.08-01.08.31:166][586]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.06.08-01.08.31:166][586]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.06.08-01.08.31:190][586]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.06.08-01.08.33:190][586]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.06.08-01.08.33:217][586]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.06.08-01.08.33:221][586]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.06.08-01.08.33:221][586]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.06.08-01.08.33:227][586]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.06.08-01.08.33:227][586]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.06.08-01.08.33:227][586]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.06.08-01.08.33:252][586]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.06.08-01.08.33:252][586]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.06.08-01.08.33:252][586]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.06.08-01.08.33:252][586]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.06.08-01.08.33:252][586]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.06.08-01.08.33:253][586]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.06.08-01.08.33:253][586]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.06.08-01.08.33:253][586]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.06.08-01.08.33:265][586]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.06.08-01.08.33:296][586]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.06.08-01.08.33:313][586]LogExit: Exiting.
+[2016.06.08-01.08.33:314][586]Log file closed, 06/07/16 20:08:33
