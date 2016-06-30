@@ -1,0 +1,872 @@
+﻿Log file open, 06/29/16 23:08:17
+LogInit:Display: Running engine for game: VR_City
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1307685379) SRandInit(-1307685377).
+LogTaskGraph: Started task graph with 4 named threads and 6 total threads.
+LogStats: Stats thread started at 0.070068
+LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
+LogInit: API Version: 2927265
+LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.11/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.06.30-04.08.17:630][  0]LogInit: Selected Device Profile: [Windows]
+[2016.06.30-04.08.17:630][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.06.30-04.08.17:641][  0]LogInit: Computer: MY-PC
+[2016.06.30-04.08.17:641][  0]LogInit: User: My
+[2016.06.30-04.08.17:641][  0]LogInit: CPU Page size=65536, Cores=3
+[2016.06.30-04.08.17:641][  0]LogInit: High frequency timer resolution =3.703847 MHz
+[2016.06.30-04.08.17:641][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.06.30-04.08.17:641][  0]LogMemory: Platform Memory Stats for Windows
+[2016.06.30-04.08.17:641][  0]LogMemory: Process Physical Memory: 313.59 MB used, 313.59 MB peak
+[2016.06.30-04.08.17:641][  0]LogMemory: Process Virtual Memory: 317.27 MB used, 317.27 MB peak
+[2016.06.30-04.08.17:641][  0]LogMemory: Physical Memory: 4852.42 MB used, 8094.93 MB total
+[2016.06.30-04.08.17:641][  0]LogMemory: Virtual Memory: 622.11 MB used, 8388608.00 MB total
+[2016.06.30-04.08.17:687][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.06.30-04.08.18:209][  0]LogD3D11RHI: D3D11 adapters:
+[2016.06.30-04.08.18:242][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2016.06.30-04.08.18:242][  0]LogD3D11RHI:       4007MB of dedicated video memory, 0MB of dedicated system memory, and 3791MB of shared system memory, 1 output[s]
+[2016.06.30-04.08.18:242][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.06.30-04.08.18:252][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.06.30-04.08.18:252][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2016.06.30-04.08.18:252][  0]LogD3D11RHI:   Driver Version: 10.18.13.6175 (internal 10.18.13.6175)
+[2016.06.30-04.08.18:252][  0]LogD3D11RHI:      Driver Date: 1-22-2016
+[2016.06.30-04.08.18:252][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.06.30-04.08.18:266][  0]LogD3D11RHI: Async texture creation enabled
+[2016.06.30-04.08.18:772][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (../../../../../../Users/My/Desktop/UE4-City-Building/Intermediate/Shaders/WorkingDirectory/10916/).
+[2016.06.30-04.08.18:772][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/My/AppData/Local/Temp/UnrealShaderWorkingDir/CBAF8FED4D45360DAE2F4BB8882339B0/'.
+[2016.06.30-04.08.18:772][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.06.30-04.08.20:139][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.06.30-04.08.20:145][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.06.30-04.08.20:151][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.06.30-04.08.20:157][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.06.30-04.08.20:164][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.06.30-04.08.20:169][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.06.30-04.08.20:174][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.06.30-04.08.20:178][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.06.30-04.08.20:183][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.06.30-04.08.20:187][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.06.30-04.08.20:192][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.06.30-04.08.20:202][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.06.30-04.08.20:202][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.06.30-04.08.20:203][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.06.30-04.08.20:221][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.06.30-04.08.20:226][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.06.30-04.08.20:230][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.06.30-04.08.20:236][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.06.30-04.08.20:241][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.06.30-04.08.20:241][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.06.30-04.08.20:327][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.06.30-04.08.20:485][  0]LogDerivedDataCache: Loaded boot cache 0.16s 72MB C:/Users/My/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.06.30-04.08.20:485][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/My/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.06.30-04.08.20:485][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/My/Desktop/UE4-City-Building/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.06.30-04.08.20:485][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.06.30-04.08.20:485][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/My/Desktop/UE4-City-Building/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.06.30-04.08.20:485][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.06.30-04.08.20:504][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.06.30-04.08.20:516][  0]LogDerivedDataCache: Using Local data cache path C:/Users/My/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.06.30-04.08.20:763][  0]LogInit: Selected Device Profile: [Windows]
+[2016.06.30-04.08.20:764][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.06.30-04.08.20:801][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.06.30-04.08.20:990][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.06.30-04.08.20:990][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.06.30-04.08.20:990][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.06.30-04.08.21:515][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2016.06.30-04.08.21:515][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
+[2016.06.30-04.08.21:515][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.06.30-04.08.21:526][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.06.30-04.08.21:661][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.06.30-04.08.21:661][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.06.30-04.08.21:779][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.06.30-04.08.21:779][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.06.30-04.08.21:779][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.06.30-04.08.21:779][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.06.30-04.08.21:779][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.06.30-04.08.21:779][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.06.30-04.08.22:534][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.06.30-04.08.22:638][  0]LogAssetRegistry: FAssetRegistry took 0.0204 seconds to start up
+[2016.06.30-04.08.22:835][  0]SourceControl: Info Source control is disabled
+[2016.06.30-04.08.22:941][  0]SourceControl: Info Source control is disabled
+[2016.06.30-04.08.22:951][  0]SourceControl: Info Source control is disabled
+[2016.06.30-04.08.22:959][  0]SourceControl: Info Source control is disabled
+[2016.06.30-04.08.23:100][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2016.06.30-04.08.23:186][  0]LogEngine: Initializing Engine...
+[2016.06.30-04.08.23:400][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.06.30-04.08.23:416][  0]LogInit: XAudio2 using 'Speakers (9- Logitech G930 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.30-04.08.23:426][  0]LogAudio:Error: CreateMasteringVoice error: Unhandled error code -2004287465
+[2016.06.30-04.08.23:426][  0]LogInit:Warning: Failed to create the mastering voice for XAudio2
+[2016.06.30-04.08.23:517][  0]LogDerivedDataCache: Saved boot cache 0.09s 72MB C:/Users/My/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.06.30-04.08.23:547][  0]LogInit: Texture streaming: Enabled
+[2016.06.30-04.08.23:575][  0]LogInit: Transaction tracking system initialized
+[2016.06.30-04.08.23:601][  0]BlueprintLog: New page: Editor Load
+[2016.06.30-04.08.23:690][  0]LocalizationService: Info Localization service is disabled
+[2016.06.30-04.08.23:774][  0]LogConsoleResponse:Display: 
+[2016.06.30-04.08.23:923][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.06.30-04.08.23:923][  0]LogCook:Display: Mobile HDR setting 1
+[2016.06.30-04.08.23:923][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.06.30-04.08.23:984][  0]LogFileCache: Scanning file cache for directory 'C:/Users/My/Desktop/UE4-City-Building/Content/' took 0.01s
+[2016.06.30-04.08.23:984][  0]SourceControl: Info Source control is disabled
+[2016.06.30-04.08.23:985][  0]Cmd: MAP LOAD FILE="../../../../../../Users/My/Desktop/UE4-City-Building/Content/Maps/VR_Basic.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.06.30-04.08.23:985][  0]LightingResults: New page: Lighting Build
+[2016.06.30-04.08.23:989][  0]MapCheck: New page: Map Check
+[2016.06.30-04.08.23:989][  0]LightingResults: New page: Lighting Build
+[2016.06.30-04.08.24:368][  0]LogAIModule: Creating AISystem for world VR_Basic
+[2016.06.30-04.08.24:373][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.06.30-04.08.24:374][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.06.30-04.08.24:424][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 50.24ms to complete.
+[2016.06.30-04.08.24:424][  0]LogFileHelpers: Loading map 'VR_Basic' took 0.440
+[2016.06.30-04.08.24:506][  0]LogCollectionManager: Loaded 1 collections in 0.002199 seconds
+[2016.06.30-04.08.24:549][  0]LogFileCache: Scanning file cache for directory 'C:/Users/My/Desktop/UE4-City-Building/Saved/Collections/' took 0.01s
+[2016.06.30-04.08.24:549][  0]LogFileCache: Scanning file cache for directory 'C:/Users/My/Desktop/UE4-City-Building/Content/Developers/My/Collections/' took 0.01s
+[2016.06.30-04.08.24:549][  0]LogFileCache: Scanning file cache for directory 'C:/Users/My/Desktop/UE4-City-Building/Content/Collections/' took 0.01s
+[2016.06.30-04.08.24:549][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000006 seconds
+[2016.06.30-04.08.24:549][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000000 seconds
+[2016.06.30-04.08.24:561][  0]LogContentBrowser: Native class hierarchy populated in 0.0113 seconds. Added 1978 classes and 340 folders.
+[2016.06.30-04.08.24:565][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.06.30-04.08.24:565][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.06.30-04.08.24:566][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0005 seconds. Added 12 classes and 0 folders.
+[2016.06.30-04.08.24:571][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.06.30-04.08.24:578][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.06.30-04.08.24:635][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.06.30-04.08.24:720][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2016.06.30-04.08.24:762][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.06.30-04.08.24:768][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.06.30-04.08.24:796][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2016.06.30-04.08.24:796][  0]LogLoad: Full Startup: 8.18 seconds (BP compile: 0.05 seconds)
+[2016.06.30-04.08.24:796][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.06.30-04.08.24:797][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.06.30-04.08.24:805][  0]LogOcInput: OculusInput pre-init called
+[2016.06.30-04.08.24:849][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.06.30-04.08.25:020][  0]LogRenderer: Reallocating scene render targets to support 1580x1140 (Frame:2).
+[2016.06.30-04.08.25:128][  1]LogAssetRegistry: Asset discovery search completed in 2.5103 seconds
+[2016.06.30-04.08.25:128][  1]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000002 seconds (found 0 objects)
+[2016.06.30-04.08.25:128][  1]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000039 seconds (updated 0 objects)
+[2016.06.30-04.15.32:716][603]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 108 classes and 0 folders.
+[2016.06.30-04.16.33:175][706]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.16.33:176][706]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.30-04.16.33:177][706]PIE: New page: PIE session: VR_Basic (Jun 29, 2016, 5:16:33 PM)
+[2016.06.30-04.16.33:177][706]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_VR_Basic
+[2016.06.30-04.16.33:185][706]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007349s)
+[2016.06.30-04.16.33:186][706]LogAIModule: Creating AISystem for world VR_Basic
+[2016.06.30-04.16.33:186][706]LogPlayLevel: PIE: World Init took: (0.001312s)
+[2016.06.30-04.16.33:186][706]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/VR_Basic.VR_Basic to /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic (0.009191s)
+[2016.06.30-04.16.33:187][706]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.06.30-04.16.33:306][706]LogWorld: Game class is 'VR_GameMode_C'
+[2016.06.30-04.16.33:309][706]LogWorld: Bringing World /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic up for play (max tick rate 0) at 2016.06.29-23.16.33
+[2016.06.30-04.16.33:310][706]LogWorld: Bringing up level for play took: 0.002058
+[2016.06.30-04.16.33:315][706]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 9 classes and 0 folders.
+[2016.06.30-04.16.33:316][706]Cmd: FULL SCREEN
+[2016.06.30-04.16.33:317][706]Command not recognized: FULL SCREEN
+[2016.06.30-04.16.33:317][706]Cmd: Stereo On
+[2016.06.30-04.16.33:317][706]Command not recognized: Stereo On
+[2016.06.30-04.16.33:317][706]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_VR_Basic -0.569
+[2016.06.30-04.16.33:317][706]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.16.36:885][131]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.16.36:917][131]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.16.43:099][729]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.06.30-04.16.51:777][412]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.16.51:778][412]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.06.30-04.16.51:785][412]LogPlayLevel: [PlayLevel] Compiling VR_GameMode before play...
+[2016.06.30-04.16.51:795][412]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.06.30-04.16.51:928][412]LogPlayLevel: PlayLevel: Blueprint regeneration took 149 ms (1 blueprints)
+[2016.06.30-04.16.51:955][412]PIE: New page: PIE session: VR_Basic (Jun 29, 2016, 5:16:51 PM)
+[2016.06.30-04.16.51:956][412]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_VR_Basic
+[2016.06.30-04.16.51:960][412]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004499s)
+[2016.06.30-04.16.51:961][412]LogAIModule: Creating AISystem for world VR_Basic
+[2016.06.30-04.16.51:961][412]LogPlayLevel: PIE: World Init took: (0.001004s)
+[2016.06.30-04.16.51:962][412]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/VR_Basic.VR_Basic to /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic (0.005910s)
+[2016.06.30-04.16.52:020][412]LogWorld: Game class is 'VR_GameMode_C'
+[2016.06.30-04.16.52:023][412]LogWorld: Bringing World /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic up for play (max tick rate 0) at 2016.06.29-23.16.52
+[2016.06.30-04.16.52:024][412]LogWorld: Bringing up level for play took: 0.002393
+[2016.06.30-04.16.52:025][412]Cmd: FULL SCREEN
+[2016.06.30-04.16.52:025][412]Command not recognized: FULL SCREEN
+[2016.06.30-04.16.52:025][412]Cmd: Stereo On
+[2016.06.30-04.16.52:026][412]Command not recognized: Stereo On
+[2016.06.30-04.16.52:026][412]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_VR_Basic 0.139
+[2016.06.30-04.16.52:026][412]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.16.54:152][590]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.16.54:187][590]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.16.58:585][ 50]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.16.58:586][ 50]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.30-04.16.58:586][ 50]PIE: New page: PIE session: VR_Basic (Jun 29, 2016, 5:16:58 PM)
+[2016.06.30-04.16.58:586][ 50]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_VR_Basic
+[2016.06.30-04.16.58:591][ 50]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004626s)
+[2016.06.30-04.16.58:592][ 50]LogAIModule: Creating AISystem for world VR_Basic
+[2016.06.30-04.16.58:592][ 50]LogPlayLevel: PIE: World Init took: (0.001211s)
+[2016.06.30-04.16.58:592][ 50]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/VR_Basic.VR_Basic to /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic (0.006392s)
+[2016.06.30-04.16.58:653][ 50]LogWorld: Game class is 'VR_GameMode_C'
+[2016.06.30-04.16.58:657][ 50]LogWorld: Bringing World /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic up for play (max tick rate 0) at 2016.06.29-23.16.58
+[2016.06.30-04.16.58:657][ 50]LogWorld: Bringing up level for play took: 0.002161
+[2016.06.30-04.16.58:659][ 50]Cmd: FULL SCREEN
+[2016.06.30-04.16.58:659][ 50]Command not recognized: FULL SCREEN
+[2016.06.30-04.16.58:659][ 50]Cmd: Stereo On
+[2016.06.30-04.16.58:659][ 50]Command not recognized: Stereo On
+[2016.06.30-04.16.58:659][ 50]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_VR_Basic 0.773
+[2016.06.30-04.16.58:660][ 50]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.16.59:397][137]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.16.59:429][137]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.17.10:813][271]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.06.30-04.17.15:649][721]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.17.15:650][721]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.30-04.17.15:650][721]PIE: New page: PIE session: VR_Basic (Jun 29, 2016, 5:17:15 PM)
+[2016.06.30-04.17.15:650][721]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_VR_Basic
+[2016.06.30-04.17.15:655][721]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004742s)
+[2016.06.30-04.17.15:656][721]LogAIModule: Creating AISystem for world VR_Basic
+[2016.06.30-04.17.15:656][721]LogPlayLevel: PIE: World Init took: (0.001054s)
+[2016.06.30-04.17.15:656][721]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/VR_Basic.VR_Basic to /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic (0.006240s)
+[2016.06.30-04.17.15:657][721]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.06.30-04.17.15:721][721]LogWorld: Game class is 'VR_GameMode_C'
+[2016.06.30-04.17.15:725][721]LogWorld: Bringing World /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic up for play (max tick rate 0) at 2016.06.29-23.17.15
+[2016.06.30-04.17.15:725][721]LogWorld: Bringing up level for play took: 0.002906
+[2016.06.30-04.17.15:727][721]Cmd: FULL SCREEN
+[2016.06.30-04.17.15:727][721]Command not recognized: FULL SCREEN
+[2016.06.30-04.17.15:727][721]Cmd: Stereo On
+[2016.06.30-04.17.15:727][721]Command not recognized: Stereo On
+[2016.06.30-04.17.15:727][721]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_VR_Basic -0.16
+[2016.06.30-04.17.15:727][721]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.17.16:886][848]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.17.16:920][848]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.19.03:938][282]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.19.03:938][282]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.30-04.19.03:939][282]PIE: New page: PIE session: VR_Basic (Jun 29, 2016, 5:19:03 PM)
+[2016.06.30-04.19.03:939][282]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_VR_Basic
+[2016.06.30-04.19.03:944][282]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005233s)
+[2016.06.30-04.19.03:946][282]LogAIModule: Creating AISystem for world VR_Basic
+[2016.06.30-04.19.03:946][282]LogPlayLevel: PIE: World Init took: (0.001471s)
+[2016.06.30-04.19.03:946][282]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/VR_Basic.VR_Basic to /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic (0.007229s)
+[2016.06.30-04.19.03:946][282]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.06.30-04.19.03:946][282]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_0) Not registered. Aborting.
+[2016.06.30-04.19.04:011][282]LogWorld: Game class is 'VR_GameMode_C'
+[2016.06.30-04.19.04:014][282]LogWorld: Bringing World /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic up for play (max tick rate 0) at 2016.06.29-23.19.04
+[2016.06.30-04.19.04:015][282]LogWorld: Bringing up level for play took: 0.002989
+[2016.06.30-04.19.04:016][282]Cmd: FULL SCREEN
+[2016.06.30-04.19.04:016][282]Command not recognized: FULL SCREEN
+[2016.06.30-04.19.04:017][282]Cmd: Stereo On
+[2016.06.30-04.19.04:017][282]Command not recognized: Stereo On
+[2016.06.30-04.19.04:017][282]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_VR_Basic 0.129
+[2016.06.30-04.19.04:017][282]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.19.06:227][536]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.19.06:264][536]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.20.03:471][ 77]LogBlueprint:Warning: Reparenting blueprint Blueprint /Game/PlayerCharacter/Blueprints/VR_Character/DebugPawn.DebugPawn from Pawn to DefaultPawn...
+[2016.06.30-04.20.03:481][ 77]BlueprintLog: New page: Compile DebugPawn
+[2016.06.30-04.20.03:799][ 77]BlueprintEditorCompileResults: Info [0707.18] Compile of DebugPawn successful! [in 318 ms]
+[2016.06.30-04.20.10:602][481]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.20.10:602][481]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.30-04.20.10:602][481]PIE: New page: PIE session: VR_Basic (Jun 29, 2016, 5:20:10 PM)
+[2016.06.30-04.20.10:602][481]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_VR_Basic
+[2016.06.30-04.20.10:607][481]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004691s)
+[2016.06.30-04.20.10:608][481]LogAIModule: Creating AISystem for world VR_Basic
+[2016.06.30-04.20.10:608][481]LogPlayLevel: PIE: World Init took: (0.001204s)
+[2016.06.30-04.20.10:609][481]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/VR_Basic.VR_Basic to /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic (0.006960s)
+[2016.06.30-04.20.10:609][481]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.06.30-04.20.10:672][481]LogWorld: Game class is 'VR_GameMode_C'
+[2016.06.30-04.20.10:675][481]LogWorld: Bringing World /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic up for play (max tick rate 0) at 2016.06.29-23.20.10
+[2016.06.30-04.20.10:676][481]LogWorld: Bringing up level for play took: 0.003438
+[2016.06.30-04.20.10:678][481]Cmd: FULL SCREEN
+[2016.06.30-04.20.10:679][481]Command not recognized: FULL SCREEN
+[2016.06.30-04.20.10:679][481]Cmd: Stereo On
+[2016.06.30-04.20.10:679][481]Command not recognized: Stereo On
+[2016.06.30-04.20.10:679][481]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_VR_Basic 0.791
+[2016.06.30-04.20.10:679][481]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.20.15:803][ 70]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.20.15:867][ 70]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.22.40:948][669]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.06.30-04.22.40:948][669]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_1) Not registered. Aborting.
+[2016.06.30-04.22.40:967][669]LogSCSEditor:Warning: Calling UpdateTree() from Tick() more frequently than expected due to invalid tree node state. This might be a performance issue.
+[2016.06.30-04.22.44:236][854]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_2) Not registered. Aborting.
+[2016.06.30-04.22.51:736][297]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_3) Not registered. Aborting.
+[2016.06.30-04.23.13:769][586]BlueprintLog: New page: Compile DebugPawn
+[2016.06.30-04.23.13:778][586]LogBlueprint:Error: [compiler DebugPawn] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2016.06.30-04.23.13:813][586]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_4) Not registered. Aborting.
+[2016.06.30-04.23.14:187][586]LogBlueprint:Warning: [compiler DebugPawn] Warning [0897.57] Compile of DebugPawn failed. 1 Fatal Issue(s) 0 Warning(s) [in 417 ms]
+[2016.06.30-04.23.14:187][586]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2016.06.30-04.23.14:187][586]BlueprintEditorCompileResults:Warning: Warning [0897.57] Compile of DebugPawn failed. 1 Fatal Issue(s) 0 Warning(s) [in 417 ms]
+[2016.06.30-04.23.21:394][ 23]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.06.30-04.23.23:815][173]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_5) Not registered. Aborting.
+[2016.06.30-04.23.29:262][511]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_6) Not registered. Aborting.
+[2016.06.30-04.24.21:530][458]BlueprintLog: New page: Compile DebugPawn
+[2016.06.30-04.24.21:575][458]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_7) Not registered. Aborting.
+[2016.06.30-04.24.21:839][458]BlueprintEditorCompileResults: Info [0965.22] Compile of DebugPawn successful! [in 309 ms]
+[2016.06.30-04.24.24:320][625]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.24.24:321][625]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.30-04.24.24:321][625]PIE: New page: PIE session: VR_Basic (Jun 29, 2016, 5:24:24 PM)
+[2016.06.30-04.24.24:321][625]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_VR_Basic
+[2016.06.30-04.24.24:326][625]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005169s)
+[2016.06.30-04.24.24:327][625]LogAIModule: Creating AISystem for world VR_Basic
+[2016.06.30-04.24.24:328][625]LogPlayLevel: PIE: World Init took: (0.001462s)
+[2016.06.30-04.24.24:328][625]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/VR_Basic.VR_Basic to /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic (0.007182s)
+[2016.06.30-04.24.24:328][625]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.06.30-04.24.24:384][625]LogWorld: Game class is 'VR_GameMode_C'
+[2016.06.30-04.24.24:387][625]LogWorld: Bringing World /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic up for play (max tick rate 0) at 2016.06.29-23.24.24
+[2016.06.30-04.24.24:389][625]LogWorld: Bringing up level for play took: 0.003097
+[2016.06.30-04.24.24:417][625]Cmd: FULL SCREEN
+[2016.06.30-04.24.24:417][625]Command not recognized: FULL SCREEN
+[2016.06.30-04.24.24:417][625]Cmd: Stereo On
+[2016.06.30-04.24.24:418][625]Command not recognized: Stereo On
+[2016.06.30-04.24.24:418][625]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_VR_Basic 0.53
+[2016.06.30-04.24.24:418][625]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.24.30:079][298]LogSelection:Warning: PIE object was selected: "DebugPawn_C /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic:PersistentLevel.DebugPawn_140"
+[2016.06.30-04.24.36:153][496]Cmd: SELECT NONE
+[2016.06.30-04.24.37:840][656]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.24.37:921][656]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.24.59:443][ 10]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.06.30-04.24.59:443][ 10]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_8) Not registered. Aborting.
+[2016.06.30-04.25.02:308][179]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_9) Not registered. Aborting.
+[2016.06.30-04.25.02:363][182]BlueprintLog: New page: Compile DebugPawn
+[2016.06.30-04.25.02:410][182]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_10) Not registered. Aborting.
+[2016.06.30-04.25.02:683][182]BlueprintEditorCompileResults: Info [1006.06] Compile of DebugPawn successful! [in 320 ms]
+[2016.06.30-04.25.08:602][539]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.06.30-04.25.28:802][388]BlueprintLog: New page: Compile DebugPawn
+[2016.06.30-04.25.28:849][388]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_11) Not registered. Aborting.
+[2016.06.30-04.25.29:152][388]BlueprintEditorCompileResults: Info [1032.53] Compile of DebugPawn successful! [in 349 ms]
+[2016.06.30-04.25.32:196][598]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.25.32:196][598]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.30-04.25.32:196][598]PIE: New page: PIE session: VR_Basic (Jun 29, 2016, 5:25:32 PM)
+[2016.06.30-04.25.32:196][598]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_VR_Basic
+[2016.06.30-04.25.32:201][598]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004614s)
+[2016.06.30-04.25.32:202][598]LogAIModule: Creating AISystem for world VR_Basic
+[2016.06.30-04.25.32:202][598]LogPlayLevel: PIE: World Init took: (0.001025s)
+[2016.06.30-04.25.32:202][598]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/VR_Basic.VR_Basic to /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic (0.006082s)
+[2016.06.30-04.25.32:203][598]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.06.30-04.25.32:269][598]LogWorld: Game class is 'VR_GameMode_C'
+[2016.06.30-04.25.32:272][598]LogWorld: Bringing World /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic up for play (max tick rate 0) at 2016.06.29-23.25.32
+[2016.06.30-04.25.32:273][598]LogWorld: Bringing up level for play took: 0.002936
+[2016.06.30-04.25.32:275][598]Cmd: FULL SCREEN
+[2016.06.30-04.25.32:275][598]Command not recognized: FULL SCREEN
+[2016.06.30-04.25.32:275][598]Cmd: Stereo On
+[2016.06.30-04.25.32:275][598]Command not recognized: Stereo On
+[2016.06.30-04.25.32:276][598]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_VR_Basic 0.386
+[2016.06.30-04.25.32:276][598]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.25.43:827][979]LogSelection:Warning: PIE object was selected: "DebugPawn_C /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic:PersistentLevel.DebugPawn_140"
+[2016.06.30-04.25.49:358][181]Cmd: SELECT NONE
+[2016.06.30-04.25.57:147][ 53]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.25.57:206][ 53]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.26.19:651][760]BlueprintLog: New page: Compile DebugPawn
+[2016.06.30-04.26.19:709][760]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.06.30-04.26.19:709][760]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_12) Not registered. Aborting.
+[2016.06.30-04.26.19:805][760]BlueprintEditorCompileResults: Info [1083.18] Compile of DebugPawn successful! [in 153 ms]
+[2016.06.30-04.26.49:345][394]BlueprintLog: New page: Compile DebugPawn
+[2016.06.30-04.26.49:391][394]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.06.30-04.26.49:489][394]BlueprintEditorCompileResults: Info [1112.86] Compile of DebugPawn successful! [in 143 ms]
+[2016.06.30-04.26.51:902][560]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.26.51:903][560]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.30-04.26.51:903][560]PIE: New page: PIE session: VR_Basic (Jun 29, 2016, 5:26:51 PM)
+[2016.06.30-04.26.51:903][560]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_VR_Basic
+[2016.06.30-04.26.51:908][560]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005190s)
+[2016.06.30-04.26.51:910][560]LogAIModule: Creating AISystem for world VR_Basic
+[2016.06.30-04.26.51:910][560]LogPlayLevel: PIE: World Init took: (0.001202s)
+[2016.06.30-04.26.51:910][560]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/VR_Basic.VR_Basic to /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic (0.006994s)
+[2016.06.30-04.26.51:910][560]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.06.30-04.26.51:971][560]LogWorld: Game class is 'VR_GameMode_C'
+[2016.06.30-04.26.51:975][560]LogWorld: Bringing World /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic up for play (max tick rate 0) at 2016.06.29-23.26.51
+[2016.06.30-04.26.51:976][560]LogWorld: Bringing up level for play took: 0.002858
+[2016.06.30-04.26.51:978][560]Cmd: FULL SCREEN
+[2016.06.30-04.26.51:978][560]Command not recognized: FULL SCREEN
+[2016.06.30-04.26.51:978][560]Cmd: Stereo On
+[2016.06.30-04.26.51:978][560]Command not recognized: Stereo On
+[2016.06.30-04.26.51:978][560]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_VR_Basic 0.087
+[2016.06.30-04.26.51:978][560]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.26.56:520][103]LogSelection:Warning: PIE object was selected: "DebugPawn_C /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic:PersistentLevel.DebugPawn_140"
+[2016.06.30-04.27.04:417][381]Cmd: SELECT NONE
+[2016.06.30-04.27.15:348][216]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.27.15:415][216]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.27.33:482][330]BlueprintLog: New page: Compile DebugPawn
+[2016.06.30-04.27.33:529][330]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.06.30-04.27.33:629][330]BlueprintEditorCompileResults: Info [1157.00] Compile of DebugPawn successful! [in 147 ms]
+[2016.06.30-04.27.34:184][359]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.27.34:184][359]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.30-04.27.34:184][359]PIE: New page: PIE session: VR_Basic (Jun 29, 2016, 5:27:34 PM)
+[2016.06.30-04.27.34:184][359]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_VR_Basic
+[2016.06.30-04.27.34:189][359]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005064s)
+[2016.06.30-04.27.34:191][359]LogAIModule: Creating AISystem for world VR_Basic
+[2016.06.30-04.27.34:191][359]LogPlayLevel: PIE: World Init took: (0.001304s)
+[2016.06.30-04.27.34:191][359]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/VR_Basic.VR_Basic to /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic (0.006937s)
+[2016.06.30-04.27.34:191][359]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.06.30-04.27.34:253][359]LogWorld: Game class is 'VR_GameMode_C'
+[2016.06.30-04.27.34:256][359]LogWorld: Bringing World /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic up for play (max tick rate 0) at 2016.06.29-23.27.34
+[2016.06.30-04.27.34:257][359]LogWorld: Bringing up level for play took: 0.002643
+[2016.06.30-04.27.34:259][359]Cmd: FULL SCREEN
+[2016.06.30-04.27.34:259][359]Command not recognized: FULL SCREEN
+[2016.06.30-04.27.34:259][359]Cmd: Stereo On
+[2016.06.30-04.27.34:259][359]Command not recognized: Stereo On
+[2016.06.30-04.27.34:260][359]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_VR_Basic 0.368
+[2016.06.30-04.27.34:260][359]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.27.48:971][971]LogSelection:Warning: PIE object was selected: "DebugPawn_C /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic:PersistentLevel.DebugPawn_140"
+[2016.06.30-04.28.03:979][ 93]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.28.04:046][ 93]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.28.16:744][974]BlueprintLog: New page: Compile DebugPawn
+[2016.06.30-04.28.16:789][974]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.06.30-04.28.16:789][974]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_13) Not registered. Aborting.
+[2016.06.30-04.28.16:884][974]BlueprintEditorCompileResults: Info [1200.26] Compile of DebugPawn successful! [in 139 ms]
+[2016.06.30-04.29.50:734][437]BlueprintLog: New page: Compile DebugPawn
+[2016.06.30-04.29.50:784][437]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.06.30-04.29.50:887][437]BlueprintEditorCompileResults: Info [1294.26] Compile of DebugPawn successful! [in 152 ms]
+[2016.06.30-04.29.51:731][486]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.29.51:732][486]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.30-04.29.51:732][486]PIE: New page: PIE session: VR_Basic (Jun 29, 2016, 5:29:51 PM)
+[2016.06.30-04.29.51:732][486]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_VR_Basic
+[2016.06.30-04.29.51:737][486]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005048s)
+[2016.06.30-04.29.51:739][486]LogAIModule: Creating AISystem for world VR_Basic
+[2016.06.30-04.29.51:739][486]LogPlayLevel: PIE: World Init took: (0.001387s)
+[2016.06.30-04.29.51:739][486]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/VR_Basic.VR_Basic to /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic (0.007026s)
+[2016.06.30-04.29.51:739][486]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.06.30-04.29.51:807][486]LogWorld: Game class is 'VR_GameMode_C'
+[2016.06.30-04.29.51:811][486]LogWorld: Bringing World /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic up for play (max tick rate 0) at 2016.06.29-23.29.51
+[2016.06.30-04.29.51:812][486]LogWorld: Bringing up level for play took: 0.003218
+[2016.06.30-04.29.51:814][486]Cmd: FULL SCREEN
+[2016.06.30-04.29.51:814][486]Command not recognized: FULL SCREEN
+[2016.06.30-04.29.51:814][486]Cmd: Stereo On
+[2016.06.30-04.29.51:814][486]Command not recognized: Stereo On
+[2016.06.30-04.29.51:815][486]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_VR_Basic -0.078
+[2016.06.30-04.29.51:815][486]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.29.52:657][555]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.29.52:720][555]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.29.56:489][855]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.29.56:490][855]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.30-04.29.56:490][855]PIE: New page: PIE session: VR_Basic (Jun 29, 2016, 5:29:56 PM)
+[2016.06.30-04.29.56:490][855]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_VR_Basic
+[2016.06.30-04.29.56:494][855]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004547s)
+[2016.06.30-04.29.56:496][855]LogAIModule: Creating AISystem for world VR_Basic
+[2016.06.30-04.29.56:496][855]LogPlayLevel: PIE: World Init took: (0.001097s)
+[2016.06.30-04.29.56:496][855]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/VR_Basic.VR_Basic to /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic (0.006104s)
+[2016.06.30-04.29.56:562][855]LogWorld: Game class is 'VR_GameMode_C'
+[2016.06.30-04.29.56:565][855]LogWorld: Bringing World /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic up for play (max tick rate 0) at 2016.06.29-23.29.56
+[2016.06.30-04.29.56:566][855]LogWorld: Bringing up level for play took: 0.002701
+[2016.06.30-04.29.56:568][855]Cmd: FULL SCREEN
+[2016.06.30-04.29.56:568][855]Command not recognized: FULL SCREEN
+[2016.06.30-04.29.56:568][855]Cmd: Stereo On
+[2016.06.30-04.29.56:568][855]Command not recognized: Stereo On
+[2016.06.30-04.29.56:568][855]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_VR_Basic 0.676
+[2016.06.30-04.29.56:569][855]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.30.07:350][138]LogSelection:Warning: PIE object was selected: "DebugPawn_C /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic:PersistentLevel.DebugPawn_140"
+[2016.06.30-04.30.29:330][241]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.30.29:392][241]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.30.55:482][398]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.06.30-04.30.55:482][398]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_14) Not registered. Aborting.
+[2016.06.30-04.30.55:523][398]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/VR_Basic" FILE="../../../../../../Users/My/Desktop/UE4-City-Building/Saved/Autosaves/Game/Maps/VR_Basic_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.06.30-04.30.55:678][398]LogSavePackage: Save=132.38ms
+[2016.06.30-04.30.55:679][398]LogSavePackage: Moving '../../../../../../Users/My/Desktop/UE4-City-Building/Saved/VR_Basic_Auto165B086FF46182FF65A59D39F23A4A0AD.tmp' to '../../../../../../Users/My/Desktop/UE4-City-Building/Saved/Autosaves/Game/Maps/VR_Basic_Auto1.umap'
+[2016.06.30-04.30.55:683][398]LogSavePackage: Total save time: 158.39ms
+[2016.06.30-04.30.55:683][398]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/My/Desktop/UE4-City-Building/Saved/Autosaves/Game/Maps/VR_Basic_Auto1.umap
+[2016.06.30-04.30.55:691][398]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/VR_Basic' took 0.209
+[2016.06.30-04.30.55:692][398]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.209
+[2016.06.30-04.30.55:714][398]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PlayerCharacter/Blueprints/VR_Character/DebugPawn] ([1] browsable assets)...
+[2016.06.30-04.30.55:733][398]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/PlayerCharacter/Blueprints/VR_Character/DebugPawn.DebugPawn]
+[2016.06.30-04.30.55:733][398]OBJ SavePackage: Finished generating thumbnails for package [/Game/PlayerCharacter/Blueprints/VR_Character/DebugPawn]
+[2016.06.30-04.30.55:783][398]LogSavePackage: Save=48.26ms
+[2016.06.30-04.30.55:783][398]LogSavePackage: Moving '../../../../../../Users/My/Desktop/UE4-City-Building/Saved/DebugPawn_Auto1F6DB347F441F8435598F1C992466A2BF.tmp' to '../../../../../../Users/My/Desktop/UE4-City-Building/Saved/Autosaves/Game/PlayerCharacter/Blueprints/VR_Character/DebugPawn_Auto1.uasset'
+[2016.06.30-04.30.55:786][398]LogSavePackage: Total save time: 51.66ms
+[2016.06.30-04.30.55:786][398]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/My/Desktop/UE4-City-Building/Saved/Autosaves/Game/PlayerCharacter/Blueprints/VR_Character/DebugPawn_Auto1.uasset
+[2016.06.30-04.30.55:791][398]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PlayerCharacter/Blueprints/VR_GameMode] ([1] browsable assets)...
+[2016.06.30-04.30.55:791][398]OBJ SavePackage: Finished generating thumbnails for package [/Game/PlayerCharacter/Blueprints/VR_GameMode]
+[2016.06.30-04.30.55:821][398]LogSavePackage: Save=18.49ms
+[2016.06.30-04.30.55:821][398]LogSavePackage: Moving '../../../../../../Users/My/Desktop/UE4-City-Building/Saved/VR_GameMode_Auto1A8811FDD443846E1BA9CBD9C316EC4F6.tmp' to '../../../../../../Users/My/Desktop/UE4-City-Building/Saved/Autosaves/Game/PlayerCharacter/Blueprints/VR_GameMode_Auto1.uasset'
+[2016.06.30-04.30.55:824][398]LogSavePackage: Total save time: 31.24ms
+[2016.06.30-04.30.55:824][398]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/My/Desktop/UE4-City-Building/Saved/Autosaves/Game/PlayerCharacter/Blueprints/VR_GameMode_Auto1.uasset
+[2016.06.30-04.30.55:824][398]LogFileHelpers: Auto-saving content packages took 0.114
+[2016.06.30-04.31.36:793][263]LogClass:Warning: Type mismatch in length of SKEL_DebugPawn_C - Previous (StructProperty) Current(IntProperty) for package:  FObjectReader
+[2016.06.30-04.31.36:794][263]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.06.30-04.31.36:794][263]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_15) Not registered. Aborting.
+[2016.06.30-04.31.39:972][453]BlueprintLog: New page: Compile DebugPawn
+[2016.06.30-04.31.39:984][453]LogClass:Warning: Type mismatch in length of DebugPawn_C - Previous (StructProperty) Current(IntProperty) for package:  FObjectReader
+[2016.06.30-04.31.40:020][453]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_16) Not registered. Aborting.
+[2016.06.30-04.31.40:273][453]BlueprintEditorCompileResults: Info [1403.65] Compile of DebugPawn successful! [in 300 ms]
+[2016.06.30-04.31.45:605][822]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.06.30-04.32.33:849][184]BlueprintLog: New page: Compile DebugPawn
+[2016.06.30-04.32.33:891][184]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_17) Not registered. Aborting.
+[2016.06.30-04.32.33:980][184]BlueprintEditorCompileResults: Info [1457.35] Compile of DebugPawn successful! [in 130 ms]
+[2016.06.30-04.32.36:440][380]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.32.36:440][380]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.30-04.32.36:440][380]PIE: New page: PIE session: VR_Basic (Jun 29, 2016, 5:32:36 PM)
+[2016.06.30-04.32.36:441][380]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_VR_Basic
+[2016.06.30-04.32.36:446][380]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004993s)
+[2016.06.30-04.32.36:447][380]LogAIModule: Creating AISystem for world VR_Basic
+[2016.06.30-04.32.36:447][380]LogPlayLevel: PIE: World Init took: (0.001187s)
+[2016.06.30-04.32.36:447][380]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/VR_Basic.VR_Basic to /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic (0.006664s)
+[2016.06.30-04.32.36:447][380]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.06.30-04.32.36:502][380]LogWorld: Game class is 'VR_GameMode_C'
+[2016.06.30-04.32.36:506][380]LogWorld: Bringing World /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic up for play (max tick rate 0) at 2016.06.29-23.32.36
+[2016.06.30-04.32.36:507][380]LogWorld: Bringing up level for play took: 0.002758
+[2016.06.30-04.32.36:509][380]Cmd: FULL SCREEN
+[2016.06.30-04.32.36:509][380]Command not recognized: FULL SCREEN
+[2016.06.30-04.32.36:509][380]Cmd: Stereo On
+[2016.06.30-04.32.36:509][380]Command not recognized: Stereo On
+[2016.06.30-04.32.36:509][380]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_VR_Basic 0.614
+[2016.06.30-04.32.36:509][380]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.32.43:878][261]LogSelection:Warning: PIE object was selected: "DebugPawn_C /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic:PersistentLevel.DebugPawn_140"
+[2016.06.30-04.33.22:334][472]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.33.22:402][472]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.33.39:934][673]BlueprintLog: New page: Compile DebugPawn
+[2016.06.30-04.33.39:979][673]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.06.30-04.33.40:068][673]BlueprintEditorCompileResults: Info [1523.44] Compile of DebugPawn successful! [in 134 ms]
+[2016.06.30-04.33.42:794][891]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.33.42:794][891]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.30-04.33.42:794][891]PIE: New page: PIE session: VR_Basic (Jun 29, 2016, 5:33:42 PM)
+[2016.06.30-04.33.42:794][891]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_VR_Basic
+[2016.06.30-04.33.42:800][891]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005265s)
+[2016.06.30-04.33.42:801][891]LogAIModule: Creating AISystem for world VR_Basic
+[2016.06.30-04.33.42:801][891]LogPlayLevel: PIE: World Init took: (0.001345s)
+[2016.06.30-04.33.42:801][891]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/VR_Basic.VR_Basic to /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic (0.007127s)
+[2016.06.30-04.33.42:802][891]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.06.30-04.33.42:866][891]LogWorld: Game class is 'VR_GameMode_C'
+[2016.06.30-04.33.42:869][891]LogWorld: Bringing World /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic up for play (max tick rate 0) at 2016.06.29-23.33.42
+[2016.06.30-04.33.42:870][891]LogWorld: Bringing up level for play took: 0.003288
+[2016.06.30-04.33.42:872][891]Cmd: FULL SCREEN
+[2016.06.30-04.33.42:872][891]Command not recognized: FULL SCREEN
+[2016.06.30-04.33.42:873][891]Cmd: Stereo On
+[2016.06.30-04.33.42:873][891]Command not recognized: Stereo On
+[2016.06.30-04.33.42:873][891]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_VR_Basic 0.977
+[2016.06.30-04.33.42:873][891]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.34.00:421][995]LogSelection:Warning: PIE object was selected: "DebugPawn_C /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic:PersistentLevel.DebugPawn_140"
+[2016.06.30-04.34.04:990][155]Cmd: SELECT NONE
+[2016.06.30-04.34.09:622][676]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.34.09:681][676]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.34.39:421][615]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.06.30-04.34.39:421][615]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_18) Not registered. Aborting.
+[2016.06.30-04.34.39:436][615]LogSCSEditor:Warning: Calling UpdateTree() from Tick() more frequently than expected due to invalid tree node state. This might be a performance issue.
+[2016.06.30-04.35.26:857][699]BlueprintLog: New page: Compile DebugPawn
+[2016.06.30-04.35.26:903][699]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_19) Not registered. Aborting.
+[2016.06.30-04.35.27:145][699]BlueprintEditorCompileResults: Info [1630.52] Compile of DebugPawn successful! [in 288 ms]
+[2016.06.30-04.35.33:741][955]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.35.33:741][955]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.30-04.35.33:741][955]PIE: New page: PIE session: VR_Basic (Jun 29, 2016, 5:35:33 PM)
+[2016.06.30-04.35.33:741][955]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_VR_Basic
+[2016.06.30-04.35.33:747][955]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005368s)
+[2016.06.30-04.35.33:748][955]LogAIModule: Creating AISystem for world VR_Basic
+[2016.06.30-04.35.33:748][955]LogPlayLevel: PIE: World Init took: (0.001127s)
+[2016.06.30-04.35.33:748][955]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/VR_Basic.VR_Basic to /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic (0.007042s)
+[2016.06.30-04.35.33:749][955]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.06.30-04.35.33:749][955]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_20) Not registered. Aborting.
+[2016.06.30-04.35.33:851][955]LogWorld: Game class is 'VR_GameMode_C'
+[2016.06.30-04.35.33:855][955]LogWorld: Bringing World /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic up for play (max tick rate 0) at 2016.06.29-23.35.33
+[2016.06.30-04.35.33:855][955]LogWorld: Bringing up level for play took: 0.002856
+[2016.06.30-04.35.33:857][955]Cmd: FULL SCREEN
+[2016.06.30-04.35.33:857][955]Command not recognized: FULL SCREEN
+[2016.06.30-04.35.33:857][955]Cmd: Stereo On
+[2016.06.30-04.35.33:857][955]Command not recognized: Stereo On
+[2016.06.30-04.35.33:857][955]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_VR_Basic -0.038
+[2016.06.30-04.35.33:858][955]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.35.35:358][105]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.35.35:421][105]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.35.38:869][365]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.35.38:869][365]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.30-04.35.38:869][365]PIE: New page: PIE session: VR_Basic (Jun 29, 2016, 5:35:38 PM)
+[2016.06.30-04.35.38:870][365]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_VR_Basic
+[2016.06.30-04.35.38:874][365]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004535s)
+[2016.06.30-04.35.38:875][365]LogAIModule: Creating AISystem for world VR_Basic
+[2016.06.30-04.35.38:875][365]LogPlayLevel: PIE: World Init took: (0.000991s)
+[2016.06.30-04.35.38:876][365]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/VR_Basic.VR_Basic to /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic (0.006013s)
+[2016.06.30-04.35.38:957][365]LogWorld: Game class is 'VR_GameMode_C'
+[2016.06.30-04.35.38:961][365]LogWorld: Bringing World /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic up for play (max tick rate 0) at 2016.06.29-23.35.38
+[2016.06.30-04.35.38:962][365]LogWorld: Bringing up level for play took: 0.002690
+[2016.06.30-04.35.38:964][365]Cmd: FULL SCREEN
+[2016.06.30-04.35.38:964][365]Command not recognized: FULL SCREEN
+[2016.06.30-04.35.38:964][365]Cmd: Stereo On
+[2016.06.30-04.35.38:964][365]Command not recognized: Stereo On
+[2016.06.30-04.35.38:964][365]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_VR_Basic 1.068
+[2016.06.30-04.35.38:964][365]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.35.40:707][573]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.35.40:772][573]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.35.42:831][772]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.35.42:831][772]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.30-04.35.42:831][772]PIE: New page: PIE session: VR_Basic (Jun 29, 2016, 5:35:42 PM)
+[2016.06.30-04.35.42:831][772]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_VR_Basic
+[2016.06.30-04.35.42:836][772]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004582s)
+[2016.06.30-04.35.42:837][772]LogAIModule: Creating AISystem for world VR_Basic
+[2016.06.30-04.35.42:837][772]LogPlayLevel: PIE: World Init took: (0.001147s)
+[2016.06.30-04.35.42:838][772]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/VR_Basic.VR_Basic to /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic (0.006288s)
+[2016.06.30-04.35.42:914][772]LogWorld: Game class is 'VR_GameMode_C'
+[2016.06.30-04.35.42:918][772]LogWorld: Bringing World /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic up for play (max tick rate 0) at 2016.06.29-23.35.42
+[2016.06.30-04.35.42:919][772]LogWorld: Bringing up level for play took: 0.002971
+[2016.06.30-04.35.42:921][772]Cmd: FULL SCREEN
+[2016.06.30-04.35.42:921][772]Command not recognized: FULL SCREEN
+[2016.06.30-04.35.42:921][772]Cmd: Stereo On
+[2016.06.30-04.35.42:921][772]Command not recognized: Stereo On
+[2016.06.30-04.35.42:921][772]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_VR_Basic 1.025
+[2016.06.30-04.35.42:921][772]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.35.52:707][945]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.35.52:766][945]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.36.21:489][862]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.06.30-04.36.21:490][862]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_21) Not registered. Aborting.
+[2016.06.30-04.36.29:543][359]BlueprintLog: New page: Compile DebugPawn
+[2016.06.30-04.36.29:590][359]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_22) Not registered. Aborting.
+[2016.06.30-04.36.29:682][359]BlueprintEditorCompileResults: Info [1693.05] Compile of DebugPawn successful! [in 138 ms]
+[2016.06.30-04.36.31:674][506]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.36.31:675][506]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.30-04.36.31:675][506]PIE: New page: PIE session: VR_Basic (Jun 29, 2016, 5:36:31 PM)
+[2016.06.30-04.36.31:675][506]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_VR_Basic
+[2016.06.30-04.36.31:679][506]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004282s)
+[2016.06.30-04.36.31:680][506]LogAIModule: Creating AISystem for world VR_Basic
+[2016.06.30-04.36.31:680][506]LogPlayLevel: PIE: World Init took: (0.000943s)
+[2016.06.30-04.36.31:681][506]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/VR_Basic.VR_Basic to /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic (0.005786s)
+[2016.06.30-04.36.31:681][506]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.06.30-04.36.31:757][506]LogWorld: Game class is 'VR_GameMode_C'
+[2016.06.30-04.36.31:761][506]LogWorld: Bringing World /Game/Maps/UEDPIE_0_VR_Basic.VR_Basic up for play (max tick rate 0) at 2016.06.29-23.36.31
+[2016.06.30-04.36.31:761][506]LogWorld: Bringing up level for play took: 0.002694
+[2016.06.30-04.36.31:763][506]Cmd: FULL SCREEN
+[2016.06.30-04.36.31:763][506]Command not recognized: FULL SCREEN
+[2016.06.30-04.36.31:763][506]Cmd: Stereo On
+[2016.06.30-04.36.31:763][506]Command not recognized: Stereo On
+[2016.06.30-04.36.31:764][506]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_VR_Basic -0.131
+[2016.06.30-04.36.31:764][506]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.36.35:599][965]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.36.35:659][965]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic' with GeneratedClass '/Game/Maps/VR_Basic.VR_Basic_C' with ClassGeneratedBy '/Game/Maps/VR_Basic.VR_Basic:PersistentLevel.VR_Basic'
+[2016.06.30-04.36.46:595][705]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.06.30-04.36.46:596][705]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_23) Not registered. Aborting.
+[2016.06.30-04.37.41:458][497]BlueprintLog: New page: Compile DebugPawn
+[2016.06.30-04.37.41:527][497]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_24) Not registered. Aborting.
+[2016.06.30-04.37.41:527][497]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_25) Not registered. Aborting.
+[2016.06.30-04.37.41:773][497]BlueprintEditorCompileResults: Info [1765.14] Compile of DebugPawn successful! [in 314 ms]
+[2016.06.30-04.37.45:462][760]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/VR_Basic" FILE="../../../../../../Users/My/Desktop/UE4-City-Building/Content/Maps/VR_Basic.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.06.30-04.37.45:464][760]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.06.30-04.37.45:464][760]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_26) Not registered. Aborting.
+[2016.06.30-04.37.45:621][760]LogSavePackage: Save=115.24ms
+[2016.06.30-04.37.45:621][760]LogSavePackage: Moving '../../../../../../Users/My/Desktop/UE4-City-Building/Saved/VR_BasicFD42DCBE430582917D12E89FFC6DF7C1.tmp' to '../../../../../../Users/My/Desktop/UE4-City-Building/Content/Maps/VR_Basic.umap'
+[2016.06.30-04.37.45:624][760]LogSavePackage: Total save time: 135.29ms
+[2016.06.30-04.37.45:624][760]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/My/Desktop/UE4-City-Building/Content/Maps/VR_Basic.umap
+[2016.06.30-04.37.46:256][816]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.06.30-04.37.46:256][816]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_27) Not registered. Aborting.
+[2016.06.30-04.37.47:440][816]LogSavePackage: Save=52.27ms
+[2016.06.30-04.37.47:440][816]LogSavePackage: Moving '../../../../../../Users/My/Desktop/UE4-City-Building/Saved/DebugPawnB51330FA4054D3F2C370248867AA5346.tmp' to '../../../../../../Users/My/Desktop/UE4-City-Building/Content/PlayerCharacter/Blueprints/VR_Character/DebugPawn.uasset'
+[2016.06.30-04.37.47:443][816]LogSavePackage: Total save time: 55.07ms
+[2016.06.30-04.37.47:443][816]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/My/Desktop/UE4-City-Building/Content/PlayerCharacter/Blueprints/VR_Character/DebugPawn.uasset
+[2016.06.30-04.37.47:451][816]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PlayerCharacter/Blueprints/VR_GameMode" FILE="../../../../../../Users/My/Desktop/UE4-City-Building/Content/PlayerCharacter/Blueprints/VR_GameMode.uasset" SILENT=true
+[2016.06.30-04.37.47:481][816]LogSavePackage: Save=18.94ms
+[2016.06.30-04.37.47:481][816]LogSavePackage: Moving '../../../../../../Users/My/Desktop/UE4-City-Building/Saved/VR_GameMode11590A4E418A528238B859AE2DBBD0D8.tmp' to '../../../../../../Users/My/Desktop/UE4-City-Building/Content/PlayerCharacter/Blueprints/VR_GameMode.uasset'
+[2016.06.30-04.37.47:486][816]LogSavePackage: Total save time: 32.62ms
+[2016.06.30-04.37.47:486][816]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/My/Desktop/UE4-City-Building/Content/PlayerCharacter/Blueprints/VR_GameMode.uasset
+[2016.06.30-04.37.47:875][817]Cmd: QUIT_EDITOR
+[2016.06.30-04.37.48:004][817]LogExit: Preparing to exit.
+[2016.06.30-04.37.48:833][817]LogExit: Editor shut down
+[2016.06.30-04.37.48:833][817]LogExit: Transaction tracking system shut down
+[2016.06.30-04.37.49:039][817]LogObj: Freed 0b from 0 cluster array pools.
+[2016.06.30-04.37.49:039][817]LogExit: Object subsystem successfully closed.
+[2016.06.30-04.37.49:052][817]LogD3D11RHI: Shutdown
+[2016.06.30-04.37.49:052][817]LogD3D11RHI: CleanupD3DDevice
+[2016.06.30-04.37.49:137][817]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.06.30-04.37.49:205][817]LogDerivedDataCache: Shutdown
+[2016.06.30-04.37.49:205][817]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (205)
+[2016.06.30-04.37.49:205][817]LogModuleManager: Shutting down and abandoning module BlueprintGraph (204)
+[2016.06.30-04.37.49:205][817]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (203)
+[2016.06.30-04.37.49:205][817]LogModuleManager: Shutting down and abandoning module CrashTracker (202)
+[2016.06.30-04.37.49:205][817]LogModuleManager: Shutting down and abandoning module SceneOutliner (201)
+[2016.06.30-04.37.49:205][817]LogModuleManager: Shutting down and abandoning module SuperSearch (200)
+[2016.06.30-04.37.49:206][817]LogModuleManager: Shutting down and abandoning module WidgetCarousel (199)
+[2016.06.30-04.37.49:206][817]LogModuleManager: Shutting down and abandoning module AddContentDialog (198)
+[2016.06.30-04.37.49:207][817]LogModuleManager: Shutting down and abandoning module GameplayTags (197)
+[2016.06.30-04.37.49:207][817]LogModuleManager: Shutting down and abandoning module EditorWidgets (196)
+[2016.06.30-04.37.49:207][817]LogModuleManager: Shutting down and abandoning module CollectionManager (195)
+[2016.06.30-04.37.49:207][817]LogModuleManager: Shutting down and abandoning module StatsViewer (194)
+[2016.06.30-04.37.49:207][817]LogModuleManager: Shutting down and abandoning module FoliageEdit (193)
+[2016.06.30-04.37.49:207][817]LogModuleManager: Shutting down and abandoning module LandscapeEditor (192)
+[2016.06.30-04.37.49:208][817]LogModuleManager: Shutting down and abandoning module ActorPickerMode (191)
+[2016.06.30-04.37.49:208][817]LogModuleManager: Shutting down and abandoning module GeometryMode (190)
+[2016.06.30-04.37.49:208][817]LogModuleManager: Shutting down and abandoning module TextureAlignMode (189)
+[2016.06.30-04.37.49:208][817]LogModuleManager: Shutting down and abandoning module BspMode (188)
+[2016.06.30-04.37.49:208][817]LogModuleManager: Shutting down and abandoning module PlacementMode (187)
+[2016.06.30-04.37.49:208][817]LogModuleManager: Shutting down and abandoning module AutomationWorker (186)
+[2016.06.30-04.37.49:208][817]LogModuleManager: Shutting down and abandoning module CharacterAI (185)
+[2016.06.30-04.37.49:208][817]LogModuleManager: Shutting down and abandoning module SmartSnapping (184)
+[2016.06.30-04.37.49:208][817]LogModuleManager: Shutting down and abandoning module ViewportSnapping (183)
+[2016.06.30-04.37.49:208][817]LogModuleManager: Shutting down and abandoning module LogVisualizer (182)
+[2016.06.30-04.37.49:208][817]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (181)
+[2016.06.30-04.37.49:208][817]LogModuleManager: Shutting down and abandoning module IntroTutorials (180)
+[2016.06.30-04.37.49:208][817]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (179)
+[2016.06.30-04.37.49:208][817]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (178)
+[2016.06.30-04.37.49:208][817]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (177)
+[2016.06.30-04.37.49:208][817]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (176)
+[2016.06.30-04.37.49:860][817]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (175)
+[2016.06.30-04.37.49:860][817]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (174)
+[2016.06.30-04.37.49:860][817]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (173)
+[2016.06.30-04.37.49:860][817]LogModuleManager: Shutting down and abandoning module MergeActors (172)
+[2016.06.30-04.37.49:860][817]LogModuleManager: Shutting down and abandoning module SizeMap (171)
+[2016.06.30-04.37.49:860][817]LogModuleManager: Shutting down and abandoning module TreeMap (170)
+[2016.06.30-04.37.49:860][817]LogModuleManager: Shutting down and abandoning module ReferenceViewer (169)
+[2016.06.30-04.37.49:860][817]LogModuleManager: Shutting down and abandoning module LocalizationService (168)
+[2016.06.30-04.37.49:860][817]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (167)
+[2016.06.30-04.37.49:860][817]LogModuleManager: Shutting down and abandoning module HardwareTargeting (166)
+[2016.06.30-04.37.49:860][817]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (165)
+[2016.06.30-04.37.49:860][817]LogModuleManager: Shutting down and abandoning module UndoHistory (164)
+[2016.06.30-04.37.49:860][817]LogModuleManager: Shutting down and abandoning module UserFeedback (163)
+[2016.06.30-04.37.49:860][817]LogModuleManager: Shutting down and abandoning module XmlParser (162)
+[2016.06.30-04.37.49:860][817]LogModuleManager: Shutting down and abandoning module Blutility (161)
+[2016.06.30-04.37.49:860][817]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (160)
+[2016.06.30-04.37.49:860][817]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (159)
+[2016.06.30-04.37.49:860][817]LogModuleManager: Shutting down and abandoning module InputBindingEditor (158)
+[2016.06.30-04.37.49:861][817]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (157)
+[2016.06.30-04.37.49:861][817]LogModuleManager: Shutting down and abandoning module SettingsEditor (156)
+[2016.06.30-04.37.49:861][817]LogModuleManager: Shutting down and abandoning module ProjectLauncher (155)
+[2016.06.30-04.37.49:861][817]LogModuleManager: Shutting down and abandoning module SessionFrontend (154)
+[2016.06.30-04.37.49:861][817]LogModuleManager: Shutting down and abandoning module ProfilerClient (153)
+[2016.06.30-04.37.49:861][817]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (152)
+[2016.06.30-04.37.49:861][817]LogModuleManager: Shutting down and abandoning module DeviceManager (151)
+[2016.06.30-04.37.49:891][817]LogModuleManager: Shutting down and abandoning module AutomationController (150)
+[2016.06.30-04.37.49:891][817]LogModuleManager: Shutting down and abandoning module AutomationWindow (149)
+[2016.06.30-04.37.49:891][817]LogModuleManager: Shutting down and abandoning module Layers (148)
+[2016.06.30-04.37.49:891][817]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (147)
+[2016.06.30-04.37.49:891][817]LogModuleManager: Shutting down and abandoning module DetailCustomizations (146)
+[2016.06.30-04.37.49:891][817]LogModuleManager: Shutting down and abandoning module PackagesDialog (145)
+[2016.06.30-04.37.49:891][817]LogModuleManager: Shutting down and abandoning module Persona (144)
+[2016.06.30-04.37.49:891][817]LogModuleManager: Shutting down and abandoning module Kismet (143)
+[2016.06.30-04.37.49:891][817]LogModuleManager: Shutting down and abandoning module GraphEditor (142)
+[2016.06.30-04.37.49:891][817]LogModuleManager: Shutting down and abandoning module ClassViewer (141)
+[2016.06.30-04.37.49:893][817]LogModuleManager: Shutting down and abandoning module Toolbox (140)
+[2016.06.30-04.37.49:893][817]LogModuleManager: Shutting down and abandoning module ModuleUI (139)
+[2016.06.30-04.37.49:893][817]LogModuleManager: Shutting down and abandoning module MovieSceneTools (138)
+[2016.06.30-04.37.49:893][817]LogModuleManager: Shutting down and abandoning module OutputLog (137)
+[2016.06.30-04.37.49:893][817]LogModuleManager: Shutting down and abandoning module GammaUI (136)
+[2016.06.30-04.37.49:893][817]LogModuleManager: Shutting down and abandoning module Documentation (135)
+[2016.06.30-04.37.49:893][817]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (134)
+[2016.06.30-04.37.49:893][817]LogModuleManager: Shutting down and abandoning module AnalyticsET (133)
+[2016.06.30-04.37.49:893][817]LogModuleManager: Shutting down and abandoning module Analytics (132)
+[2016.06.30-04.37.49:893][817]LogModuleManager: Shutting down and abandoning module PortalServices (131)
+[2016.06.30-04.37.49:893][817]LogModuleManager: Shutting down and abandoning module PortalRpc (130)
+[2016.06.30-04.37.49:893][817]LogModuleManager: Shutting down and abandoning module MessagingRpc (129)
+[2016.06.30-04.37.49:893][817]LogModuleManager: Shutting down and abandoning module AITestSuite (128)
+[2016.06.30-04.37.49:893][817]LogModuleManager: Shutting down and abandoning module GameplayDebugger (127)
+[2016.06.30-04.37.49:893][817]LogModuleManager: Shutting down and abandoning module AIModule (126)
+[2016.06.30-04.37.49:893][817]LogModuleManager: Shutting down and abandoning module ProfilerService (125)
+[2016.06.30-04.37.49:945][817]LogModuleManager: Shutting down and abandoning module TaskGraph (124)
+[2016.06.30-04.37.49:945][817]LogModuleManager: Shutting down and abandoning module SlateRemote (123)
+[2016.06.30-04.37.49:945][817]LogModuleManager: Shutting down and abandoning module SteamVRController (122)
+[2016.06.30-04.37.49:945][817]LogModuleManager: Shutting down and abandoning module SteamVR (121)
+[2016.06.30-04.37.49:945][817]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (120)
+[2016.06.30-04.37.49:945][817]LogModuleManager: Shutting down and abandoning module OculusLibrary (119)
+[2016.06.30-04.37.49:945][817]LogModuleManager: Shutting down and abandoning module OculusInput (118)
+[2016.06.30-04.37.49:945][817]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (117)
+[2016.06.30-04.37.49:945][817]LogModuleManager: Shutting down and abandoning module CableComponent (116)
+[2016.06.30-04.37.49:945][817]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (115)
+[2016.06.30-04.37.49:945][817]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (114)
+[2016.06.30-04.37.49:945][817]LogModuleManager: Shutting down and abandoning module HTML5Networking (113)
+[2016.06.30-04.37.49:945][817]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (112)
+[2016.06.30-04.37.49:945][817]LogModuleManager: Shutting down and abandoning module PluginBrowser (111)
+[2016.06.30-04.37.49:945][817]LogModuleManager: Shutting down and abandoning module EpicSurvey (110)
+[2016.06.30-04.37.49:945][817]LogModuleManager: Shutting down and abandoning module DesktopPlatform (109)
+[2016.06.30-04.37.49:945][817]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (108)
+[2016.06.30-04.37.49:945][817]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (107)
+[2016.06.30-04.37.49:945][817]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (106)
+[2016.06.30-04.37.49:946][817]LogModuleManager: Shutting down and abandoning module SourceControl (105)
+[2016.06.30-04.37.49:946][817]LogModuleManager: Shutting down and abandoning module GitSourceControl (104)
+[2016.06.30-04.37.49:946][817]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (103)
+[2016.06.30-04.37.49:946][817]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (102)
+[2016.06.30-04.37.49:946][817]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (101)
+[2016.06.30-04.37.49:946][817]LogModuleManager: Shutting down and abandoning module MeshPaint (100)
+[2016.06.30-04.37.49:946][817]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.06.30-04.37.49:947][817]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.06.30-04.37.49:947][817]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.06.30-04.37.49:948][817]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (96)
+[2016.06.30-04.37.49:949][817]LogModuleManager: Shutting down and abandoning module AssetRegistry (95)
+[2016.06.30-04.37.50:027][817]LogModuleManager: Shutting down and abandoning module ContentBrowser (94)
+[2016.06.30-04.37.50:028][817]LogModuleManager: Shutting down and abandoning module Paper2DEditor (93)
+[2016.06.30-04.37.50:029][817]LogModuleManager: Shutting down and abandoning module UdpMessaging (92)
+[2016.06.30-04.37.50:129][817]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (91)
+[2016.06.30-04.37.50:129][817]LogModuleManager: Shutting down and abandoning module Paper2D (90)
+[2016.06.30-04.37.50:129][817]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (89)
+[2016.06.30-04.37.50:129][817]LogModuleManager: Shutting down and abandoning module Media (88)
+[2016.06.30-04.37.50:129][817]LogModuleManager: Shutting down and abandoning module WmfMedia (87)
+[2016.06.30-04.37.50:130][817]LogModuleManager: Shutting down and abandoning module MediaAssets (86)
+[2016.06.30-04.37.50:130][817]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
+[2016.06.30-04.37.50:130][817]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
+[2016.06.30-04.37.50:130][817]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
+[2016.06.30-04.37.50:130][817]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
+[2016.06.30-04.37.50:130][817]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
+[2016.06.30-04.37.50:130][817]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
+[2016.06.30-04.37.50:130][817]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
+[2016.06.30-04.37.50:130][817]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
+[2016.06.30-04.37.50:130][817]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.06.30-04.37.50:130][817]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.06.30-04.37.50:130][817]LogModuleManager: Shutting down and abandoning module Sequencer (75)
+[2016.06.30-04.37.50:130][817]LogModuleManager: Shutting down and abandoning module AssetTools (74)
+[2016.06.30-04.37.50:130][817]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
+[2016.06.30-04.37.50:130][817]LogModuleManager: Shutting down and abandoning module UMG (72)
+[2016.06.30-04.37.50:130][817]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
+[2016.06.30-04.37.50:130][817]LogModuleManager: Shutting down and abandoning module Slate (70)
+[2016.06.30-04.37.50:130][817]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
+[2016.06.30-04.37.50:133][817]LogModuleManager: Shutting down and abandoning module SessionServices (68)
+[2016.06.30-04.37.50:133][817]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
+[2016.06.30-04.37.50:133][817]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
+[2016.06.30-04.37.50:133][817]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
+[2016.06.30-04.37.50:133][817]LogModuleManager: Shutting down and abandoning module Networking (63)
+[2016.06.30-04.37.50:133][817]LogModuleManager: Shutting down and abandoning module Core (62)
+[2016.06.30-04.37.50:133][817]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.06.30-04.37.50:133][817]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.06.30-04.37.50:133][817]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.06.30-04.37.50:133][817]LogModuleManager: Shutting down and abandoning module CookingStats (58)
+[2016.06.30-04.37.50:133][817]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
+[2016.06.30-04.37.50:133][817]LogDerivedDataCache: Shutdown
+[2016.06.30-04.37.50:133][817]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.06.30-04.37.50:133][817]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.06.30-04.37.50:133][817]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.06.30-04.37.50:133][817]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.06.30-04.37.50:133][817]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.06.30-04.37.50:133][817]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.06.30-04.37.50:133][817]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.06.30-04.37.50:133][817]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.06.30-04.37.50:133][817]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.06.30-04.37.50:133][817]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.06.30-04.37.50:133][817]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.06.30-04.37.50:133][817]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.06.30-04.37.50:133][817]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.06.30-04.37.50:133][817]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.06.30-04.37.50:133][817]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.06.30-04.37.50:133][817]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.06.30-04.37.50:133][817]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.06.30-04.37.50:133][817]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.06.30-04.37.50:134][817]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.06.30-04.37.50:134][817]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.06.30-04.37.50:134][817]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.06.30-04.37.50:134][817]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.06.30-04.37.50:134][817]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.06.30-04.37.50:134][817]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.06.30-04.37.50:134][817]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.06.30-04.37.50:134][817]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.06.30-04.37.50:134][817]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.06.30-04.37.50:134][817]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.06.30-04.37.50:134][817]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.06.30-04.37.50:134][817]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.06.30-04.37.50:134][817]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.06.30-04.37.50:134][817]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.06.30-04.37.50:134][817]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.06.30-04.37.50:134][817]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.06.30-04.37.50:134][817]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.06.30-04.37.50:134][817]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.06.30-04.37.50:134][817]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.06.30-04.37.50:134][817]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.06.30-04.37.51:134][817]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.06.30-04.37.51:134][817]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.06.30-04.37.51:134][817]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.06.30-04.37.51:134][817]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.06.30-04.37.51:134][817]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.06.30-04.37.51:134][817]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.06.30-04.37.51:134][817]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.06.30-04.37.51:140][817]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.06.30-04.37.51:140][817]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.06.30-04.37.51:140][817]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.06.30-04.37.51:140][817]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.06.30-04.37.51:140][817]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.06.30-04.37.51:140][817]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.06.30-04.37.51:140][817]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.06.30-04.37.51:140][817]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.06.30-04.37.51:140][817]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.06.30-04.37.51:140][817]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.06.30-04.37.51:143][817]LogExit: Exiting.
+[2016.06.30-04.37.51:145][817]Log file closed, 06/29/16 23:37:51
