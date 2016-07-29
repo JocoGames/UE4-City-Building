@@ -3,4 +3,8 @@
 */DerivedDataCache
 */Saved
 */Binaries
+*/Logs
+*/Backup
+*/Stats
+*/Autosaves
 *.VC.db
