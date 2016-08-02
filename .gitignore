@@ -1,10 +1,5 @@
-*/Intermediate
-*/Build
-*/DerivedDataCache
-*/Saved
-*/Binaries
-*/Logs
-*/Backup
-*/Stats
-*/Autosaves
+*Intermediate
+*Build
+*DerivedDataCache
+*Saved
 *.VC.db
