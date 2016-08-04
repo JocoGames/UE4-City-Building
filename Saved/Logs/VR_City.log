@@ -1,17 +1,32 @@
-﻿Log file open, 08/04/16 17:07:03
+﻿Log file open, 08/04/16 18:45:00
 LogInit:Display: Running engine for game: VR_City
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(412611177) SRandInit(412611187).
-LogTaskGraph: Started task graph with 4 named threads and 6 total threads.
-LogStats: Stats thread started at 0.165741
-LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
-LogInit: API Version: 2927265
-LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
+LogInit:Display: RandInit(-1565260079) SRandInit(-1565260078).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.065019
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
 LogInit: Compiled with Visual C++: 19.00.23026.00
 LogInit: Build Configuration: Development
-LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Branch Name: ++UE4+Release-4.12
 LogInit: Command line:  
-LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.11/Engine/Binaries/Win64/
+LogInit: Base directory: E:/Unreal/Epic Games/4.12/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Using libcurl 7.41.0
 LogInit:  - built for x86_64-pc-win32
@@ -32,983 +47,494 @@ LogOnline:Warning: STEAM: Steam API disabled!
 LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
 LogVoice:Warning: Failed to initialize voice interface
-LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2016.08.04-22.07.04:441][  0]LogInit: Selected Device Profile: [Windows]
-[2016.08.04-22.07.04:441][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.08.04-22.07.04:480][  0]LogInit: Computer: MY-PC
-[2016.08.04-22.07.04:480][  0]LogInit: User: My
-[2016.08.04-22.07.04:480][  0]LogInit: CPU Page size=65536, Cores=3
-[2016.08.04-22.07.04:480][  0]LogInit: High frequency timer resolution =3.703828 MHz
-[2016.08.04-22.07.04:481][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2016.08.04-22.07.04:481][  0]LogMemory: Platform Memory Stats for Windows
-[2016.08.04-22.07.04:481][  0]LogMemory: Process Physical Memory: 315.45 MB used, 315.45 MB peak
-[2016.08.04-22.07.04:481][  0]LogMemory: Process Virtual Memory: 316.47 MB used, 316.47 MB peak
-[2016.08.04-22.07.04:481][  0]LogMemory: Physical Memory: 5725.16 MB used, 8094.93 MB total
-[2016.08.04-22.07.04:481][  0]LogMemory: Virtual Memory: 630.29 MB used, 8388608.00 MB total
-[2016.08.04-22.07.04:574][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2016.08.04-22.07.05:636][  0]LogD3D11RHI: D3D11 adapters:
-[2016.08.04-22.07.05:723][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
-[2016.08.04-22.07.05:724][  0]LogD3D11RHI:       4007MB of dedicated video memory, 0MB of dedicated system memory, and 3791MB of shared system memory, 1 output[s]
-[2016.08.04-22.07.05:724][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2016.08.04-22.07.05:746][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2016.08.04-22.07.05:747][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
-[2016.08.04-22.07.05:747][  0]LogD3D11RHI:   Driver Version: 10.18.13.6175 (internal 10.18.13.6175)
-[2016.08.04-22.07.05:747][  0]LogD3D11RHI:      Driver Date: 1-22-2016
-[2016.08.04-22.07.05:747][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2016.08.04-22.07.05:770][  0]LogD3D11RHI: Async texture creation enabled
-[2016.08.04-22.07.06:833][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (../../../../../../Users/My/Desktop/UE4-City-Building/Intermediate/Shaders/WorkingDirectory/9516/).
-[2016.08.04-22.07.06:833][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/My/AppData/Local/Temp/UnrealShaderWorkingDir/EA6C84D64AC095189C7A59921327D73E/'.
-[2016.08.04-22.07.06:834][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.08.04-22.07.11:601][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.08.04-22.07.11:609][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.08.04-22.07.11:617][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.08.04-22.07.11:624][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.08.04-22.07.11:633][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.08.04-22.07.11:640][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.08.04-22.07.11:649][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.08.04-22.07.11:658][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.08.04-22.07.11:667][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.08.04-22.07.11:677][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.08.04-22.07.11:685][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.08.04-22.07.11:703][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2016.08.04-22.07.11:703][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.08.04-22.07.11:706][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.08.04-22.07.11:732][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.08.04-22.07.11:751][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2016.08.04-22.07.11:758][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.08.04-22.07.11:765][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.08.04-22.07.11:771][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.08.04-22.07.11:771][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.08.04-22.07.11:962][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.08.04-22.07.12:266][  0]LogDerivedDataCache: Loaded boot cache 0.30s 72MB C:/Users/My/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
-[2016.08.04-22.07.12:266][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/My/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
-[2016.08.04-22.07.12:266][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/My/Desktop/UE4-City-Building/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.08.04-22.07.12:266][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.08.04-22.07.12:266][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/My/Desktop/UE4-City-Building/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.08.04-22.07.12:266][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.08.04-22.07.12:303][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.08.04-22.07.12:314][  0]LogDerivedDataCache: Using Local data cache path C:/Users/My/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.08.04-22.07.12:782][  0]LogInit: Selected Device Profile: [Windows]
-[2016.08.04-22.07.12:789][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2016.08.04-22.07.12:882][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2016.08.04-22.07.13:356][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.08.04-22.07.13:356][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.08.04-22.07.13:356][  0]LogMeshUtilities: No distributed automatic mesh merging module available
-[2016.08.04-22.07.14:599][  0]LogUObjectArray: 27686 objects as part of root set at end of initial load.
-[2016.08.04-22.07.14:599][  0]LogUObjectAllocator: 5803848 out of 0 bytes used by permanent object pool.
-[2016.08.04-22.07.14:599][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2016.08.04-22.07.14:793][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.08.04-22.07.14:793][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.08.04-22.07.15:749][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.08.04-22.07.15:749][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.08.04-22.07.15:769][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.08.04-22.07.15:769][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.08.04-22.07.15:769][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.08.04-22.07.15:769][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.08.04-22.07.33:566][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.08.04-22.07.34:392][  0]LogAssetRegistry: FAssetRegistry took 0.0576 seconds to start up
-[2016.08.04-22.07.41:967][  0]SourceControl: Info Source control is disabled
-[2016.08.04-22.07.42:562][  0]SourceControl: Info Source control is disabled
-[2016.08.04-22.07.43:216][  0]SourceControl: Info Source control is disabled
-[2016.08.04-22.07.43:306][  0]SourceControl: Info Source control is disabled
-[2016.08.04-22.07.45:164][  0]LogEngine: Initializing Engine...
-[2016.08.04-22.07.46:977][  0]LogAIModule: Creating AISystem for world NewWorld
-[2016.08.04-22.07.47:461][  0]LogInit: XAudio2 using 'Speakers (Logitech G930 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.08.04-22.07.47:509][  0]LogInit: FAudioDevice initialized.
-[2016.08.04-22.07.47:681][  0]LogDerivedDataCache:Error: Could not save memory cache C:/Users/My/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
-[2016.08.04-22.07.47:733][  0]LogInit: Texture streaming: Enabled
-[2016.08.04-22.07.48:400][  0]LogInit: Transaction tracking system initialized
-[2016.08.04-22.07.48:954][  0]BlueprintLog: New page: Editor Load
-[2016.08.04-22.07.50:652][  0]LocalizationService: Info Localization service is disabled
-[2016.08.04-22.07.51:847][  0]LogConsoleResponse:Display: 
-[2016.08.04-22.07.55:511][  0]LogFileCache: Scanning file cache for directory 'C:/Users/My/Desktop/UE4-City-Building/Content/' took 0.02s
-[2016.08.04-22.07.55:511][  0]LogCook:Display: Max memory allowance for cook 8192mb
-[2016.08.04-22.07.55:511][  0]LogCook:Display: Mobile HDR setting 1
-[2016.08.04-22.07.55:530][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2016.08.04-22.07.58:943][  0]SourceControl: Info Source control is disabled
-[2016.08.04-22.07.59:071][  0]Cmd: MAP LOAD FILE="../../../../../../Users/My/Desktop/UE4-City-Building/Content/Maps/MP_MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.08.04-22.07.59:134][  0]LightingResults: New page: Lighting Build
-[2016.08.04-22.07.59:997][  0]MapCheck: New page: Map Check
-[2016.08.04-22.07.59:998][  0]LightingResults: New page: Lighting Build
-[2016.08.04-22.08.04:959][  0]LogBlueprint:Error: [compiler W_ServerList] Error Could not find a function named "SetSearchResult" in 'W_ServerRow_C'.
+[2016.08.04-22.45.00:365][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.04-22.45.00:365][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.08.04-22.45.00:375][  0]LogInit: Computer: DESKTOP-SMVUQ3U
+[2016.08.04-22.45.00:375][  0]LogInit: User: GoLegitOrGoHome
+[2016.08.04-22.45.00:375][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.08.04-22.45.00:375][  0]LogInit: High frequency timer resolution =3.416982 MHz
+[2016.08.04-22.45.00:375][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2016.08.04-22.45.00:375][  0]LogMemory: Platform Memory Stats for Windows
+[2016.08.04-22.45.00:375][  0]LogMemory: Process Physical Memory: 191.22 MB used, 191.22 MB peak
+[2016.08.04-22.45.00:375][  0]LogMemory: Process Virtual Memory: 195.14 MB used, 195.14 MB peak
+[2016.08.04-22.45.00:375][  0]LogMemory: Physical Memory: 4210.35 MB used, 8143.02 MB total
+[2016.08.04-22.45.00:375][  0]LogMemory: Virtual Memory: 557.11 MB used, 134217728.00 MB total
+[2016.08.04-22.45.00:416][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.08.04-22.45.00:747][  0]LogD3D11RHI: D3D11 adapters:
+[2016.08.04-22.45.00:764][  0]LogD3D11RHI:    0. 'AMD Radeon (TM) R9 380 Series' (Feature Level 11_0)
+[2016.08.04-22.45.00:764][  0]LogD3D11RHI:       4072/0/4071 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2016.08.04-22.45.00:765][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.08.04-22.45.00:765][  0]LogD3D11RHI:       0/0/4071 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.08.04-22.45.00:765][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.08.04-22.45.00:768][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.08.04-22.45.00:768][  0]LogD3D11RHI:     GPU DeviceId: 0x6939 (for the marketing name, search the web for "GPU Device Id")
+[2016.08.04-22.45.00:768][  0]LogWindows: EnumDisplayDevices:
+[2016.08.04-22.45.00:768][  0]LogWindows:    0. 'AMD Radeon (TM) R9 380 Series' (P:1 D:1)
+[2016.08.04-22.45.00:768][  0]LogWindows:    1. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
+[2016.08.04-22.45.00:768][  0]LogWindows:    2. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
+[2016.08.04-22.45.00:769][  0]LogWindows:    3. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
+[2016.08.04-22.45.00:769][  0]LogWindows:    4. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
+[2016.08.04-22.45.00:769][  0]LogWindows:    5. 'AMD Radeon (TM) R9 380 Series' (P:0 D:0)
+[2016.08.04-22.45.00:769][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2016.08.04-22.45.00:769][  0]LogD3D11RHI:     Adapter Name: AMD Radeon (TM) R9 380 Series
+[2016.08.04-22.45.00:769][  0]LogD3D11RHI:   Driver Version: Crimson 16.6.1 (internal:16.200.1025.0, unified:16.200.1025.0)
+[2016.08.04-22.45.00:769][  0]LogD3D11RHI:      Driver Date: 6-2-2016
+[2016.08.04-22.45.00:769][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.08.04-22.45.00:779][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2016.08.04-22.45.00:789][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2016.08.04-22.45.00:789][  0]LogShaderCompilers: Guid format shader working directory is -1 characters bigger than the processId version (C:/Users/GoLegitOrGoHome/Desktop/UE4-City-Building/Intermediate/Shaders/WorkingDirectory/5088/).
+[2016.08.04-22.45.00:789][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/GOLEGI~1/AppData/Local/Temp/UnrealShaderWorkingDir/1A8663614C5E70C2B53F14AC4E6A0DA6/'.
+[2016.08.04-22.45.00:789][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.08.04-22.45.01:569][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.08.04-22.45.01:577][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.08.04-22.45.01:584][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.08.04-22.45.01:592][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.08.04-22.45.01:599][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.08.04-22.45.01:606][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.08.04-22.45.01:613][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.08.04-22.45.01:620][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.08.04-22.45.01:627][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.08.04-22.45.01:634][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.08.04-22.45.01:641][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.08.04-22.45.01:656][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.08.04-22.45.01:656][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.08.04-22.45.01:657][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.08.04-22.45.01:676][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.08.04-22.45.01:683][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.08.04-22.45.01:689][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.08.04-22.45.01:696][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.08.04-22.45.01:703][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.08.04-22.45.01:703][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.08.04-22.45.01:746][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.08.04-22.45.01:791][  0]LogDerivedDataCache: Loaded boot cache 0.04s 48MB C:/Users/GoLegitOrGoHome/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.08.04-22.45.01:791][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/GoLegitOrGoHome/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.08.04-22.45.01:791][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/GoLegitOrGoHome/Desktop/UE4-City-Building/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.08.04-22.45.01:791][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.08.04-22.45.01:791][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/GoLegitOrGoHome/Desktop/UE4-City-Building/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.08.04-22.45.01:791][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.08.04-22.45.01:806][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.08.04-22.45.01:818][  0]LogDerivedDataCache: Using Local data cache path C:/Users/GoLegitOrGoHome/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.08.04-22.45.01:962][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.04-22.45.01:963][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.08.04-22.45.02:090][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.08.04-22.45.02:090][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.08.04-22.45.02:090][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.08.04-22.45.02:314][  0]LogAssetRegistry: FAssetRegistry took 0.0210 seconds to start up
+[2016.08.04-22.45.02:335][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.019278 seconds
+[2016.08.04-22.45.02:339][  0]LogUObjectArray: 28746 objects as part of root set at end of initial load.
+[2016.08.04-22.45.02:339][  0]LogUObjectAllocator: 6069104 out of 0 bytes used by permanent object pool.
+[2016.08.04-22.45.02:339][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.08.04-22.45.02:457][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.08.04-22.45.02:457][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.08.04-22.45.02:977][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.08.04-22.45.03:141][  0]SourceControl: Info Source control is disabled
+[2016.08.04-22.45.03:142][  0]SourceControl: Info Source control is disabled
+[2016.08.04-22.45.03:146][  0]SourceControl: Info Source control is disabled
+[2016.08.04-22.45.03:150][  0]SourceControl: Info Source control is disabled
+[2016.08.04-22.45.03:260][  0]LogEngine: Initializing Engine...
+[2016.08.04-22.45.03:380][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.08.04-22.45.03:388][  0]LogInit: XAudio2 using 'Headphones (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.08.04-22.45.03:396][  0]LogInit: FAudioDevice initialized.
+[2016.08.04-22.45.03:419][  0]LogDerivedDataCache: Saved boot cache 0.02s 48MB C:/Users/GoLegitOrGoHome/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.08.04-22.45.03:425][  0]LogInit: Texture streaming: Enabled
+[2016.08.04-22.45.03:458][  0]LogInit: Transaction tracking system initialized
+[2016.08.04-22.45.03:471][  0]BlueprintLog: New page: Editor Load
+[2016.08.04-22.45.03:511][  0]LocalizationService: Info Localization service is disabled
+[2016.08.04-22.45.03:555][  0]LogConsoleResponse:Display: 
+[2016.08.04-22.45.03:631][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.08.04-22.45.03:631][  0]LogCook:Display: Mobile HDR setting 1
+[2016.08.04-22.45.03:689][  0]LogFileCache: Scanning file cache for directory 'C:/Users/GoLegitOrGoHome/Desktop/UE4-City-Building/Content/' took 0.01s
+[2016.08.04-22.45.03:689][  0]SourceControl: Info Source control is disabled
+[2016.08.04-22.45.03:689][  0]Cmd: MAP LOAD FILE="C:/Users/GoLegitOrGoHome/Desktop/UE4-City-Building/Content/Maps/MP_MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.08.04-22.45.03:689][  0]LightingResults: New page: Lighting Build
+[2016.08.04-22.45.03:691][  0]MapCheck: New page: Map Check
+[2016.08.04-22.45.03:691][  0]LightingResults: New page: Lighting Build
+[2016.08.04-22.45.03:862][  0]LogBlueprint:Error: Compiler Error Could not find a function named "SetSearchResult" in 'W_ServerRow_C'.
 Make sure 'W_ServerRow_C' has been compiled for  RefreshServerList 
-[2016.08.04-22.08.04:960][  0]LogBlueprint:Error: [compiler W_ServerList] Error Could not find a function named "SetSearchResult" in 'W_ServerRow_C'.
+[2016.08.04-22.45.03:862][  0]LogBlueprint:Error: Compiler Error Could not find a function named "SetSearchResult" in 'W_ServerRow_C'.
 Make sure 'W_ServerRow_C' has been compiled for  RefreshServerList 
-[2016.08.04-22.08.04:983][  0]LogBlueprint:Warning: [compiler W_ServerList] Warning [0064.56] Compile of W_ServerList failed. 2 Fatal Issue(s) 0 Warning(s) [in 94 ms]
-[2016.08.04-22.08.04:983][  0]LogBlueprint:Warning: [compiler W_ServerList] Warning [0064.56] Compile of W_ServerList failed. 2 Fatal Issue(s) 1 Warning(s) [in 0 ms]
-[2016.08.04-22.08.04:983][  0]LogBlueprint:Warning: [compiler W_ServerList] Warning [0064.56] Compile of W_ServerList failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms]
-[2016.08.04-22.08.07:784][  0]LogAIModule: Creating AISystem for world MP_MainMenu
-[2016.08.04-22.08.07:951][  0]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
-[2016.08.04-22.08.08:028][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.08.04-22.08.08:165][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 137.024ms to complete.
-[2016.08.04-22.08.08:165][  0]LogFileHelpers: Loading map 'MP_MainMenu' took 9.113
-[2016.08.04-22.08.09:164][  0]LogCollectionManager: Loaded 1 collections in 0.005762 seconds
-[2016.08.04-22.08.09:327][  0]LogFileCache: Scanning file cache for directory 'C:/Users/My/Desktop/UE4-City-Building/Saved/Collections/' took 0.01s
-[2016.08.04-22.08.09:327][  0]LogFileCache: Scanning file cache for directory 'C:/Users/My/Desktop/UE4-City-Building/Content/Developers/My/Collections/' took 0.04s
-[2016.08.04-22.08.09:327][  0]LogFileCache: Scanning file cache for directory 'C:/Users/My/Desktop/UE4-City-Building/Content/Collections/' took 0.01s
-[2016.08.04-22.08.09:327][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000006 seconds
-[2016.08.04-22.08.09:327][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000001 seconds
-[2016.08.04-22.08.09:357][  0]LogContentBrowser: Native class hierarchy populated in 0.0295 seconds. Added 1978 classes and 339 folders.
-[2016.08.04-22.08.09:479][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2016.08.04-22.08.09:479][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2016.08.04-22.08.09:481][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0013 seconds. Added 12 classes and 0 folders.
-[2016.08.04-22.08.09:514][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2016.08.04-22.08.09:806][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0010 seconds. Added 1 classes and 2 folders.
-[2016.08.04-22.08.11:504][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2016.08.04-22.08.12:446][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2016.08.04-22.08.13:114][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2016.08.04-22.08.13:347][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2016.08.04-22.08.13:504][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2016.08.04-22.08.13:505][  0]LogLoad: Full Startup: 73.09 seconds (BP compile: 1.25 seconds)
-[2016.08.04-22.08.13:505][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2016.08.04-22.08.13:505][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2016.08.04-22.08.13:857][  0]LogOcInput: OculusInput pre-init called
-[2016.08.04-22.08.14:836][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2016.08.04-22.08.16:054][  0]LogRenderer: Reallocating scene render targets to support 1380x1140 (Frame:2).
-[2016.08.04-22.08.18:088][  4]LogAssetRegistry: Asset discovery search completed in 43.7526 seconds
-[2016.08.04-22.08.18:088][  4]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000002 seconds (found 0 objects)
-[2016.08.04-22.08.18:088][  4]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000131 seconds (updated 0 objects)
-[2016.08.04-22.11.15:262][355]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0018 seconds. Added 108 classes and 0 folders.
-[2016.08.04-22.11.22:703][632]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
-[2016.08.04-22.11.44:988][332]BlueprintLog: New page: Compile Road
-[2016.08.04-22.11.45:534][332]BlueprintEditorCompileResults: Info [0285.11] Compile of Road successful! [in 545 ms]
-[2016.08.04-22.13.06:963][676]LogRenderer: Reallocating scene render targets to support 1476x1140 (Frame:2103).
-[2016.08.04-22.13.08:784][775]BlueprintLog: New page: Compile Road
-[2016.08.04-22.13.09:324][775]BlueprintEditorCompileResults: Info [0368.90] Compile of Road successful! [in 540 ms]
-[2016.08.04-22.15.35:874][435]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
-[2016.08.04-22.15.55:613][349]BlueprintLog: New page: Compile DebugPawn
-[2016.08.04-22.15.55:978][349]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_0) Not registered. Aborting.
-[2016.08.04-22.15.56:368][349]BlueprintEditorCompileResults: Info [0535.95] Compile of DebugPawn successful! [in 754 ms]
-[2016.08.04-22.16.04:593][975]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MP_MainMenu.MP_MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MP_MainMenu.MP_MainMenu:PersistentLevel.MP_MainMenu' with GeneratedClass '/Game/Maps/MP_MainMenu.MP_MainMenu_C' with ClassGeneratedBy '/Game/Maps/MP_MainMenu.MP_MainMenu:PersistentLevel.MP_MainMenu'
-[2016.08.04-22.16.04:594][975]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.08.04-22.16.05:866][975]PIE: New page: PIE session: MP_MainMenu (Aug 4, 2016, 11:16:05 AM)
-[2016.08.04-22.16.05:867][975]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_MP_MainMenu
-[2016.08.04-22.16.05:870][975]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003259s)
-[2016.08.04-22.16.05:871][975]LogAIModule: Creating AISystem for world MP_MainMenu
-[2016.08.04-22.16.05:871][975]LogPlayLevel: PIE: World Init took: (0.001355s)
-[2016.08.04-22.16.05:872][975]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MP_MainMenu.MP_MainMenu to /Game/Maps/UEDPIE_1_MP_MainMenu.MP_MainMenu (0.005117s)
-[2016.08.04-22.16.05:872][975]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
-[2016.08.04-22.16.06:449][975]LogWorld: Game class is 'GM_MainMenu_C'
-[2016.08.04-22.16.06:453][975]LogWorld: Bringing World /Game/Maps/UEDPIE_1_MP_MainMenu.MP_MainMenu up for play (max tick rate 0) at 2016.08.04-17.16.06
-[2016.08.04-22.16.06:454][975]LogWorld: Bringing up level for play took: 0.001954
-[2016.08.04-22.16.06:476][975]LogInit: WinSock: Socket queue 131072 / 131072
-[2016.08.04-22.16.06:477][975]LogInit: WinSock: I am My-PC (192.168.0.2:0)
-[2016.08.04-22.16.06:502][975]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
-[2016.08.04-22.16.06:504][975]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_MP_MainMenu -0.14
-[2016.08.04-22.16.06:557][975]PIE: New page: PIE session: MP_MainMenu (Aug 4, 2016, 11:16:06 AM)
-[2016.08.04-22.16.06:907][975]LogInit: XAudio2 using 'Speakers (Logitech G930 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.08.04-22.16.06:963][975]LogInit: FAudioDevice initialized.
-[2016.08.04-22.16.07:093][975]LogNet: Browse: 127.0.0.1//Game/Maps/MP_MainMenu
-[2016.08.04-22.16.07:093][975]LogInit: WinSock: Socket queue 32768 / 32768
-[2016.08.04-22.16.07:134][975]LogNet: Game client on port 7777, rate 10000
-[2016.08.04-22.16.07:134][975]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2946394, ProjectName: vr_city, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 2205440214
-[2016.08.04-22.16.07:134][975]PIE: Info Play in editor start time for /Game/Maps/MP_MainMenu 0.491
-[2016.08.04-22.16.07:141][975]PIE: New page: PIE session: MP_MainMenu (Aug 4, 2016, 11:16:07 AM)
-[2016.08.04-22.16.07:265][975]LogNet: Browse: 127.0.0.1//Game/Maps/MP_MainMenu
-[2016.08.04-22.16.07:266][975]LogInit: WinSock: Socket queue 32768 / 32768
-[2016.08.04-22.16.07:266][975]LogNet: Game client on port 7777, rate 10000
-[2016.08.04-22.16.07:266][975]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2946394, ProjectName: vr_city, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 2205440214
-[2016.08.04-22.16.07:272][975]PIE: Info Play in editor start time for /Game/Maps/MP_MainMenu 0.629
-[2016.08.04-22.16.07:278][975]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MP_MainMenu.MP_MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MP_MainMenu.MP_MainMenu:PersistentLevel.MP_MainMenu' with GeneratedClass '/Game/Maps/MP_MainMenu.MP_MainMenu_C' with ClassGeneratedBy '/Game/Maps/MP_MainMenu.MP_MainMenu:PersistentLevel.MP_MainMenu'
-[2016.08.04-22.16.07:278][975]LogNet: NotifyAcceptingConnection: Server MP_MainMenu accept
-[2016.08.04-22.16.07:279][975]LogNet: NotifyAcceptedConnection: Name: MP_MainMenu, TimeStamp: 08/04/16 17:16:07, [UNetConnection] RemoteAddr: 127.0.0.1:58798, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
-[2016.08.04-22.16.07:279][975]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:58798, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
-[2016.08.04-22.16.07:303][975]LogNet: NotifyAcceptingConnection: Server MP_MainMenu accept
-[2016.08.04-22.16.07:304][975]LogNet: NotifyAcceptedConnection: Name: MP_MainMenu, TimeStamp: 08/04/16 17:16:07, [UNetConnection] RemoteAddr: 127.0.0.1:58799, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
-[2016.08.04-22.16.07:304][975]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:58799, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
-[2016.08.04-22.16.07:317][975]LogVoice:Warning: Failed to initialize voice interface
-[2016.08.04-22.16.07:628][977]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_MP_MainMenu.MP_MainMenu: Accepted
-[2016.08.04-22.16.07:628][977]LogNet: Remote platform little endian=1
-[2016.08.04-22.16.07:628][977]LogNet: This platform little endian=1
-[2016.08.04-22.16.07:628][977]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2946394, ProjectName: vr_city, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 2205440214
-[2016.08.04-22.16.07:628][977]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_MP_MainMenu.MP_MainMenu: Accepted
-[2016.08.04-22.16.07:628][977]LogNet: Remote platform little endian=1
-[2016.08.04-22.16.07:628][977]LogNet: This platform little endian=1
-[2016.08.04-22.16.07:629][977]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2946394, ProjectName: vr_city, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 2205440214
-[2016.08.04-22.16.07:670][977]LogVoice:Warning: Failed to initialize voice interface
-[2016.08.04-22.16.07:689][977]LogVoice:Warning: Failed to initialize voice interface
-[2016.08.04-22.16.07:699][978]LogNet: Login request: /Game/Maps/MP_MainMenu?Name=My-PC-588EFEF84C0E347DFC2AB8A33917ADE9 userId: My-PC-588EFEF84C0E347DFC2AB8A33917ADE9
-[2016.08.04-22.16.07:700][978]LogNet: Login request: /Game/Maps/MP_MainMenu?Name=My-PC-5CD4EB954E3420703A2823A52E684480 userId: My-PC-5CD4EB954E3420703A2823A52E684480
-[2016.08.04-22.16.07:703][978]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_MP_MainMenu, Game: /Game/Maps/GM_MainMenu.GM_MainMenu_C)
-[2016.08.04-22.16.07:713][978]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_MP_MainMenu?game=/Game/Maps/GM_MainMenu.GM_MainMenu_C
-[2016.08.04-22.16.07:849][978]Cmd: MEM
-[2016.08.04-22.16.07:893][978]LogMemory: Platform Memory Stats for Windows
-[2016.08.04-22.16.07:893][978]LogMemory: Process Physical Memory: 1227.56 MB used, 1227.56 MB peak
-[2016.08.04-22.16.07:893][978]LogMemory: Process Virtual Memory: 2256.49 MB used, 2256.50 MB peak
-[2016.08.04-22.16.07:893][978]LogMemory: Physical Memory: 6803.91 MB used, 8094.93 MB total
-[2016.08.04-22.16.07:894][978]LogMemory: Virtual Memory: 2924.91 MB used, 8388608.00 MB total
-[2016.08.04-22.16.07:894][978]LogMemory: 
-[2016.08.04-22.16.07:894][978]Allocator Stats for TBB: (not implemented)
-[2016.08.04-22.16.07:898][978]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/MP_MainMenu.MP_MainMenu to /Game/Maps/UEDPIE_2_MP_MainMenu.MP_MainMenu. OwningWorld: None
-[2016.08.04-22.16.07:900][978]LogAIModule: Creating AISystem for world MP_MainMenu
-[2016.08.04-22.16.07:903][978]LogWorld: Bringing World /Game/Maps/UEDPIE_2_MP_MainMenu.MP_MainMenu up for play (max tick rate 0) at 2016.08.04-17.16.07
-[2016.08.04-22.16.07:904][978]LogWorld: Bringing up level for play took: 0.001785
-[2016.08.04-22.16.07:905][978]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_MP_MainMenu, Game: /Game/Maps/GM_MainMenu.GM_MainMenu_C)
-[2016.08.04-22.16.07:905][978]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_MP_MainMenu?game=/Game/Maps/GM_MainMenu.GM_MainMenu_C
-[2016.08.04-22.16.08:003][978]Cmd: MEM
-[2016.08.04-22.16.08:081][978]LogMemory: Platform Memory Stats for Windows
-[2016.08.04-22.16.08:081][978]LogMemory: Process Physical Memory: 1227.66 MB used, 1227.67 MB peak
-[2016.08.04-22.16.08:081][978]LogMemory: Process Virtual Memory: 2288.18 MB used, 2288.18 MB peak
-[2016.08.04-22.16.08:082][978]LogMemory: Physical Memory: 6819.75 MB used, 8094.93 MB total
-[2016.08.04-22.16.08:082][978]LogMemory: Virtual Memory: 2956.53 MB used, 8388608.00 MB total
-[2016.08.04-22.16.08:082][978]LogMemory: 
-[2016.08.04-22.16.08:082][978]Allocator Stats for TBB: (not implemented)
-[2016.08.04-22.16.08:085][978]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/MP_MainMenu.MP_MainMenu to /Game/Maps/UEDPIE_3_MP_MainMenu.MP_MainMenu. OwningWorld: None
-[2016.08.04-22.16.08:087][978]LogAIModule: Creating AISystem for world MP_MainMenu
-[2016.08.04-22.16.08:089][978]LogWorld: Bringing World /Game/Maps/UEDPIE_3_MP_MainMenu.MP_MainMenu up for play (max tick rate 0) at 2016.08.04-17.16.08
-[2016.08.04-22.16.08:090][978]LogWorld: Bringing up level for play took: 0.001610
-[2016.08.04-22.16.08:100][979]LogNet: Client netspeed is 10000
-[2016.08.04-22.16.08:101][979]LogNet: Join request: /Game/Maps/MP_MainMenu?Name=My-PC-588EFEF84C0E347DFC2AB8A33917ADE9?SplitscreenCount=1
-[2016.08.04-22.16.08:164][979]LogOnline:Warning: NULL: No game present to join for session (Game)
-[2016.08.04-22.16.08:223][979]LogNet: Join succeeded: My-PC-588EFEF84C0E34
-[2016.08.04-22.16.08:223][979]LogNet: Client netspeed is 10000
-[2016.08.04-22.16.08:223][979]LogNet: Join request: /Game/Maps/MP_MainMenu?Name=My-PC-5CD4EB954E3420703A2823A52E684480?SplitscreenCount=1
-[2016.08.04-22.16.08:232][979]LogOnline:Warning: NULL: No game present to join for session (Game)
-[2016.08.04-22.16.08:234][979]LogNet: Join succeeded: My-PC-5CD4EB954E3420
-[2016.08.04-22.16.08:309][980]LogOnline:Warning: NULL: No game present to join for session (Game)
-[2016.08.04-22.16.08:313][980]LogOnline:Warning: NULL: No game present to join for session (Game)
-[2016.08.04-22.16.08:327][980]LogOnline:Warning: NULL: No game present to join for session (Game)
-[2016.08.04-22.16.08:330][980]LogOnline:Warning: NULL: No game present to join for session (Game)
-[2016.08.04-22.16.13:835][197]LogNet: Browse: /Game/Maps/VR_Basic?listen
-[2016.08.04-22.16.13:835][197]LogLoad: LoadMap: /Game/Maps/VR_Basic?listen
-[2016.08.04-22.16.13:835][197]LogNet: World NetDriver shutdown IpNetDriver_1 [GameNetDriver]
-[2016.08.04-22.16.13:835][197]LogNet: DestroyNamedNetDriver IpNetDriver_1 [GameNetDriver]
-[2016.08.04-22.16.13:874][197]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: PC_MainMenu_C_2, Owner: PC_MainMenu_C_2, Channels: 11, Time: 2016.08.04-22.16.13
-[2016.08.04-22.16.13:874][197]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: PC_MainMenu_C_2, Owner: PC_MainMenu_C_2
-[2016.08.04-22.16.13:875][197]LogExit: GameNetDriver IpNetDriver_1 shut down
-[2016.08.04-22.16.13:876][197]LogScript:Warning: Accessed None trying to read property Hud
-	PC_MainMenu_C /Game/Maps/UEDPIE_2_MP_MainMenu.MP_MainMenu:PersistentLevel.PC_MainMenu_C_2
-	Function /Game/Maps/PC_MainMenu.PC_MainMenu_C:ExecuteUbergraph_PC_MainMenu:0015
-[2016.08.04-22.16.13:876][197]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Hud from function: 'ExecuteUbergraph_PC_MainMenu' from node: Remove from Parent in graph: EventGraph in object: PC_MainMenu
-[2016.08.04-22.16.13:931][197]Cmd: MEM
-[2016.08.04-22.16.13:976][197]LogMemory: Platform Memory Stats for Windows
-[2016.08.04-22.16.13:977][197]LogMemory: Process Physical Memory: 1230.47 MB used, 1236.78 MB peak
-[2016.08.04-22.16.13:977][197]LogMemory: Process Virtual Memory: 2201.55 MB used, 2398.75 MB peak
-[2016.08.04-22.16.13:977][197]LogMemory: Physical Memory: 6903.88 MB used, 8094.93 MB total
-[2016.08.04-22.16.13:977][197]LogMemory: Virtual Memory: 2878.47 MB used, 8388608.00 MB total
-[2016.08.04-22.16.13:978][197]LogMemory: 
-[2016.08.04-22.16.13:978][197]Allocator Stats for TBB: (not implemented)
-[2016.08.04-22.16.18:390][197]LogAIModule: Creating AISystem for world VR_Basic
-[2016.08.04-22.16.18:391][197]LogWorld: Game class is 'GM_MainMenu_C'
-[2016.08.04-22.16.18:392][197]LogInit: WinSock: Socket queue 131072 / 131072
-[2016.08.04-22.16.18:401][197]LogNet: GameNetDriver IpNetDriver_3 IpNetDriver listening on port 7778
-[2016.08.04-22.16.18:464][197]LogWorld: Bringing World /Game/Maps/UEDPIE_2_VR_Basic.VR_Basic up for play (max tick rate 0) at 2016.08.04-17.16.18
-[2016.08.04-22.16.18:467][197]LogWorld: Bringing up level for play took: 0.063108
-[2016.08.04-22.16.18:468][197]LogLongPackageNames:Warning: URL: :7778//Game/Maps/VR_Basic: Name may not contain the following characters: :
-[2016.08.04-22.16.18:557][197]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 9 classes and 0 folders.
-[2016.08.04-22.16.18:558][197]LogOnline:Warning: NULL: Can't start an online session (Game) in state InProgress
-[2016.08.04-22.16.18:587][197]LogScript:Warning: Accessed None trying to read property Widget
-	GI_Default_C /Engine/Transient.UnrealEdEngine_0:GI_Default_C_1
-	Function /Game/PlayerCharacter/Blueprints/Multiplayer/GI_Default.GI_Default_C:HideWidget:000D
-[2016.08.04-22.16.18:588][197]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'HideWidget' from node: Remove from Parent in graph: HideWidget in object: GI_Default
-[2016.08.04-22.16.18:665][198]LogNet: UChannel::ReceivedSequencedBunch: Bunch.bClose == true. ChIndex == 0. Calling ConditionalCleanUp.
-[2016.08.04-22.16.18:665][198]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:58798, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PC_MainMenu_C_0, Owner: PC_MainMenu_C_0
-[2016.08.04-22.16.18:665][198]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:58798, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PC_MainMenu_C_0, Owner: PC_MainMenu_C_0, Channels: 11, Time: 2016.08.04-22.16.18
-[2016.08.04-22.16.18:666][198]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:58798, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PC_MainMenu_C_0, Owner: PC_MainMenu_C_0
-[2016.08.04-22.16.18:667][198]LogOnline:Warning: NULL: No game present to leave for session (Game)
-[2016.08.04-22.16.18:668][198]LogScript:Warning: Accessed None trying to read property Hud
-	PC_MainMenu_C /Game/Maps/UEDPIE_1_MP_MainMenu.MP_MainMenu:PersistentLevel.PC_MainMenu_C_0
-	Function /Game/Maps/PC_MainMenu.PC_MainMenu_C:ExecuteUbergraph_PC_MainMenu:0015
-[2016.08.04-22.16.18:668][198]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Hud from function: 'ExecuteUbergraph_PC_MainMenu' from node: Remove from Parent in graph: EventGraph in object: PC_MainMenu
-[2016.08.04-22.16.18:672][198]LogOnline:Warning: NULL: No game present to leave for session (Game)
-[2016.08.04-22.16.19:904][240]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MP_MainMenu.MP_MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MP_MainMenu.MP_MainMenu:PersistentLevel.MP_MainMenu' with GeneratedClass '/Game/Maps/MP_MainMenu.MP_MainMenu_C' with ClassGeneratedBy '/Game/Maps/MP_MainMenu.MP_MainMenu:PersistentLevel.MP_MainMenu'
-[2016.08.04-22.16.19:920][240]LogScript:Warning: Accessed None trying to read property Hud
-	PC_MainMenu_C /Game/Maps/UEDPIE_3_MP_MainMenu.MP_MainMenu:PersistentLevel.PC_MainMenu_C_3
-	Function /Game/Maps/PC_MainMenu.PC_MainMenu_C:ExecuteUbergraph_PC_MainMenu:0015
-[2016.08.04-22.16.19:921][240]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Hud from function: 'ExecuteUbergraph_PC_MainMenu' from node: Remove from Parent in graph: EventGraph in object: PC_MainMenu
-[2016.08.04-22.16.19:991][240]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
-[2016.08.04-22.16.19:993][240]LogSpawn:Warning: SpawnActor failed because we are in the process of tearing down the world
-[2016.08.04-22.16.19:994][240]LogScript:Warning: Accessed None trying to read property Hud
-	PC_MainMenu_C /Game/Maps/UEDPIE_2_VR_Basic.VR_Basic:PersistentLevel.PC_MainMenu_C_5
-	Function /Game/Maps/PC_MainMenu.PC_MainMenu_C:ExecuteUbergraph_PC_MainMenu:0015
-[2016.08.04-22.16.19:997][240]LogScript:Warning: Accessed None trying to read property Hud
-	PC_MainMenu_C /Game/Maps/UEDPIE_2_VR_Basic.VR_Basic:PersistentLevel.PC_MainMenu_C_4
-	Function /Game/Maps/PC_MainMenu.PC_MainMenu_C:ExecuteUbergraph_PC_MainMenu:0015
-[2016.08.04-22.16.19:997][240]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Hud from function: 'ExecuteUbergraph_PC_MainMenu' from node: Remove from Parent in graph: EventGraph in object: PC_MainMenu
-[2016.08.04-22.16.20:268][240]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
-[2016.08.04-22.16.20:270][240]LogScript:Warning: Accessed None trying to read property Hud
-	PC_MainMenu_C /Game/Maps/UEDPIE_1_MP_MainMenu.MP_MainMenu:PersistentLevel.PC_MainMenu_C_1
-	Function /Game/Maps/PC_MainMenu.PC_MainMenu_C:ExecuteUbergraph_PC_MainMenu:0015
-[2016.08.04-22.16.20:270][240]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Hud from function: 'ExecuteUbergraph_PC_MainMenu' from node: Remove from Parent in graph: EventGraph in object: PC_MainMenu
-[2016.08.04-22.16.20:271][240]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
-[2016.08.04-22.16.20:273][240]LogPlayLevel:Display: Shutting down PIE online subsystems
-[2016.08.04-22.16.20:273][240]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MP_MainMenu.MP_MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MP_MainMenu.MP_MainMenu:PersistentLevel.MP_MainMenu' with GeneratedClass '/Game/Maps/MP_MainMenu.MP_MainMenu_C' with ClassGeneratedBy '/Game/Maps/MP_MainMenu.MP_MainMenu:PersistentLevel.MP_MainMenu'
-[2016.08.04-22.16.20:366][240]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:58799, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PC_MainMenu_C_1, Owner: PC_MainMenu_C_1
-[2016.08.04-22.16.20:366][240]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:58799, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PC_MainMenu_C_1, Owner: PC_MainMenu_C_1, Channels: 9, Time: 2016.08.04-22.16.20
-[2016.08.04-22.16.20:367][240]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:58799, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PC_MainMenu_C_1, Owner: PC_MainMenu_C_1
-[2016.08.04-22.16.20:368][240]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_2, IsServer: NO, PC: PC_MainMenu_C_3, Owner: PC_MainMenu_C_3
-[2016.08.04-22.16.20:368][240]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_2, IsServer: NO, PC: PC_MainMenu_C_3, Owner: PC_MainMenu_C_3, Channels: 9, Time: 2016.08.04-22.16.20
-[2016.08.04-22.16.20:368][240]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_2, IsServer: NO, PC: PC_MainMenu_C_3, Owner: PC_MainMenu_C_3
-[2016.08.04-22.16.20:388][240]LogExit: GameNetDriver None shut down
-[2016.08.04-22.16.20:389][240]LogExit: GameNetDriver None shut down
-[2016.08.04-22.16.20:396][240]LogExit: GameNetDriver None shut down
-[2016.08.04-22.16.20:533][241]LogPlayLevel:Display: Destroying online subsystem :Context_9
-[2016.08.04-22.16.20:533][241]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
-[2016.08.04-22.16.20:534][241]LogPlayLevel:Display: Destroying online subsystem :Context_8
-[2016.08.04-22.16.20:534][241]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
-[2016.08.04-22.16.20:534][241]LogPlayLevel:Display: Destroying online subsystem :Context_7
-[2016.08.04-22.16.20:534][241]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
-[2016.08.04-22.16.21:581][299]LogEditorViewport: Clicking Background
-[2016.08.04-22.16.26:007][650]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MP_MainMenu.MP_MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MP_MainMenu.MP_MainMenu:PersistentLevel.MP_MainMenu' with GeneratedClass '/Game/Maps/MP_MainMenu.MP_MainMenu_C' with ClassGeneratedBy '/Game/Maps/MP_MainMenu.MP_MainMenu:PersistentLevel.MP_MainMenu'
-[2016.08.04-22.16.26:007][650]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.08.04-22.16.26:014][650]PIE: New page: PIE session: MP_MainMenu (Aug 4, 2016, 11:16:26 AM)
-[2016.08.04-22.16.26:015][650]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_MP_MainMenu
-[2016.08.04-22.16.26:019][650]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003690s)
-[2016.08.04-22.16.26:022][650]LogAIModule: Creating AISystem for world MP_MainMenu
-[2016.08.04-22.16.26:022][650]LogPlayLevel: PIE: World Init took: (0.003473s)
-[2016.08.04-22.16.26:022][650]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MP_MainMenu.MP_MainMenu to /Game/Maps/UEDPIE_1_MP_MainMenu.MP_MainMenu (0.007901s)
-[2016.08.04-22.16.26:113][650]LogInit: XAudio2 using 'Speakers (Logitech G930 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.08.04-22.16.26:148][650]LogInit: FAudioDevice initialized.
-[2016.08.04-22.16.26:210][650]LogWorld: Game class is 'GM_MainMenu_C'
-[2016.08.04-22.16.26:214][650]LogWorld: Bringing World /Game/Maps/UEDPIE_1_MP_MainMenu.MP_MainMenu up for play (max tick rate 0) at 2016.08.04-17.16.26
-[2016.08.04-22.16.26:214][650]LogWorld: Bringing up level for play took: 0.001967
-[2016.08.04-22.16.26:226][650]LogVoice:Warning: Failed to initialize voice interface
-[2016.08.04-22.16.26:230][650]LogInit: WinSock: Socket queue 131072 / 131072
-[2016.08.04-22.16.26:231][650]LogNet: GameNetDriver IpNetDriver_4 IpNetDriver listening on port 7777
-[2016.08.04-22.16.26:232][650]Cmd: FULL SCREEN
-[2016.08.04-22.16.26:233][650]Command not recognized: FULL SCREEN
-[2016.08.04-22.16.26:233][650]Cmd: Stereo On
-[2016.08.04-22.16.26:233][650]Command not recognized: Stereo On
-[2016.08.04-22.16.26:236][650]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_MP_MainMenu -0.408
-[2016.08.04-22.16.26:245][650]PIE: New page: PIE session: MP_MainMenu (Aug 4, 2016, 11:16:26 AM)
-[2016.08.04-22.16.26:346][650]LogNet: Browse: 127.0.0.1//Game/Maps/MP_MainMenu
-[2016.08.04-22.16.26:347][650]LogInit: WinSock: Socket queue 32768 / 32768
-[2016.08.04-22.16.26:360][650]LogNet: Game client on port 7777, rate 10000
-[2016.08.04-22.16.26:361][650]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2946394, ProjectName: vr_city, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 2205440214
-[2016.08.04-22.16.26:369][650]PIE: Info Play in editor start time for /Game/Maps/MP_MainMenu -0.275
-[2016.08.04-22.16.26:376][650]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MP_MainMenu.MP_MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MP_MainMenu.MP_MainMenu:PersistentLevel.MP_MainMenu' with GeneratedClass '/Game/Maps/MP_MainMenu.MP_MainMenu_C' with ClassGeneratedBy '/Game/Maps/MP_MainMenu.MP_MainMenu:PersistentLevel.MP_MainMenu'
-[2016.08.04-22.16.26:377][650]LogNet: NotifyAcceptingConnection: Server MP_MainMenu accept
-[2016.08.04-22.16.26:377][650]LogNet: NotifyAcceptedConnection: Name: MP_MainMenu, TimeStamp: 08/04/16 17:16:26, [UNetConnection] RemoteAddr: 127.0.0.1:57750, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL
-[2016.08.04-22.16.26:377][650]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:57750, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL
-[2016.08.04-22.16.26:449][653]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_MP_MainMenu.MP_MainMenu: Accepted
-[2016.08.04-22.16.26:449][653]LogNet: Remote platform little endian=1
-[2016.08.04-22.16.26:449][653]LogNet: This platform little endian=1
-[2016.08.04-22.16.26:450][653]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2946394, ProjectName: vr_city, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 2205440214
-[2016.08.04-22.16.26:461][653]LogVoice:Warning: Failed to initialize voice interface
-[2016.08.04-22.16.26:476][654]LogNet: Login request: /Game/Maps/MP_MainMenu?Name=My-PC-2B1ADDB14AD895BE398A92AA8BBC6BF6 userId: My-PC-2B1ADDB14AD895BE398A92AA8BBC6BF6
-[2016.08.04-22.16.26:489][654]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_MP_MainMenu, Game: /Game/Maps/GM_MainMenu.GM_MainMenu_C)
-[2016.08.04-22.16.26:490][654]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_MP_MainMenu?game=/Game/Maps/GM_MainMenu.GM_MainMenu_C
-[2016.08.04-22.16.26:556][654]Cmd: MEM
-[2016.08.04-22.16.26:603][654]LogMemory: Platform Memory Stats for Windows
-[2016.08.04-22.16.26:603][654]LogMemory: Process Physical Memory: 1275.23 MB used, 1279.07 MB peak
-[2016.08.04-22.16.26:603][654]LogMemory: Process Virtual Memory: 2220.54 MB used, 2398.75 MB peak
-[2016.08.04-22.16.26:603][654]LogMemory: Physical Memory: 6911.86 MB used, 8094.93 MB total
-[2016.08.04-22.16.26:603][654]LogMemory: Virtual Memory: 2896.90 MB used, 8388608.00 MB total
-[2016.08.04-22.16.26:603][654]LogMemory: 
-[2016.08.04-22.16.26:603][654]Allocator Stats for TBB: (not implemented)
-[2016.08.04-22.16.26:607][654]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/MP_MainMenu.MP_MainMenu to /Game/Maps/UEDPIE_2_MP_MainMenu.MP_MainMenu. OwningWorld: None
-[2016.08.04-22.16.26:609][654]LogAIModule: Creating AISystem for world MP_MainMenu
-[2016.08.04-22.16.26:614][654]LogWorld: Bringing World /Game/Maps/UEDPIE_2_MP_MainMenu.MP_MainMenu up for play (max tick rate 0) at 2016.08.04-17.16.26
-[2016.08.04-22.16.26:615][654]LogWorld: Bringing up level for play took: 0.001592
-[2016.08.04-22.16.26:628][655]LogNet: Client netspeed is 10000
-[2016.08.04-22.16.26:629][655]LogNet: Join request: /Game/Maps/MP_MainMenu?Name=My-PC-2B1ADDB14AD895BE398A92AA8BBC6BF6?SplitscreenCount=1
-[2016.08.04-22.16.26:631][655]LogOnline:Warning: NULL: No game present to join for session (Game)
-[2016.08.04-22.16.26:638][655]LogNet: Join succeeded: My-PC-2B1ADDB14AD895
-[2016.08.04-22.16.26:689][656]LogOnline:Warning: NULL: No game present to join for session (Game)
-[2016.08.04-22.16.26:691][656]LogOnline:Warning: NULL: No game present to join for session (Game)
-[2016.08.04-22.16.30:882][836]LogNet: Browse: /Game/Maps/VR_Basic?listen
-[2016.08.04-22.16.30:882][836]LogLoad: LoadMap: /Game/Maps/VR_Basic?listen
-[2016.08.04-22.16.30:882][836]LogNet: World NetDriver shutdown IpNetDriver_5 [GameNetDriver]
-[2016.08.04-22.16.30:882][836]LogNet: DestroyNamedNetDriver IpNetDriver_5 [GameNetDriver]
-[2016.08.04-22.16.30:882][836]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: PC_MainMenu_C_8, Owner: PC_MainMenu_C_8, Channels: 11, Time: 2016.08.04-22.16.30
-[2016.08.04-22.16.30:882][836]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: PC_MainMenu_C_8, Owner: PC_MainMenu_C_8
-[2016.08.04-22.16.30:883][836]LogExit: GameNetDriver IpNetDriver_5 shut down
-[2016.08.04-22.16.30:883][836]LogScript:Warning: Accessed None trying to read property Hud
-	PC_MainMenu_C /Game/Maps/UEDPIE_2_MP_MainMenu.MP_MainMenu:PersistentLevel.PC_MainMenu_C_8
-	Function /Game/Maps/PC_MainMenu.PC_MainMenu_C:ExecuteUbergraph_PC_MainMenu:0015
-[2016.08.04-22.16.30:884][836]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Hud from function: 'ExecuteUbergraph_PC_MainMenu' from node: Remove from Parent in graph: EventGraph in object: PC_MainMenu
-[2016.08.04-22.16.30:948][836]Cmd: MEM
-[2016.08.04-22.16.30:999][836]LogMemory: Platform Memory Stats for Windows
-[2016.08.04-22.16.30:999][836]LogMemory: Process Physical Memory: 1275.31 MB used, 1279.07 MB peak
-[2016.08.04-22.16.30:999][836]LogMemory: Process Virtual Memory: 2220.55 MB used, 2398.75 MB peak
-[2016.08.04-22.16.31:000][836]LogMemory: Physical Memory: 6918.45 MB used, 8094.93 MB total
-[2016.08.04-22.16.31:000][836]LogMemory: Virtual Memory: 2896.90 MB used, 8388608.00 MB total
-[2016.08.04-22.16.31:000][836]LogMemory: 
-[2016.08.04-22.16.31:000][836]Allocator Stats for TBB: (not implemented)
-[2016.08.04-22.16.31:320][836]LogAIModule: Creating AISystem for world VR_Basic
-[2016.08.04-22.16.31:321][836]LogWorld: Game class is 'GM_MainMenu_C'
-[2016.08.04-22.16.31:322][836]LogInit: WinSock: Socket queue 131072 / 131072
-[2016.08.04-22.16.31:323][836]LogNet: GameNetDriver IpNetDriver_6 IpNetDriver listening on port 7778
-[2016.08.04-22.16.31:336][836]LogWorld: Bringing World /Game/Maps/UEDPIE_2_VR_Basic.VR_Basic up for play (max tick rate 0) at 2016.08.04-17.16.31
-[2016.08.04-22.16.31:339][836]LogWorld: Bringing up level for play took: 0.014362
-[2016.08.04-22.16.31:340][836]LogLongPackageNames:Warning: URL: :7778//Game/Maps/VR_Basic: Name may not contain the following characters: :
-[2016.08.04-22.16.31:344][836]LogOnline:Warning: NULL: Can't start an online session (Game) in state InProgress
-[2016.08.04-22.16.31:346][836]LogScript:Warning: Accessed None trying to read property Widget
-	GI_Default_C /Engine/Transient.UnrealEdEngine_0:GI_Default_C_4
-	Function /Game/PlayerCharacter/Blueprints/Multiplayer/GI_Default.GI_Default_C:HideWidget:000D
-[2016.08.04-22.16.31:346][836]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'HideWidget' from node: Remove from Parent in graph: HideWidget in object: GI_Default
-[2016.08.04-22.16.31:372][837]LogNet: UChannel::ReceivedSequencedBunch: Bunch.bClose == true. ChIndex == 0. Calling ConditionalCleanUp.
-[2016.08.04-22.16.31:372][837]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:57750, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: PC_MainMenu_C_7, Owner: PC_MainMenu_C_7
-[2016.08.04-22.16.31:372][837]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:57750, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: PC_MainMenu_C_7, Owner: PC_MainMenu_C_7, Channels: 11, Time: 2016.08.04-22.16.31
-[2016.08.04-22.16.31:373][837]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:57750, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: PC_MainMenu_C_7, Owner: PC_MainMenu_C_7
-[2016.08.04-22.16.31:374][837]LogOnline:Warning: NULL: No game present to leave for session (Game)
-[2016.08.04-22.16.31:375][837]LogScript:Warning: Accessed None trying to read property Hud
-	PC_MainMenu_C /Game/Maps/UEDPIE_1_MP_MainMenu.MP_MainMenu:PersistentLevel.PC_MainMenu_C_7
-	Function /Game/Maps/PC_MainMenu.PC_MainMenu_C:ExecuteUbergraph_PC_MainMenu:0015
-[2016.08.04-22.16.31:376][837]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Hud from function: 'ExecuteUbergraph_PC_MainMenu' from node: Remove from Parent in graph: EventGraph in object: PC_MainMenu
-[2016.08.04-22.16.39:490][130]LogNet: Browse: /Game/Maps/VR_Basic?listen
-[2016.08.04-22.16.39:490][130]LogLoad: LoadMap: /Game/Maps/VR_Basic?listen
-[2016.08.04-22.16.39:490][130]LogNet: World NetDriver shutdown IpNetDriver_4 [GameNetDriver]
-[2016.08.04-22.16.39:491][130]LogNet: DestroyNamedNetDriver IpNetDriver_4 [GameNetDriver]
-[2016.08.04-22.16.39:491][130]LogExit: GameNetDriver IpNetDriver_4 shut down
-[2016.08.04-22.16.39:493][130]LogScript:Warning: Accessed None trying to read property Hud
-	PC_MainMenu_C /Game/Maps/UEDPIE_1_MP_MainMenu.MP_MainMenu:PersistentLevel.PC_MainMenu_C_6
-	Function /Game/Maps/PC_MainMenu.PC_MainMenu_C:ExecuteUbergraph_PC_MainMenu:0015
-[2016.08.04-22.16.39:494][130]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Hud from function: 'ExecuteUbergraph_PC_MainMenu' from node: Remove from Parent in graph: EventGraph in object: PC_MainMenu
-[2016.08.04-22.16.39:549][130]Cmd: MEM
-[2016.08.04-22.16.39:606][130]LogMemory: Platform Memory Stats for Windows
-[2016.08.04-22.16.39:606][130]LogMemory: Process Physical Memory: 1283.21 MB used, 1286.84 MB peak
-[2016.08.04-22.16.39:606][130]LogMemory: Process Virtual Memory: 2234.35 MB used, 2398.75 MB peak
-[2016.08.04-22.16.39:606][130]LogMemory: Physical Memory: 7033.86 MB used, 8094.93 MB total
-[2016.08.04-22.16.39:606][130]LogMemory: Virtual Memory: 2909.86 MB used, 8388608.00 MB total
-[2016.08.04-22.16.39:606][130]LogMemory: 
-[2016.08.04-22.16.39:606][130]Allocator Stats for TBB: (not implemented)
-[2016.08.04-22.16.39:914][130]LogAIModule: Creating AISystem for world VR_Basic
-[2016.08.04-22.16.39:916][130]LogWorld: Game class is 'GM_MainMenu_C'
-[2016.08.04-22.16.39:917][130]LogInit: WinSock: Socket queue 131072 / 131072
-[2016.08.04-22.16.39:918][130]LogNet: GameNetDriver IpNetDriver_7 IpNetDriver listening on port 7777
-[2016.08.04-22.16.39:925][130]LogWorld: Bringing World /Game/Maps/UEDPIE_1_VR_Basic.VR_Basic up for play (max tick rate 3) at 2016.08.04-17.16.39
-[2016.08.04-22.16.39:928][130]LogWorld: Bringing up level for play took: 0.008803
-[2016.08.04-22.16.39:931][130]LogOnline:Warning: NULL: Can't start an online session (Game) in state InProgress
-[2016.08.04-22.16.39:933][130]LogScript:Warning: Accessed None trying to read property Widget
-	GI_Default_C /Engine/Transient.UnrealEdEngine_0:GI_Default_C_3
-	Function /Game/PlayerCharacter/Blueprints/Multiplayer/GI_Default.GI_Default_C:HideWidget:000D
-[2016.08.04-22.16.39:934][130]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'HideWidget' from node: Remove from Parent in graph: HideWidget in object: GI_Default
-[2016.08.04-22.17.15:571][579]LogScript:Warning: Accessed None trying to read property Hud
-	PC_MainMenu_C /Game/Maps/UEDPIE_2_VR_Basic.VR_Basic:PersistentLevel.PC_MainMenu_C_10
-	Function /Game/Maps/PC_MainMenu.PC_MainMenu_C:ExecuteUbergraph_PC_MainMenu:0015
-[2016.08.04-22.17.15:572][579]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MP_MainMenu.MP_MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MP_MainMenu.MP_MainMenu:PersistentLevel.MP_MainMenu' with GeneratedClass '/Game/Maps/MP_MainMenu.MP_MainMenu_C' with ClassGeneratedBy '/Game/Maps/MP_MainMenu.MP_MainMenu:PersistentLevel.MP_MainMenu'
-[2016.08.04-22.17.15:583][579]LogScript:Warning: Accessed None trying to read property Hud
-	PC_MainMenu_C /Game/Maps/UEDPIE_2_VR_Basic.VR_Basic:PersistentLevel.PC_MainMenu_C_9
-	Function /Game/Maps/PC_MainMenu.PC_MainMenu_C:ExecuteUbergraph_PC_MainMenu:0015
-[2016.08.04-22.17.15:584][579]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Hud from function: 'ExecuteUbergraph_PC_MainMenu' from node: Remove from Parent in graph: EventGraph in object: PC_MainMenu
-[2016.08.04-22.17.15:614][579]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
-[2016.08.04-22.17.15:616][579]LogSpawn:Warning: SpawnActor failed because we are in the process of tearing down the world
-[2016.08.04-22.17.15:616][579]LogScript:Warning: Accessed None trying to read property Hud
-	PC_MainMenu_C /Game/Maps/UEDPIE_1_VR_Basic.VR_Basic:PersistentLevel.PC_MainMenu_C_12
-	Function /Game/Maps/PC_MainMenu.PC_MainMenu_C:ExecuteUbergraph_PC_MainMenu:0015
-[2016.08.04-22.17.15:620][579]LogScript:Warning: Accessed None trying to read property Hud
-	PC_MainMenu_C /Game/Maps/UEDPIE_1_VR_Basic.VR_Basic:PersistentLevel.PC_MainMenu_C_11
-	Function /Game/Maps/PC_MainMenu.PC_MainMenu_C:ExecuteUbergraph_PC_MainMenu:0015
-[2016.08.04-22.17.15:621][579]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Hud from function: 'ExecuteUbergraph_PC_MainMenu' from node: Remove from Parent in graph: EventGraph in object: PC_MainMenu
-[2016.08.04-22.17.15:656][579]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
-[2016.08.04-22.17.15:657][579]LogPlayLevel:Display: Shutting down PIE online subsystems
-[2016.08.04-22.17.15:658][579]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MP_MainMenu.MP_MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MP_MainMenu.MP_MainMenu:PersistentLevel.MP_MainMenu' with GeneratedClass '/Game/Maps/MP_MainMenu.MP_MainMenu_C' with ClassGeneratedBy '/Game/Maps/MP_MainMenu.MP_MainMenu:PersistentLevel.MP_MainMenu'
-[2016.08.04-22.17.15:719][579]LogExit: GameNetDriver None shut down
-[2016.08.04-22.17.15:719][579]LogExit: GameNetDriver None shut down
-[2016.08.04-22.17.15:858][580]LogPlayLevel:Display: Destroying online subsystem :Context_11
-[2016.08.04-22.17.15:858][580]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
-[2016.08.04-22.17.15:858][580]LogPlayLevel:Display: Destroying online subsystem :Context_10
-[2016.08.04-22.17.15:859][580]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
-[2016.08.04-22.17.22:497][ 59]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
-[2016.08.04-22.17.23:912][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelContent/Meshes/Road/Road" FILE="../../../../../../Users/My/Desktop/UE4-City-Building/Content/LevelContent/Meshes/Road/Road.uasset" SILENT=true
-[2016.08.04-22.17.23:999][ 59]LogSavePackage: Save=46.93ms
-[2016.08.04-22.17.23:999][ 59]LogSavePackage: Moving '../../../../../../Users/My/Desktop/UE4-City-Building/Saved/Road98B821A94FA0501D272AC49AF5ECDE73.tmp' to '../../../../../../Users/My/Desktop/UE4-City-Building/Content/LevelContent/Meshes/Road/Road.uasset'
-[2016.08.04-22.17.24:027][ 59]LogSavePackage: Total save time: 113.37ms
-[2016.08.04-22.17.24:028][ 59]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/My/Desktop/UE4-City-Building/Content/LevelContent/Meshes/Road/Road.uasset
-[2016.08.04-22.17.25:405][ 59]LogSavePackage: Save=1241.68ms
-[2016.08.04-22.17.25:405][ 59]LogSavePackage: Moving '../../../../../../Users/My/Desktop/UE4-City-Building/Saved/DebugPawn2EFF66864AB8CC79B48F2DA05CB35C69.tmp' to '../../../../../../Users/My/Desktop/UE4-City-Building/Content/PlayerCharacter/Blueprints/VR_Character/DebugPawn.uasset'
-[2016.08.04-22.17.25:433][ 59]LogSavePackage: Total save time: 1344.65ms
-[2016.08.04-22.17.25:433][ 59]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/My/Desktop/UE4-City-Building/Content/PlayerCharacter/Blueprints/VR_Character/DebugPawn.uasset
-[2016.08.04-22.17.25:453][ 59]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
-[2016.08.04-22.17.25:550][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MP_MainMenu" FILE="../../../../../../Users/My/Desktop/UE4-City-Building/Saved/Autosaves/Game/Maps/UEDPCMP_MainMenu.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
-[2016.08.04-22.17.25:773][ 59]LogSavePackage: Save=195.40ms
-[2016.08.04-22.17.25:773][ 59]LogSavePackage: Moving '../../../../../../Users/My/Desktop/UE4-City-Building/Saved/UEDPCMP_MainMenu27A4DFE940C33BAB84AD9DA9F3EE390B.tmp' to '../../../../../../Users/My/Desktop/UE4-City-Building/Saved/Autosaves/Game/Maps/UEDPCMP_MainMenu.umap'
-[2016.08.04-22.17.25:775][ 59]LogSavePackage: Total save time: 222.25ms
-[2016.08.04-22.17.25:775][ 59]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/My/Desktop/UE4-City-Building/Saved/Autosaves/Game/Maps/UEDPCMP_MainMenu.umap
-[2016.08.04-22.17.55:954][994]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
-[2016.08.04-22.17.57:452][994]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/GM_MainMenu" FILE="../../../../../../Users/My/Desktop/UE4-City-Building/Content/Maps/GM_MainMenu.uasset" SILENT=true
-[2016.08.04-22.17.57:624][994]LogSavePackage: Save=133.76ms
-[2016.08.04-22.17.57:625][994]LogSavePackage: Moving '../../../../../../Users/My/Desktop/UE4-City-Building/Saved/GM_MainMenu0B4F522546DF5036F0467EAB1ECEECE3.tmp' to '../../../../../../Users/My/Desktop/UE4-City-Building/Content/Maps/GM_MainMenu.uasset'
-[2016.08.04-22.17.57:656][994]LogSavePackage: Total save time: 201.90ms
-[2016.08.04-22.17.57:656][994]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/My/Desktop/UE4-City-Building/Content/Maps/GM_MainMenu.uasset
-[2016.08.04-22.17.57:765][994]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MP_MainMenu" FILE="../../../../../../Users/My/Desktop/UE4-City-Building/Saved/Autosaves/Game/Maps/UEDPCMP_MainMenu.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
-[2016.08.04-22.17.57:941][994]LogSavePackage: Save=153.26ms
-[2016.08.04-22.17.57:941][994]LogSavePackage: Moving '../../../../../../Users/My/Desktop/UE4-City-Building/Saved/UEDPCMP_MainMenu614D0DDE4C0E6D364D1AFF8DE2CA6180.tmp' to '../../../../../../Users/My/Desktop/UE4-City-Building/Saved/Autosaves/Game/Maps/UEDPCMP_MainMenu.umap'
-[2016.08.04-22.17.57:942][994]LogSavePackage: Total save time: 175.69ms
-[2016.08.04-22.17.57:942][994]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/My/Desktop/UE4-City-Building/Saved/Autosaves/Game/Maps/UEDPCMP_MainMenu.umap
-[2016.08.04-22.18.32:956][823]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2016.08.04-22.18.40:220][ 95]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
-[2016.08.04-22.18.42:020][174]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_1) Not registered. Aborting.
-[2016.08.04-22.18.44:605][279]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_2) Not registered. Aborting.
-[2016.08.04-22.18.51:500][539]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_3) Not registered. Aborting.
-[2016.08.04-22.18.52:699][587]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_4) Not registered. Aborting.
-[2016.08.04-22.19.03:879][998]BlueprintLog: New page: Compile DebugPawn
-[2016.08.04-22.19.04:264][998]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_5) Not registered. Aborting.
-[2016.08.04-22.19.04:539][998]BlueprintEditorCompileResults: Info [0724.12] Compile of DebugPawn successful! [in 659 ms]
-[2016.08.04-22.19.09:232][291]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MP_MainMenu.MP_MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MP_MainMenu.MP_MainMenu:PersistentLevel.MP_MainMenu' with GeneratedClass '/Game/Maps/MP_MainMenu.MP_MainMenu_C' with ClassGeneratedBy '/Game/Maps/MP_MainMenu.MP_MainMenu:PersistentLevel.MP_MainMenu'
-[2016.08.04-22.19.09:233][291]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.08.04-22.19.09:242][291]PIE: New page: PIE session: MP_MainMenu (Aug 4, 2016, 11:19:09 AM)
-[2016.08.04-22.19.09:242][291]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_MP_MainMenu
-[2016.08.04-22.19.09:246][291]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003480s)
-[2016.08.04-22.19.09:248][291]LogAIModule: Creating AISystem for world MP_MainMenu
-[2016.08.04-22.19.09:248][291]LogPlayLevel: PIE: World Init took: (0.002496s)
-[2016.08.04-22.19.09:249][291]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MP_MainMenu.MP_MainMenu to /Game/Maps/UEDPIE_1_MP_MainMenu.MP_MainMenu (0.006558s)
-[2016.08.04-22.19.09:249][291]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
-[2016.08.04-22.19.09:372][291]LogInit: XAudio2 using 'Speakers (Logitech G930 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.08.04-22.19.09:402][291]LogInit: FAudioDevice initialized.
-[2016.08.04-22.19.09:449][291]LogWorld: Game class is 'GM_MainMenu_C'
-[2016.08.04-22.19.09:453][291]LogWorld: Bringing World /Game/Maps/UEDPIE_1_MP_MainMenu.MP_MainMenu up for play (max tick rate 0) at 2016.08.04-17.19.09
-[2016.08.04-22.19.09:454][291]LogWorld: Bringing up level for play took: 0.002341
-[2016.08.04-22.19.09:465][291]LogVoice:Warning: Failed to initialize voice interface
-[2016.08.04-22.19.09:468][291]LogInit: WinSock: Socket queue 131072 / 131072
-[2016.08.04-22.19.09:469][291]LogNet: GameNetDriver IpNetDriver_8 IpNetDriver listening on port 7777
-[2016.08.04-22.19.09:471][291]Cmd: FULL SCREEN
-[2016.08.04-22.19.09:471][291]Command not recognized: FULL SCREEN
-[2016.08.04-22.19.09:471][291]Cmd: Stereo On
-[2016.08.04-22.19.09:472][291]Command not recognized: Stereo On
-[2016.08.04-22.19.09:474][291]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_MP_MainMenu 0.828
-[2016.08.04-22.19.09:480][291]PIE: New page: PIE session: MP_MainMenu (Aug 4, 2016, 11:19:09 AM)
-[2016.08.04-22.19.09:554][291]LogNet: Browse: 127.0.0.1//Game/Maps/MP_MainMenu
-[2016.08.04-22.19.09:554][291]LogInit: WinSock: Socket queue 32768 / 32768
-[2016.08.04-22.19.09:555][291]LogNet: Game client on port 7777, rate 10000
-[2016.08.04-22.19.09:555][291]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2946394, ProjectName: vr_city, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 2205440214
-[2016.08.04-22.19.09:563][291]PIE: Info Play in editor start time for /Game/Maps/MP_MainMenu 0.917
-[2016.08.04-22.19.09:568][291]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MP_MainMenu.MP_MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MP_MainMenu.MP_MainMenu:PersistentLevel.MP_MainMenu' with GeneratedClass '/Game/Maps/MP_MainMenu.MP_MainMenu_C' with ClassGeneratedBy '/Game/Maps/MP_MainMenu.MP_MainMenu:PersistentLevel.MP_MainMenu'
-[2016.08.04-22.19.09:569][291]LogNet: NotifyAcceptingConnection: Server MP_MainMenu accept
-[2016.08.04-22.19.09:569][291]LogNet: NotifyAcceptedConnection: Name: MP_MainMenu, TimeStamp: 08/04/16 17:19:09, [UNetConnection] RemoteAddr: 127.0.0.1:64803, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: NULL, Owner: NULL
-[2016.08.04-22.19.09:570][291]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:64803, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: NULL, Owner: NULL
-[2016.08.04-22.19.09:633][294]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_MP_MainMenu.MP_MainMenu: Accepted
-[2016.08.04-22.19.09:633][294]LogNet: Remote platform little endian=1
-[2016.08.04-22.19.09:633][294]LogNet: This platform little endian=1
-[2016.08.04-22.19.09:633][294]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2946394, ProjectName: vr_city, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 2205440214
-[2016.08.04-22.19.09:649][294]LogVoice:Warning: Failed to initialize voice interface
-[2016.08.04-22.19.09:659][295]LogNet: Login request: /Game/Maps/MP_MainMenu?Name=My-PC-C018E58E411A014B97AD1A84D9CA9A71 userId: My-PC-C018E58E411A014B97AD1A84D9CA9A71
-[2016.08.04-22.19.09:662][295]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_MP_MainMenu, Game: /Game/Maps/GM_MainMenu.GM_MainMenu_C)
-[2016.08.04-22.19.09:666][295]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_MP_MainMenu?game=/Game/Maps/GM_MainMenu.GM_MainMenu_C
-[2016.08.04-22.19.09:729][295]Cmd: MEM
-[2016.08.04-22.19.09:777][295]LogMemory: Platform Memory Stats for Windows
-[2016.08.04-22.19.09:778][295]LogMemory: Process Physical Memory: 1290.11 MB used, 1290.26 MB peak
-[2016.08.04-22.19.09:778][295]LogMemory: Process Virtual Memory: 2276.23 MB used, 2398.75 MB peak
-[2016.08.04-22.19.09:778][295]LogMemory: Physical Memory: 6444.33 MB used, 8094.93 MB total
-[2016.08.04-22.19.09:778][295]LogMemory: Virtual Memory: 2950.71 MB used, 8388608.00 MB total
-[2016.08.04-22.19.09:778][295]LogMemory: 
-[2016.08.04-22.19.09:778][295]Allocator Stats for TBB: (not implemented)
-[2016.08.04-22.19.09:782][295]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/MP_MainMenu.MP_MainMenu to /Game/Maps/UEDPIE_2_MP_MainMenu.MP_MainMenu. OwningWorld: None
-[2016.08.04-22.19.09:783][295]LogAIModule: Creating AISystem for world MP_MainMenu
-[2016.08.04-22.19.09:787][295]LogWorld: Bringing World /Game/Maps/UEDPIE_2_MP_MainMenu.MP_MainMenu up for play (max tick rate 0) at 2016.08.04-17.19.09
-[2016.08.04-22.19.09:788][295]LogWorld: Bringing up level for play took: 0.001659
-[2016.08.04-22.19.09:797][296]LogNet: Client netspeed is 10000
-[2016.08.04-22.19.09:797][296]LogNet: Join request: /Game/Maps/MP_MainMenu?Name=My-PC-C018E58E411A014B97AD1A84D9CA9A71?SplitscreenCount=1
-[2016.08.04-22.19.09:799][296]LogOnline:Warning: NULL: No game present to join for session (Game)
-[2016.08.04-22.19.09:814][296]LogNet: Join succeeded: My-PC-C018E58E411A01
-[2016.08.04-22.19.09:849][297]LogOnline:Warning: NULL: No game present to join for session (Game)
-[2016.08.04-22.19.09:851][297]LogOnline:Warning: NULL: No game present to join for session (Game)
-[2016.08.04-22.19.12:521][441]LogNet: Browse: /Game/Maps/VR_Basic?listen
-[2016.08.04-22.19.12:521][441]LogLoad: LoadMap: /Game/Maps/VR_Basic?listen
-[2016.08.04-22.19.12:521][441]LogNet: World NetDriver shutdown IpNetDriver_8 [GameNetDriver]
-[2016.08.04-22.19.12:521][441]LogNet: DestroyNamedNetDriver IpNetDriver_8 [GameNetDriver]
-[2016.08.04-22.19.12:540][441]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:64803, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: PlayerController_5, Owner: PlayerController_5
-[2016.08.04-22.19.12:540][441]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:64803, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: PlayerController_5, Owner: PlayerController_5, Channels: 11, Time: 2016.08.04-22.19.12
-[2016.08.04-22.19.12:540][441]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:64803, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: PlayerController_5, Owner: PlayerController_5
-[2016.08.04-22.19.12:543][441]LogExit: GameNetDriver IpNetDriver_8 shut down
-[2016.08.04-22.19.12:604][441]Cmd: MEM
-[2016.08.04-22.19.12:668][441]LogMemory: Platform Memory Stats for Windows
-[2016.08.04-22.19.12:669][441]LogMemory: Process Physical Memory: 1290.46 MB used, 1290.47 MB peak
-[2016.08.04-22.19.12:669][441]LogMemory: Process Virtual Memory: 2221.72 MB used, 2398.75 MB peak
-[2016.08.04-22.19.12:669][441]LogMemory: Physical Memory: 6452.54 MB used, 8094.93 MB total
-[2016.08.04-22.19.12:669][441]LogMemory: Virtual Memory: 2896.11 MB used, 8388608.00 MB total
-[2016.08.04-22.19.12:669][441]LogMemory: 
-[2016.08.04-22.19.12:669][441]Allocator Stats for TBB: (not implemented)
-[2016.08.04-22.19.12:954][441]LogAIModule: Creating AISystem for world VR_Basic
-[2016.08.04-22.19.12:954][441]LogWorld: Game class is 'GM_MainMenu_C'
-[2016.08.04-22.19.12:955][441]LogInit: WinSock: Socket queue 131072 / 131072
-[2016.08.04-22.19.12:977][441]LogNet: GameNetDriver IpNetDriver_10 IpNetDriver listening on port 7777
-[2016.08.04-22.19.12:984][441]LogWorld: Bringing World /Game/Maps/UEDPIE_1_VR_Basic.VR_Basic up for play (max tick rate 0) at 2016.08.04-17.19.12
-[2016.08.04-22.19.13:037][441]LogWorld: Bringing up level for play took: 0.057714
-[2016.08.04-22.19.13:040][441]LogOnline:Warning: NULL: Can't start an online session (Game) in state InProgress
-[2016.08.04-22.19.13:041][441]Cmd: FULL SCREEN
-[2016.08.04-22.19.13:041][441]Command not recognized: FULL SCREEN
-[2016.08.04-22.19.13:041][441]Cmd: Stereo On
-[2016.08.04-22.19.13:041][441]Command not recognized: Stereo On
-[2016.08.04-22.19.13:041][441]LogScript:Warning: Accessed None trying to read property Widget
-	GI_Default_C /Engine/Transient.UnrealEdEngine_0:GI_Default_C_5
-	Function /Game/PlayerCharacter/Blueprints/Multiplayer/GI_Default.GI_Default_C:HideWidget:000D
-[2016.08.04-22.19.13:042][441]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'HideWidget' from node: Remove from Parent in graph: HideWidget in object: GI_Default
-[2016.08.04-22.19.13:043][441]LogNet:Warning: Network Failure: GameNetDriver[FailureReceived]: Host closed the connection.
-[2016.08.04-22.19.13:044][441]LogNet:Warning: Network Failure: GameNetDriver[FailureReceived]: Host closed the connection.
-[2016.08.04-22.19.13:064][441]LogNet: NetworkFailure: FailureReceived, Error: 'Host closed the connection.'
-[2016.08.04-22.19.13:065][441]LogOnline:Warning: NULL: Can't destroy a null online session (Game)
-[2016.08.04-22.19.13:139][441]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_9, IsServer: NO, PC: PlayerController_6, Owner: PlayerController_6, Channels: 11, Time: 2016.08.04-22.19.13
-[2016.08.04-22.19.13:140][441]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_9, IsServer: NO, PC: PlayerController_6, Owner: PlayerController_6
-[2016.08.04-22.19.13:140][441]LogNet:Warning: Network Failure: GameNetDriver[ConnectionLost]: Your connection to the host has been lost.
-[2016.08.04-22.19.13:141][441]LogNet:Warning: Network Failure: GameNetDriver[ConnectionLost]: Your connection to the host has been lost.
-[2016.08.04-22.19.13:141][441]LogNet: NetworkFailure: ConnectionLost, Error: 'Your connection to the host has been lost.'
-[2016.08.04-22.19.13:157][441]LogBlueprintUserMessages: [GI_Default_C_6] Client 1: Error Trying to get current state:Error Dialogue
-[2016.08.04-22.19.13:159][441]LogNet:Warning: FObjectReplicator::UpdateUnmappedObjects: Connection->State == USOCK_Closed
-[2016.08.04-22.19.13:160][441]LogNet:Warning: FObjectReplicator::UpdateUnmappedObjects: Connection->State == USOCK_Closed
-[2016.08.04-22.19.13:176][442]LogNet: NotifyAcceptingConnection: Server VR_Basic accept
-[2016.08.04-22.19.13:176][442]LogNet: NotifyAcceptedConnection: Name: VR_Basic, TimeStamp: 08/04/16 17:19:13, [UNetConnection] RemoteAddr: 127.0.0.1:64803, Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_10, IsServer: YES, PC: NULL, Owner: NULL
-[2016.08.04-22.19.13:177][442]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:64803, Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_10, IsServer: YES, PC: NULL, Owner: NULL
-[2016.08.04-22.19.13:177][442]LogNetTraffic:Warning: High single frame packet loss. PacketsLost: 152 [UNetConnection] RemoteAddr: 127.0.0.1:64803, Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_10, IsServer: YES, PC: NULL, Owner: NULL
-[2016.08.04-22.19.13:191][442]LogSecurity:Warning: 127.0.0.1:64803: Malformed_Packet: UNetConnection::ReceivedPacket: Received control channel close before open
-[2016.08.04-22.19.13:192][442]LogSecurity:Warning: 127.0.0.1:64803: Closed: Connection closed
-[2016.08.04-22.19.13:192][442]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:64803, Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_10, IsServer: YES, PC: NULL, Owner: NULL, Channels: 1, Time: 2016.08.04-22.19.13
-[2016.08.04-22.19.13:210][442]LogNet: Browse: /Game/Maps/MP_MainMenu?closed
-[2016.08.04-22.19.13:210][442]LogNet: Failed; returning to Entry
-[2016.08.04-22.19.13:211][442]LogLoad: LoadMap: /Game/Maps/MP_MainMenu?closed
-[2016.08.04-22.19.13:211][442]LogNet: World NetDriver shutdown IpNetDriver_9 [GameNetDriver]
-[2016.08.04-22.19.13:211][442]LogNet: DestroyNamedNetDriver IpNetDriver_9 [GameNetDriver]
-[2016.08.04-22.19.13:211][442]LogExit: GameNetDriver IpNetDriver_9 shut down
-[2016.08.04-22.19.13:284][442]Cmd: MEM
-[2016.08.04-22.19.13:324][442]LogMemory: Platform Memory Stats for Windows
-[2016.08.04-22.19.13:324][442]LogMemory: Process Physical Memory: 1296.64 MB used, 1296.64 MB peak
-[2016.08.04-22.19.13:324][442]LogMemory: Process Virtual Memory: 2287.06 MB used, 2398.75 MB peak
-[2016.08.04-22.19.13:324][442]LogMemory: Physical Memory: 6466.15 MB used, 8094.93 MB total
-[2016.08.04-22.19.13:324][442]LogMemory: Virtual Memory: 2957.48 MB used, 8388608.00 MB total
-[2016.08.04-22.19.13:324][442]LogMemory: 
-[2016.08.04-22.19.13:325][442]Allocator Stats for TBB: (not implemented)
-[2016.08.04-22.19.13:325][442]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_2_MP_MainMenu
-[2016.08.04-22.19.13:330][442]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005195s)
-[2016.08.04-22.19.13:332][442]LogAIModule: Creating AISystem for world MP_MainMenu
-[2016.08.04-22.19.13:333][442]LogPlayLevel: PIE: World Init took: (0.002466s)
-[2016.08.04-22.19.13:333][442]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MP_MainMenu.MP_MainMenu to /Game/Maps/UEDPIE_2_MP_MainMenu.MP_MainMenu (0.008441s)
-[2016.08.04-22.19.13:333][442]LogWorld: Game class is 'GM_MainMenu_C'
-[2016.08.04-22.19.13:337][442]LogWorld: Bringing World /Game/Maps/UEDPIE_2_MP_MainMenu.MP_MainMenu up for play (max tick rate 0) at 2016.08.04-17.19.13
-[2016.08.04-22.19.13:338][442]LogWorld: Bringing up level for play took: 0.001808
-[2016.08.04-22.19.13:339][442]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2016.08.04-22.19.13:341][442]Cmd: FULL SCREEN
-[2016.08.04-22.19.13:341][442]Command not recognized: FULL SCREEN
-[2016.08.04-22.19.13:341][442]Cmd: Stereo On
-[2016.08.04-22.19.13:341][442]Command not recognized: Stereo On
-[2016.08.04-22.19.16:182][602]LogScript:Warning: Accessed None trying to read property Selected Tile
-	DebugPawn_C /Game/Maps/UEDPIE_1_VR_Basic.VR_Basic:PersistentLevel.DebugPawn_C_4
-	Function /Game/PlayerCharacter/Blueprints/VR_Character/DebugPawn.DebugPawn_C:ExecuteUbergraph_DebugPawn:00C4
-[2016.08.04-22.19.16:183][602]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Selected Tile from function: 'ExecuteUbergraph_DebugPawn' from node: DestroyActor in graph: EventGraph in object: DebugPawn
-[2016.08.04-22.19.16:201][602]LogBlueprintUserMessages: [DebugPawn_C_4] Server: N
-[2016.08.04-22.19.18:026][718]LogBlueprintUserMessages: [DebugPawn_C_4] Server: N
-[2016.08.04-22.19.18:474][742]LogBlueprintUserMessages: [DebugPawn_C_4] Server: N
-[2016.08.04-22.19.18:717][758]LogBlueprintUserMessages: [DebugPawn_C_4] Server: N
-[2016.08.04-22.19.18:940][771]LogBlueprintUserMessages: [DebugPawn_C_4] Server: N
-[2016.08.04-22.19.19:207][779]LogBlueprintUserMessages: [DebugPawn_C_4] Server: N
-[2016.08.04-22.19.19:284][783]LogBlueprintUserMessages: [DebugPawn_C_4] Server: N
-[2016.08.04-22.19.19:477][797]LogBlueprintUserMessages: [DebugPawn_C_4] Server: N
-[2016.08.04-22.19.19:683][810]LogBlueprintUserMessages: [DebugPawn_C_4] Server: N
-[2016.08.04-22.19.19:926][823]LogBlueprintUserMessages: [DebugPawn_C_4] Server: N
-[2016.08.04-22.19.20:099][833]LogBlueprintUserMessages: [DebugPawn_C_4] Server: N
-[2016.08.04-22.19.20:483][853]LogBlueprintUserMessages: [DebugPawn_C_4] Server: Invalid Road Connections
-[2016.08.04-22.19.20:618][858]LogScript:Warning: Accessed None trying to read property Selected Tile
-	DebugPawn_C /Game/Maps/UEDPIE_1_VR_Basic.VR_Basic:PersistentLevel.DebugPawn_C_4
-	Function /Game/PlayerCharacter/Blueprints/VR_Character/DebugPawn.DebugPawn_C:ExecuteUbergraph_DebugPawn:00C4
-[2016.08.04-22.19.20:619][858]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Selected Tile from function: 'ExecuteUbergraph_DebugPawn' from node: DestroyActor in graph: EventGraph in object: DebugPawn
-[2016.08.04-22.19.20:620][858]LogBlueprintUserMessages: [DebugPawn_C_4] Server: N
-[2016.08.04-22.19.21:387][905]LogBlueprintUserMessages: [DebugPawn_C_4] Server: Invalid Road Connections
-[2016.08.04-22.19.22:609][983]LogScript:Warning: Accessed None trying to read property Selected Tile
-	DebugPawn_C /Game/Maps/UEDPIE_1_VR_Basic.VR_Basic:PersistentLevel.DebugPawn_C_4
-	Function /Game/PlayerCharacter/Blueprints/VR_Character/DebugPawn.DebugPawn_C:ExecuteUbergraph_DebugPawn:00C4
-[2016.08.04-22.19.22:610][983]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Selected Tile from function: 'ExecuteUbergraph_DebugPawn' from node: DestroyActor in graph: EventGraph in object: DebugPawn
-[2016.08.04-22.19.22:611][983]LogBlueprintUserMessages: [DebugPawn_C_4] Server: N
-[2016.08.04-22.19.23:471][ 33]LogScript:Warning: Accessed None trying to read property Selected Tile
-	DebugPawn_C /Game/Maps/UEDPIE_1_VR_Basic.VR_Basic:PersistentLevel.DebugPawn_C_4
-	Function /Game/PlayerCharacter/Blueprints/VR_Character/DebugPawn.DebugPawn_C:ExecuteUbergraph_DebugPawn:00C4
-[2016.08.04-22.19.23:472][ 33]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Selected Tile from function: 'ExecuteUbergraph_DebugPawn' from node: DestroyActor in graph: EventGraph in object: DebugPawn
-[2016.08.04-22.19.23:473][ 33]LogBlueprintUserMessages: [DebugPawn_C_4] Server: N
-[2016.08.04-22.19.23:662][ 41]LogBlueprintUserMessages: [DebugPawn_C_4] Server: N
-[2016.08.04-22.19.23:865][ 56]LogBlueprintUserMessages: [DebugPawn_C_4] Server: N
-[2016.08.04-22.19.24:058][ 70]LogBlueprintUserMessages: [DebugPawn_C_4] Server: N
-[2016.08.04-22.19.24:268][ 84]LogBlueprintUserMessages: [DebugPawn_C_4] Server: N
-[2016.08.04-22.19.24:447][ 97]LogBlueprintUserMessages: [DebugPawn_C_4] Server: N
-[2016.08.04-22.19.24:677][110]LogBlueprintUserMessages: [DebugPawn_C_4] Server: N
-[2016.08.04-22.19.24:847][118]LogBlueprintUserMessages: [DebugPawn_C_4] Server: N
-[2016.08.04-22.19.25:037][128]LogBlueprintUserMessages: [DebugPawn_C_4] Server: N
-[2016.08.04-22.19.25:243][141]LogBlueprintUserMessages: [DebugPawn_C_4] Server: N
-[2016.08.04-22.19.25:494][156]LogBlueprintUserMessages: [DebugPawn_C_4] Server: N
-[2016.08.04-22.19.25:678][167]LogBlueprintUserMessages: [DebugPawn_C_4] Server: N
-[2016.08.04-22.19.25:926][181]LogBlueprintUserMessages: [DebugPawn_C_4] Server: N
-[2016.08.04-22.19.26:915][242]LogScript:Warning: Accessed None trying to read property Selected Tile
-	DebugPawn_C /Game/Maps/UEDPIE_1_VR_Basic.VR_Basic:PersistentLevel.DebugPawn_C_4
-	Function /Game/PlayerCharacter/Blueprints/VR_Character/DebugPawn.DebugPawn_C:ExecuteUbergraph_DebugPawn:00C4
-[2016.08.04-22.19.26:916][242]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Selected Tile from function: 'ExecuteUbergraph_DebugPawn' from node: DestroyActor in graph: EventGraph in object: DebugPawn
-[2016.08.04-22.19.26:917][242]LogBlueprintUserMessages: [DebugPawn_C_4] Server: N
-[2016.08.04-22.19.27:544][278]LogBlueprintUserMessages: [DebugPawn_C_4] Server: N
-[2016.08.04-22.19.27:758][291]LogBlueprintUserMessages: [DebugPawn_C_4] Server: N
-[2016.08.04-22.19.28:849][357]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MP_MainMenu.MP_MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MP_MainMenu.MP_MainMenu:PersistentLevel.MP_MainMenu' with GeneratedClass '/Game/Maps/MP_MainMenu.MP_MainMenu_C' with ClassGeneratedBy '/Game/Maps/MP_MainMenu.MP_MainMenu:PersistentLevel.MP_MainMenu'
-[2016.08.04-22.19.28:936][357]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
-[2016.08.04-22.19.28:987][357]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
-[2016.08.04-22.19.28:988][357]LogPlayLevel:Display: Shutting down PIE online subsystems
-[2016.08.04-22.19.28:988][357]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MP_MainMenu.MP_MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MP_MainMenu.MP_MainMenu:PersistentLevel.MP_MainMenu' with GeneratedClass '/Game/Maps/MP_MainMenu.MP_MainMenu_C' with ClassGeneratedBy '/Game/Maps/MP_MainMenu.MP_MainMenu:PersistentLevel.MP_MainMenu'
-[2016.08.04-22.19.29:051][357]LogExit: GameNetDriver None shut down
-[2016.08.04-22.19.29:125][358]LogPlayLevel:Display: Destroying online subsystem :Context_14
-[2016.08.04-22.19.29:125][358]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
-[2016.08.04-22.19.29:125][358]LogPlayLevel:Display: Destroying online subsystem :Context_13
-[2016.08.04-22.19.29:125][358]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
-[2016.08.04-22.20.09:584][218]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
-[2016.08.04-22.20.09:834][218]LogSavePackage: Save=164.45ms
-[2016.08.04-22.20.09:834][218]LogSavePackage: Moving '../../../../../../Users/My/Desktop/UE4-City-Building/Saved/MP_MainMenu_Auto1A609183241CDB34C6135FABE1D793385.tmp' to '../../../../../../Users/My/Desktop/UE4-City-Building/Saved/Autosaves/Game/Maps/MP_MainMenu_Auto1.umap'
-[2016.08.04-22.20.09:835][218]LogSavePackage: Total save time: 197.27ms
-[2016.08.04-22.20.09:835][218]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/My/Desktop/UE4-City-Building/Saved/Autosaves/Game/Maps/MP_MainMenu_Auto1.umap
-[2016.08.04-22.20.09:837][218]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MP_MainMenu' took 0.253
-[2016.08.04-22.20.09:837][218]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.253
-[2016.08.04-22.20.09:894][218]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PlayerCharacter/Blueprints/VR_Character/DebugPawn] ([1] browsable assets)...
-[2016.08.04-22.20.09:925][218]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/PlayerCharacter/Blueprints/VR_Character/DebugPawn.DebugPawn]
-[2016.08.04-22.20.09:925][218]OBJ SavePackage: Finished generating thumbnails for package [/Game/PlayerCharacter/Blueprints/VR_Character/DebugPawn]
-[2016.08.04-22.20.11:222][218]LogSavePackage: Save=1272.30ms
-[2016.08.04-22.20.11:222][218]LogSavePackage: Moving '../../../../../../Users/My/Desktop/UE4-City-Building/Saved/DebugPawn_Auto19E9E001342F7F871F414C7910686E29D.tmp' to '../../../../../../Users/My/Desktop/UE4-City-Building/Saved/Autosaves/Game/PlayerCharacter/Blueprints/VR_Character/DebugPawn_Auto1.uasset'
-[2016.08.04-22.20.11:236][218]LogSavePackage: Total save time: 1309.73ms
-[2016.08.04-22.20.11:237][218]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/My/Desktop/UE4-City-Building/Saved/Autosaves/Game/PlayerCharacter/Blueprints/VR_Character/DebugPawn_Auto1.uasset
-[2016.08.04-22.20.11:237][218]LogFileHelpers: Auto-saving content packages took 1.388
-[2016.08.04-22.27.19:537][620]BlueprintLog: New page: Compile DebugPawn
-[2016.08.04-22.27.19:811][620]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
-[2016.08.04-22.27.19:966][620]BlueprintEditorCompileResults: Info [1219.54] Compile of DebugPawn successful! [in 429 ms]
-[2016.08.04-22.35.40:122][293]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
-[2016.08.04-22.35.40:197][293]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MP_MainMenu' took 0.075
-[2016.08.04-22.35.40:212][293]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PlayerCharacter/Blueprints/VR_Character/DebugPawn] ([1] browsable assets)...
-[2016.08.04-22.35.40:242][293]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/PlayerCharacter/Blueprints/VR_Character/DebugPawn.DebugPawn]
-[2016.08.04-22.35.40:242][293]OBJ SavePackage: Finished generating thumbnails for package [/Game/PlayerCharacter/Blueprints/VR_Character/DebugPawn]
-[2016.08.04-22.35.41:659][293]LogSavePackage: Save=1351.08ms
-[2016.08.04-22.35.41:659][293]LogSavePackage: Moving '../../../../../../Users/My/Desktop/UE4-City-Building/Saved/DebugPawn_Auto2A38467164BD6772B4A34FEBA5E4054BA.tmp' to '../../../../../../Users/My/Desktop/UE4-City-Building/Saved/Autosaves/Game/PlayerCharacter/Blueprints/VR_Character/DebugPawn_Auto2.uasset'
-[2016.08.04-22.35.41:699][293]LogSavePackage: Total save time: 1451.97ms
-[2016.08.04-22.35.41:699][293]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/My/Desktop/UE4-City-Building/Saved/Autosaves/Game/PlayerCharacter/Blueprints/VR_Character/DebugPawn_Auto2.uasset
-[2016.08.04-22.35.41:699][293]LogFileHelpers: Auto-saving content packages took 1.496
-[2016.08.04-22.40.20:929][556]BlueprintLog: New page: Compile DebugPawn
-[2016.08.04-22.40.21:218][556]LogBlueprint:Error: [compiler DebugPawn] Error This blueprint (self) is not a Road_C, therefore ' Target ' must have a connection.
-[2016.08.04-22.40.21:218][556]LogBlueprint:Error: [compiler DebugPawn] Error This blueprint (self) is not a Road_C, therefore ' Target ' must have a connection.
-[2016.08.04-22.40.21:218][556]LogBlueprint:Error: [compiler DebugPawn] Error This blueprint (self) is not a Road_C, therefore ' Target ' must have a connection.
-[2016.08.04-22.40.21:219][556]LogBlueprint:Error: [compiler DebugPawn] Error Variable node  Set Direction  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
-[2016.08.04-22.40.21:220][556]LogBlueprint:Error: [compiler DebugPawn] Error Variable node  Set Direction  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
-[2016.08.04-22.40.21:220][556]LogBlueprint:Error: [compiler DebugPawn] Error Variable node  Set Direction  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
-[2016.08.04-22.40.21:233][556]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
-[2016.08.04-22.40.21:599][556]LogBlueprint:Warning: [compiler DebugPawn] Warning [2001.17] Compile of DebugPawn failed. 6 Fatal Issue(s) 0 Warning(s) [in 669 ms]
-[2016.08.04-22.40.21:599][556]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Road_C, therefore ' Target ' must have a connection.
-[2016.08.04-22.40.21:599][556]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Road_C, therefore ' Target ' must have a connection.
-[2016.08.04-22.40.21:599][556]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Road_C, therefore ' Target ' must have a connection.
-[2016.08.04-22.40.21:599][556]BlueprintEditorCompileResults:Error: Error Variable node  Set Direction  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
-[2016.08.04-22.40.21:600][556]BlueprintEditorCompileResults:Error: Error Variable node  Set Direction  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
-[2016.08.04-22.40.21:600][556]BlueprintEditorCompileResults:Error: Error Variable node  Set Direction  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
-[2016.08.04-22.40.21:600][556]BlueprintEditorCompileResults:Warning: Warning [2001.17] Compile of DebugPawn failed. 6 Fatal Issue(s) 0 Warning(s) [in 669 ms]
-[2016.08.04-22.40.34:383][997]BlueprintLog: New page: Compile DebugPawn
-[2016.08.04-22.40.34:662][997]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
-[2016.08.04-22.40.34:843][997]BlueprintEditorCompileResults: Info [2014.42] Compile of DebugPawn successful! [in 459 ms]
-[2016.08.04-22.40.44:806][379]BlueprintLog: New page: Compile DebugPawn
-[2016.08.04-22.40.45:095][379]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
-[2016.08.04-22.40.45:259][379]BlueprintEditorCompileResults: Info [2024.83] Compile of DebugPawn successful! [in 452 ms]
-[2016.08.04-22.41.04:035][934]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MP_MainMenu" FILE="../../../../../../Users/My/Desktop/UE4-City-Building/Content/Maps/MP_MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2016.08.04-22.41.04:037][934]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
-[2016.08.04-22.41.04:203][934]LogSavePackage: Save=103.78ms
-[2016.08.04-22.41.04:203][934]LogSavePackage: Moving '../../../../../../Users/My/Desktop/UE4-City-Building/Saved/MP_MainMenu6FEA8C374D83A9C7315B49B96A4C85B1.tmp' to '../../../../../../Users/My/Desktop/UE4-City-Building/Content/Maps/MP_MainMenu.umap'
-[2016.08.04-22.41.04:208][934]LogSavePackage: Total save time: 132.81ms
-[2016.08.04-22.41.04:208][934]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/My/Desktop/UE4-City-Building/Content/Maps/MP_MainMenu.umap
-[2016.08.04-22.41.09:063][504]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
-[2016.08.04-22.41.11:174][504]LogSavePackage: Save=864.26ms
-[2016.08.04-22.41.11:174][504]LogSavePackage: Moving '../../../../../../Users/My/Desktop/UE4-City-Building/Saved/DebugPawn2EFA1FE34C1E70728738D48915901193.tmp' to '../../../../../../Users/My/Desktop/UE4-City-Building/Content/PlayerCharacter/Blueprints/VR_Character/DebugPawn.uasset'
-[2016.08.04-22.41.11:190][504]LogSavePackage: Total save time: 900.27ms
-[2016.08.04-22.41.11:190][504]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/My/Desktop/UE4-City-Building/Content/PlayerCharacter/Blueprints/VR_Character/DebugPawn.uasset
-[2016.08.04-22.41.11:896][505]Cmd: QUIT_EDITOR
-[2016.08.04-22.41.12:701][505]LogExit: Preparing to exit.
-[2016.08.04-22.41.13:750][505]LogExit: Editor shut down
-[2016.08.04-22.41.13:750][505]LogExit: Transaction tracking system shut down
-[2016.08.04-22.41.14:144][505]LogObj: Freed 0b from 0 cluster array pools.
-[2016.08.04-22.41.14:145][505]LogExit: Object subsystem successfully closed.
-[2016.08.04-22.41.14:160][505]LogD3D11RHI: Shutdown
-[2016.08.04-22.41.14:160][505]LogD3D11RHI: CleanupD3DDevice
-[2016.08.04-22.41.14:268][505]LogD3D11RHI: ~FD3D11DynamicRHI
-[2016.08.04-22.41.14:353][505]LogDerivedDataCache: Shutdown
-[2016.08.04-22.41.14:572][505]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (207)
-[2016.08.04-22.41.14:572][505]LogModuleManager: Shutting down and abandoning module BlueprintGraph (205)
-[2016.08.04-22.41.14:572][505]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (204)
-[2016.08.04-22.41.14:573][505]LogModuleManager: Shutting down and abandoning module CrashTracker (203)
-[2016.08.04-22.41.14:573][505]LogModuleManager: Shutting down and abandoning module SceneOutliner (202)
-[2016.08.04-22.41.14:578][505]LogModuleManager: Shutting down and abandoning module SuperSearch (201)
-[2016.08.04-22.41.14:578][505]LogModuleManager: Shutting down and abandoning module WidgetCarousel (200)
-[2016.08.04-22.41.14:578][505]LogModuleManager: Shutting down and abandoning module AddContentDialog (199)
-[2016.08.04-22.41.14:598][505]LogModuleManager: Shutting down and abandoning module GameplayTags (198)
-[2016.08.04-22.41.14:598][505]LogModuleManager: Shutting down and abandoning module EditorWidgets (197)
-[2016.08.04-22.41.14:598][505]LogModuleManager: Shutting down and abandoning module CollectionManager (196)
-[2016.08.04-22.41.14:604][505]LogModuleManager: Shutting down and abandoning module StatsViewer (195)
-[2016.08.04-22.41.14:605][505]LogModuleManager: Shutting down and abandoning module FoliageEdit (194)
-[2016.08.04-22.41.14:605][505]LogModuleManager: Shutting down and abandoning module LandscapeEditor (193)
-[2016.08.04-22.41.14:605][505]LogModuleManager: Shutting down and abandoning module ActorPickerMode (192)
-[2016.08.04-22.41.14:605][505]LogModuleManager: Shutting down and abandoning module GeometryMode (191)
-[2016.08.04-22.41.14:605][505]LogModuleManager: Shutting down and abandoning module TextureAlignMode (190)
-[2016.08.04-22.41.14:606][505]LogModuleManager: Shutting down and abandoning module BspMode (189)
-[2016.08.04-22.41.14:606][505]LogModuleManager: Shutting down and abandoning module PlacementMode (188)
-[2016.08.04-22.41.14:606][505]LogModuleManager: Shutting down and abandoning module AutomationWorker (187)
-[2016.08.04-22.41.14:606][505]LogModuleManager: Shutting down and abandoning module CharacterAI (186)
-[2016.08.04-22.41.14:606][505]LogModuleManager: Shutting down and abandoning module SmartSnapping (185)
-[2016.08.04-22.41.14:606][505]LogModuleManager: Shutting down and abandoning module ViewportSnapping (184)
-[2016.08.04-22.41.14:606][505]LogModuleManager: Shutting down and abandoning module LogVisualizer (183)
-[2016.08.04-22.41.14:611][505]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (182)
-[2016.08.04-22.41.14:624][505]LogModuleManager: Shutting down and abandoning module IntroTutorials (181)
-[2016.08.04-22.41.14:632][505]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (180)
-[2016.08.04-22.41.14:632][505]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (179)
-[2016.08.04-22.41.14:638][505]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (178)
-[2016.08.04-22.41.14:638][505]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (177)
-[2016.08.04-22.41.15:412][505]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (176)
-[2016.08.04-22.41.15:412][505]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (175)
-[2016.08.04-22.41.15:412][505]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (174)
-[2016.08.04-22.41.15:412][505]LogModuleManager: Shutting down and abandoning module MergeActors (173)
-[2016.08.04-22.41.15:459][505]LogModuleManager: Shutting down and abandoning module SizeMap (172)
-[2016.08.04-22.41.15:468][505]LogModuleManager: Shutting down and abandoning module TreeMap (171)
-[2016.08.04-22.41.15:468][505]LogModuleManager: Shutting down and abandoning module ReferenceViewer (170)
-[2016.08.04-22.41.15:468][505]LogModuleManager: Shutting down and abandoning module LocalizationService (169)
-[2016.08.04-22.41.15:468][505]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (168)
-[2016.08.04-22.41.15:471][505]LogModuleManager: Shutting down and abandoning module HardwareTargeting (167)
-[2016.08.04-22.41.15:471][505]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (166)
-[2016.08.04-22.41.15:478][505]LogModuleManager: Shutting down and abandoning module UndoHistory (165)
-[2016.08.04-22.41.15:479][505]LogModuleManager: Shutting down and abandoning module UserFeedback (164)
-[2016.08.04-22.41.15:479][505]LogModuleManager: Shutting down and abandoning module XmlParser (163)
-[2016.08.04-22.41.15:479][505]LogModuleManager: Shutting down and abandoning module Blutility (162)
-[2016.08.04-22.41.15:487][505]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (161)
-[2016.08.04-22.41.15:487][505]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (160)
-[2016.08.04-22.41.15:487][505]LogModuleManager: Shutting down and abandoning module InputBindingEditor (159)
-[2016.08.04-22.41.15:500][505]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (158)
-[2016.08.04-22.41.15:500][505]LogModuleManager: Shutting down and abandoning module SettingsEditor (157)
-[2016.08.04-22.41.15:501][505]LogModuleManager: Shutting down and abandoning module ProjectLauncher (156)
-[2016.08.04-22.41.15:520][505]LogModuleManager: Shutting down and abandoning module SessionFrontend (155)
-[2016.08.04-22.41.15:546][505]LogModuleManager: Shutting down and abandoning module ProfilerClient (154)
-[2016.08.04-22.41.15:547][505]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (153)
-[2016.08.04-22.41.15:551][505]LogModuleManager: Shutting down and abandoning module DeviceManager (152)
-[2016.08.04-22.41.15:590][505]LogModuleManager: Shutting down and abandoning module AutomationController (151)
-[2016.08.04-22.41.15:590][505]LogModuleManager: Shutting down and abandoning module AutomationWindow (150)
-[2016.08.04-22.41.15:631][505]LogModuleManager: Shutting down and abandoning module Layers (149)
-[2016.08.04-22.41.15:650][505]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (148)
-[2016.08.04-22.41.15:650][505]LogModuleManager: Shutting down and abandoning module DetailCustomizations (147)
-[2016.08.04-22.41.15:658][505]LogModuleManager: Shutting down and abandoning module PackagesDialog (146)
-[2016.08.04-22.41.15:658][505]LogModuleManager: Shutting down and abandoning module Persona (145)
-[2016.08.04-22.41.15:689][505]LogModuleManager: Shutting down and abandoning module Kismet (144)
-[2016.08.04-22.41.15:693][505]LogModuleManager: Shutting down and abandoning module GraphEditor (143)
-[2016.08.04-22.41.15:693][505]LogModuleManager: Shutting down and abandoning module ClassViewer (142)
-[2016.08.04-22.41.15:694][505]LogModuleManager: Shutting down and abandoning module Toolbox (141)
-[2016.08.04-22.41.15:697][505]LogModuleManager: Shutting down and abandoning module ModuleUI (140)
-[2016.08.04-22.41.15:702][505]LogModuleManager: Shutting down and abandoning module MovieSceneTools (139)
-[2016.08.04-22.41.15:715][505]LogModuleManager: Shutting down and abandoning module OutputLog (138)
-[2016.08.04-22.41.15:715][505]LogModuleManager: Shutting down and abandoning module GammaUI (137)
-[2016.08.04-22.41.15:723][505]LogModuleManager: Shutting down and abandoning module Documentation (136)
-[2016.08.04-22.41.15:723][505]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (135)
-[2016.08.04-22.41.15:723][505]LogModuleManager: Shutting down and abandoning module AnalyticsET (134)
-[2016.08.04-22.41.15:723][505]LogModuleManager: Shutting down and abandoning module Analytics (133)
-[2016.08.04-22.41.15:723][505]LogModuleManager: Shutting down and abandoning module PortalServices (132)
-[2016.08.04-22.41.15:723][505]LogModuleManager: Shutting down and abandoning module PortalRpc (131)
-[2016.08.04-22.41.15:723][505]LogModuleManager: Shutting down and abandoning module MessagingRpc (130)
-[2016.08.04-22.41.15:723][505]LogModuleManager: Shutting down and abandoning module AITestSuite (129)
-[2016.08.04-22.41.15:723][505]LogModuleManager: Shutting down and abandoning module GameplayDebugger (128)
-[2016.08.04-22.41.15:723][505]LogModuleManager: Shutting down and abandoning module AIModule (127)
-[2016.08.04-22.41.15:723][505]LogModuleManager: Shutting down and abandoning module ProfilerService (126)
-[2016.08.04-22.41.15:768][505]LogModuleManager: Shutting down and abandoning module TaskGraph (125)
-[2016.08.04-22.41.15:768][505]LogModuleManager: Shutting down and abandoning module SlateRemote (124)
-[2016.08.04-22.41.15:768][505]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (123)
-[2016.08.04-22.41.15:768][505]LogModuleManager: Shutting down and abandoning module OculusLibrary (122)
-[2016.08.04-22.41.15:768][505]LogModuleManager: Shutting down and abandoning module OculusInput (121)
-[2016.08.04-22.41.15:768][505]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (120)
-[2016.08.04-22.41.15:768][505]LogModuleManager: Shutting down and abandoning module CableComponent (119)
-[2016.08.04-22.41.15:768][505]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (118)
-[2016.08.04-22.41.15:768][505]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (117)
-[2016.08.04-22.41.15:809][505]LogModuleManager: Shutting down and abandoning module HTML5Networking (116)
-[2016.08.04-22.41.15:809][505]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (115)
-[2016.08.04-22.41.15:809][505]LogModuleManager: Shutting down and abandoning module PluginBrowser (114)
-[2016.08.04-22.41.15:822][505]LogModuleManager: Shutting down and abandoning module EpicSurvey (113)
-[2016.08.04-22.41.15:826][505]LogModuleManager: Shutting down and abandoning module DesktopPlatform (112)
-[2016.08.04-22.41.15:826][505]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (111)
-[2016.08.04-22.41.15:830][505]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (110)
-[2016.08.04-22.41.15:830][505]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (109)
-[2016.08.04-22.41.15:830][505]LogModuleManager: Shutting down and abandoning module SourceControl (108)
-[2016.08.04-22.41.15:830][505]LogModuleManager: Shutting down and abandoning module GitSourceControl (107)
-[2016.08.04-22.41.15:838][505]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (106)
-[2016.08.04-22.41.15:838][505]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (105)
-[2016.08.04-22.41.15:846][505]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (104)
-[2016.08.04-22.41.15:846][505]LogModuleManager: Shutting down and abandoning module MeshPaint (103)
-[2016.08.04-22.41.15:850][505]LogModuleManager: Shutting down and abandoning module HotReload (102)
-[2016.08.04-22.41.15:851][505]LogModuleManager: Shutting down and abandoning module MainFrame (101)
-[2016.08.04-22.41.15:851][505]LogModuleManager: Shutting down and abandoning module LevelEditor (100)
-[2016.08.04-22.41.15:852][505]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (99)
-[2016.08.04-22.41.15:853][505]LogModuleManager: Shutting down and abandoning module AssetRegistry (98)
-[2016.08.04-22.41.15:967][505]LogModuleManager: Shutting down and abandoning module ContentBrowser (97)
-[2016.08.04-22.41.15:968][505]LogModuleManager: Shutting down and abandoning module Paper2DEditor (96)
-[2016.08.04-22.41.15:976][505]LogModuleManager: Shutting down and abandoning module UdpMessaging (95)
-[2016.08.04-22.41.16:076][505]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (94)
-[2016.08.04-22.41.16:076][505]LogModuleManager: Shutting down and abandoning module Paper2D (93)
-[2016.08.04-22.41.16:076][505]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (92)
-[2016.08.04-22.41.16:076][505]LogModuleManager: Shutting down and abandoning module Media (91)
-[2016.08.04-22.41.16:076][505]LogModuleManager: Shutting down and abandoning module WmfMedia (90)
-[2016.08.04-22.41.16:102][505]LogModuleManager: Shutting down and abandoning module MediaAssets (89)
-[2016.08.04-22.41.16:103][505]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (88)
-[2016.08.04-22.41.16:103][505]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (87)
-[2016.08.04-22.41.16:103][505]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (86)
-[2016.08.04-22.41.16:103][505]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (85)
-[2016.08.04-22.41.16:103][505]LogModuleManager: Shutting down and abandoning module PropertyEditor (84)
-[2016.08.04-22.41.16:103][505]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (83)
-[2016.08.04-22.41.16:103][505]LogModuleManager: Shutting down and abandoning module FunctionalTesting (82)
-[2016.08.04-22.41.16:103][505]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (81)
-[2016.08.04-22.41.16:103][505]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (80)
-[2016.08.04-22.41.16:103][505]LogModuleManager: Shutting down and abandoning module MessageLog (79)
-[2016.08.04-22.41.16:103][505]LogModuleManager: Shutting down and abandoning module Sequencer (78)
-[2016.08.04-22.41.16:126][505]LogModuleManager: Shutting down and abandoning module AssetTools (77)
-[2016.08.04-22.41.16:126][505]LogModuleManager: Shutting down and abandoning module UMGEditor (76)
-[2016.08.04-22.41.16:126][505]LogModuleManager: Shutting down and abandoning module UMG (75)
-[2016.08.04-22.41.16:126][505]LogModuleManager: Shutting down and abandoning module SlateReflector (74)
-[2016.08.04-22.41.16:127][505]LogModuleManager: Shutting down and abandoning module Slate (73)
-[2016.08.04-22.41.16:127][505]LogModuleManager: Shutting down and abandoning module EditorStyle (72)
-[2016.08.04-22.41.16:130][505]LogModuleManager: Shutting down and abandoning module SessionServices (71)
-[2016.08.04-22.41.16:130][505]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (70)
-[2016.08.04-22.41.16:130][505]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (69)
-[2016.08.04-22.41.16:130][505]LogModuleManager: Shutting down and abandoning module XAudio2 (68)
-[2016.08.04-22.41.16:130][505]LogModuleManager: Shutting down and abandoning module Networking (67)
-[2016.08.04-22.41.16:130][505]LogModuleManager: Shutting down and abandoning module Core (66)
-[2016.08.04-22.41.16:130][505]LogModuleManager: Shutting down and abandoning module KismetCompiler (65)
-[2016.08.04-22.41.16:130][505]LogModuleManager: Shutting down and abandoning module PhysXFormats (64)
-[2016.08.04-22.41.16:130][505]LogModuleManager: Shutting down and abandoning module MeshUtilities (63)
-[2016.08.04-22.41.16:130][505]LogModuleManager: Shutting down and abandoning module CookingStats (62)
-[2016.08.04-22.41.16:130][505]LogModuleManager: Shutting down and abandoning module DerivedDataCache (61)
-[2016.08.04-22.41.16:130][505]LogDerivedDataCache: Shutdown
-[2016.08.04-22.41.16:130][505]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (60)
-[2016.08.04-22.41.16:130][505]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (59)
-[2016.08.04-22.41.16:130][505]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (58)
-[2016.08.04-22.41.16:130][505]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (57)
-[2016.08.04-22.41.16:130][505]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (56)
-[2016.08.04-22.41.16:130][505]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (55)
-[2016.08.04-22.41.16:130][505]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (54)
-[2016.08.04-22.41.16:130][505]LogModuleManager: Shutting down and abandoning module ImageWrapper (53)
-[2016.08.04-22.41.16:130][505]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (52)
-[2016.08.04-22.41.16:130][505]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (51)
-[2016.08.04-22.41.16:130][505]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (50)
-[2016.08.04-22.41.16:130][505]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (49)
-[2016.08.04-22.41.16:130][505]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (48)
-[2016.08.04-22.41.16:130][505]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (47)
-[2016.08.04-22.41.16:130][505]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (46)
-[2016.08.04-22.41.16:130][505]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (45)
-[2016.08.04-22.41.16:130][505]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (44)
-[2016.08.04-22.41.16:130][505]LogModuleManager: Shutting down and abandoning module Messaging (43)
-[2016.08.04-22.41.16:130][505]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (42)
-[2016.08.04-22.41.16:130][505]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (41)
-[2016.08.04-22.41.16:130][505]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (40)
-[2016.08.04-22.41.16:130][505]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (39)
-[2016.08.04-22.41.16:130][505]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (38)
-[2016.08.04-22.41.16:130][505]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (37)
-[2016.08.04-22.41.16:130][505]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (36)
-[2016.08.04-22.41.16:131][505]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (35)
-[2016.08.04-22.41.16:131][505]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (34)
-[2016.08.04-22.41.16:131][505]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (33)
-[2016.08.04-22.41.16:131][505]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (32)
-[2016.08.04-22.41.16:131][505]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (31)
-[2016.08.04-22.41.16:131][505]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (30)
-[2016.08.04-22.41.16:131][505]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (29)
-[2016.08.04-22.41.16:131][505]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (28)
-[2016.08.04-22.41.16:131][505]LogModuleManager: Shutting down and abandoning module TargetPlatform (27)
-[2016.08.04-22.41.16:131][505]LogModuleManager: Shutting down and abandoning module InputCore (26)
-[2016.08.04-22.41.16:131][505]LogModuleManager: Shutting down and abandoning module Settings (25)
-[2016.08.04-22.41.16:131][505]LogModuleManager: Shutting down and abandoning module Voice (23)
-[2016.08.04-22.41.16:131][505]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
-[2016.08.04-22.41.16:131][505]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
-[2016.08.04-22.41.16:131][505]LogOnline:Display: Unloading online subsystem: STEAM
-[2016.08.04-22.41.16:131][505]LogOnline:Display: Unloading online subsystem: NULL
-[2016.08.04-22.41.16:131][505]LogModuleManager: Shutting down and abandoning module HTTP (18)
-[2016.08.04-22.41.17:132][505]LogModuleManager: Shutting down and abandoning module XMPP (17)
-[2016.08.04-22.41.17:132][505]LogModuleManager: Shutting down and abandoning module OculusRift (16)
-[2016.08.04-22.41.17:132][505]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
-[2016.08.04-22.41.17:132][505]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2016.08.04-22.41.17:132][505]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2016.08.04-22.41.17:132][505]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2016.08.04-22.41.17:132][505]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2016.08.04-22.41.17:138][505]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2016.08.04-22.41.17:138][505]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2016.08.04-22.41.17:138][505]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2016.08.04-22.41.17:138][505]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2016.08.04-22.41.17:138][505]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2016.08.04-22.41.17:138][505]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2016.08.04-22.41.17:138][505]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2016.08.04-22.41.17:138][505]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2016.08.04-22.41.17:139][505]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2016.08.04-22.41.17:139][505]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2016.08.04-22.41.17:175][505]LogExit: Exiting.
-[2016.08.04-22.41.17:177][505]Log file closed, 08/04/16 17:41:17
+[2016.08.04-22.45.03:870][  0]LogBlueprint:Warning: Compiler Warning [0004.03] Compile of W_ServerList failed. 2 Fatal Issue(s) 0 Warning(s) [in 21 ms] (/Game/PlayerCharacter/Blueprints/Multiplayer/Widgets/W_ServerList.W_ServerList)
+[2016.08.04-22.45.03:870][  0]LogBlueprint:Warning: Compiler Warning [0004.03] Compile of W_ServerList failed. 2 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/PlayerCharacter/Blueprints/Multiplayer/Widgets/W_ServerList.W_ServerList)
+[2016.08.04-22.45.03:870][  0]LogBlueprint:Warning: Compiler Warning [0004.03] Compile of W_ServerList failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/PlayerCharacter/Blueprints/Multiplayer/Widgets/W_ServerList.W_ServerList)
+[2016.08.04-22.45.04:387][  0]LogAIModule: Creating AISystem for world MP_MainMenu
+[2016.08.04-22.45.04:388][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.08.04-22.45.04:389][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.08.04-22.45.04:417][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 28.696ms to complete.
+[2016.08.04-22.45.04:417][  0]LogFileHelpers: Loading map 'MP_MainMenu' took 0.728
+[2016.08.04-22.45.04:528][  0]LogCollectionManager: Loaded 0 collections in 0.000927 seconds
+[2016.08.04-22.45.04:566][  0]LogFileCache: Scanning file cache for directory 'C:/Users/GoLegitOrGoHome/Desktop/UE4-City-Building/Saved/Collections/' took 0.01s
+[2016.08.04-22.45.04:566][  0]LogFileCache: Scanning file cache for directory 'C:/Users/GoLegitOrGoHome/Desktop/UE4-City-Building/Content/Developers/GoLegitOrGoHome/Collections/' took 0.01s
+[2016.08.04-22.45.04:566][  0]LogFileCache: Scanning file cache for directory 'C:/Users/GoLegitOrGoHome/Desktop/UE4-City-Building/Content/Collections/' took 0.01s
+[2016.08.04-22.45.04:566][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.08.04-22.45.04:573][  0]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 2046 classes and 365 folders.
+[2016.08.04-22.45.04:576][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.08.04-22.45.04:576][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.08.04-22.45.04:576][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
+[2016.08.04-22.45.04:579][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.08.04-22.45.04:608][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.08.04-22.45.04:610][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.08.04-22.45.04:621][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.08.04-22.45.04:636][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.08.04-22.45.04:660][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.08.04-22.45.04:660][  0]LogLoad: Full Startup: 4.82 seconds (BP compile: 0.24 seconds)
+[2016.08.04-22.45.04:660][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2016.08.04-22.45.04:669][  0]LogOcInput: OculusInput pre-init called
+[2016.08.04-22.45.04:673][  0]LogContentStreaming: Texture pool size now 700 MB
+[2016.08.04-22.45.04:799][  0]LogRenderer: Reallocating scene render targets to support 1168x576 (Frame:2).
+[2016.08.04-22.45.21:451][595]LogAssetRegistry: Asset discovery search completed in 19.1574 seconds
+[2016.08.04-22.45.21:451][595]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.08.04-22.45.21:451][595]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000025 seconds (updated 0 objects)
+[2016.08.04-22.45.59:007][528]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 111 classes and 0 folders.
+[2016.08.04-22.46.24:680][550]LogMetaData: Removing '/Game/LevelContent/Meshes/Residential/Residential.Residential:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/LevelContent/Meshes/Residential.PackageMetaData'
+[2016.08.04-22.46.24:680][550]LogMetaData: Removing '/Game/LevelContent/Meshes/Residential/Residential.SKEL_Residential_C:DefaultSceneRoot' ref from Metadata '/Game/LevelContent/Meshes/Residential.PackageMetaData'
+[2016.08.04-22.46.24:680][550]LogMetaData: Removing '/Game/LevelContent/Meshes/Residential/Residential.SKEL_Residential_C:UserConstructionScript' ref from Metadata '/Game/LevelContent/Meshes/Residential.PackageMetaData'
+[2016.08.04-22.46.24:680][550]LogMetaData: Removing '/Game/LevelContent/Meshes/Residential/Residential.SKEL_Residential_C' ref from Metadata '/Game/LevelContent/Meshes/Residential.PackageMetaData'
+[2016.08.04-22.46.24:680][550]LogMetaData: Removing '/Game/LevelContent/Meshes/Residential/Residential.Residential_C:DefaultSceneRoot' ref from Metadata '/Game/LevelContent/Meshes/Residential.PackageMetaData'
+[2016.08.04-22.46.24:680][550]LogMetaData: Removing '/Game/LevelContent/Meshes/Residential/Residential.Residential_C:UserConstructionScript' ref from Metadata '/Game/LevelContent/Meshes/Residential.PackageMetaData'
+[2016.08.04-22.46.24:680][550]LogMetaData: Removing '/Game/LevelContent/Meshes/Residential/Residential.Residential_C' ref from Metadata '/Game/LevelContent/Meshes/Residential.PackageMetaData'
+[2016.08.04-22.46.24:680][550]LogMetaData: Removing '/Game/LevelContent/Meshes/Residential/Residential.Residential:EventGraph.K2Node_Event_0' ref from Metadata '/Game/LevelContent/Meshes/Residential.PackageMetaData'
+[2016.08.04-22.46.24:680][550]LogMetaData: Removing '/Game/LevelContent/Meshes/Residential/Residential.Residential:EventGraph.K2Node_Event_1' ref from Metadata '/Game/LevelContent/Meshes/Residential.PackageMetaData'
+[2016.08.04-22.46.24:680][550]LogMetaData: Removing '/Game/LevelContent/Meshes/Residential/Residential.Residential:EventGraph.K2Node_Event_2' ref from Metadata '/Game/LevelContent/Meshes/Residential.PackageMetaData'
+[2016.08.04-22.46.24:968][550]LogSavePackage: Save=101.72ms
+[2016.08.04-22.46.24:968][550]LogSavePackage: Moving 'C:/Users/GoLegitOrGoHome/Desktop/UE4-City-Building/Saved/ResidentialCDC41D744662F28C0D906892480E3E97.tmp' to 'C:/Users/GoLegitOrGoHome/Desktop/UE4-City-Building/Content/LevelContent/Meshes/Residential/Residential.uasset'
+[2016.08.04-22.46.24:971][550]LogSavePackage:Display: Finished SavePackage C:/Users/GoLegitOrGoHome/Desktop/UE4-City-Building/Content/LevelContent/Meshes/Residential/Residential.uasset
+[2016.08.04-22.48.04:692][763]LogClass:Warning: Type mismatch in Direction of SKEL_Residential_C - Previous (StructProperty) Current(StrProperty) for package:  FObjectReader
+[2016.08.04-22.55.25:988][810]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MP_MainMenu' took 0.019
+[2016.08.04-22.55.26:066][810]LogSavePackage: Save=3.94ms
+[2016.08.04-22.55.26:066][810]LogSavePackage: Moving 'C:/Users/GoLegitOrGoHome/Desktop/UE4-City-Building/Saved/Residential_Auto1AA19DAC34C682E772B2B5DA1CB0F5DB0.tmp' to 'C:/Users/GoLegitOrGoHome/Desktop/UE4-City-Building/Saved/Autosaves/Game/LevelContent/Meshes/Residential_Auto1.uasset'
+[2016.08.04-22.55.26:067][810]LogSavePackage:Display: Finished SavePackage C:/Users/GoLegitOrGoHome/Desktop/UE4-City-Building/Saved/Autosaves/Game/LevelContent/Meshes/Residential_Auto1.uasset
+[2016.08.04-22.55.26:067][810]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/LevelContent/Meshes/Residential/Residential] ([1] browsable assets)...
+[2016.08.04-22.55.26:067][810]OBJ SavePackage: Finished generating thumbnails for package [/Game/LevelContent/Meshes/Residential/Residential]
+[2016.08.04-22.55.26:085][810]LogSavePackage: Save=8.55ms
+[2016.08.04-22.55.26:085][810]LogSavePackage: Moving 'C:/Users/GoLegitOrGoHome/Desktop/UE4-City-Building/Saved/Residential_Auto1EEA5AC62475AF6DC7D450BBAD2924851.tmp' to 'C:/Users/GoLegitOrGoHome/Desktop/UE4-City-Building/Saved/Autosaves/Game/LevelContent/Meshes/Residential/Residential_Auto1.uasset'
+[2016.08.04-22.55.26:086][810]LogSavePackage:Display: Finished SavePackage C:/Users/GoLegitOrGoHome/Desktop/UE4-City-Building/Saved/Autosaves/Game/LevelContent/Meshes/Residential/Residential_Auto1.uasset
+[2016.08.04-22.55.26:086][810]LogFileHelpers: Auto-saving content packages took 0.086
+[2016.08.04-22.58.11:996][728]BlueprintLog: New page: Compile Residential
+[2016.08.04-22.58.12:417][728]BlueprintEditorCompileResults: Info [0792.55] Compile of Residential successful! [in 392 ms] (/Game/LevelContent/Meshes/Residential/Residential.Residential)
+[2016.08.04-22.58.48:134][747]BlueprintLog: New page: Compile Residential
+[2016.08.04-22.58.48:221][747]BlueprintEditorCompileResults: Info [0828.38] Compile of Residential successful! [in 86 ms] (/Game/LevelContent/Meshes/Residential/Residential.Residential)
+[2016.08.04-22.59.55:151][612]LogRenderer: Reallocating scene render targets to support 1168x900 (Frame:58097).
+[2016.08.04-23.00.35:755][274]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/PlayerCharacter/Blueprints/VR_Character/DebugPawn.DebugPawn:EventGraph.K2Node_CallFunction_2617 or K2Node_CallFunction /Game/PlayerCharacter/Blueprints/VR_Character/DebugPawn.DebugPawn:SetMaterial.K2Node_CallFunction_2617
+[2016.08.04-23.00.35:755][274]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2617.EdGraphPin_1762''
+[2016.08.04-23.00.35:755][274]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_SpawnActorFromClass_1.EdGraphPin_1755''
+[2016.08.04-23.00.35:756][274]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_SpawnActorFromClass_1.EdGraphPin_1760''
+[2016.08.04-23.00.35:756][274]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/PlayerCharacter/Blueprints/VR_Character/DebugPawn.DebugPawn:EventGraph.K2Node_CallFunction_2617 or K2Node_CallFunction /Game/PlayerCharacter/Blueprints/VR_Character/DebugPawn.DebugPawn:SetMaterial.K2Node_CallFunction_2617
+[2016.08.04-23.00.35:756][274]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2617.EdGraphPin_1764''
+[2016.08.04-23.00.35:756][274]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/PlayerCharacter/Blueprints/VR_Character/DebugPawn.DebugPawn:EventGraph.K2Node_CallFunction_2617 or K2Node_CallFunction /Game/PlayerCharacter/Blueprints/VR_Character/DebugPawn.DebugPawn:SetMaterial.K2Node_CallFunction_2617
+[2016.08.04-23.00.35:756][274]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2617.EdGraphPin_1763''
+[2016.08.04-23.00.35:757][274]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_216.EdGraphPin_959''
+[2016.08.04-23.00.45:819][425]LogEditorTransaction: Undo Move Node
+[2016.08.04-23.00.48:804][665]LogEditorTransaction: Undo Paste clipboard contents
+[2016.08.04-23.00.54:970][308]LogUObjectHash:Warning: Ambiguous search, could be K2Node_InputKey /Game/PlayerCharacter/Blueprints/VR_Character/DebugPawn.DebugPawn:EventGraph.K2Node_InputKey_247 or K2Node_InputKey /Game/PlayerCharacter/Blueprints/VR_Character/DebugPawn.DebugPawn:EventGraph.K2Node_InputKey_247
+[2016.08.04-23.00.54:970][308]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/PlayerCharacter/Blueprints/VR_Character/DebugPawn.DebugPawn:EventGraph.K2Node_VariableSet_142 or K2Node_VariableSet /Game/PlayerCharacter/Blueprints/VR_Character/DebugPawn.DebugPawn:EventGraph.K2Node_VariableSet_142
+[2016.08.04-23.00.54:971][308]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/PlayerCharacter/Blueprints/VR_Character/DebugPawn.DebugPawn:EventGraph.K2Node_VariableGet_157 or K2Node_VariableGet /Game/PlayerCharacter/Blueprints/VR_Character/DebugPawn.DebugPawn:EventGraph.K2Node_VariableGet_157
+[2016.08.04-23.00.54:971][308]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SpawnActorFromClass /Game/PlayerCharacter/Blueprints/VR_Character/DebugPawn.DebugPawn:EventGraph.K2Node_SpawnActorFromClass_1 or K2Node_SpawnActorFromClass /Game/PlayerCharacter/Blueprints/VR_Character/DebugPawn.DebugPawn:EventGraph.K2Node_SpawnActorFromClass_1
+[2016.08.04-23.00.54:971][308]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/PlayerCharacter/Blueprints/VR_Character/DebugPawn.DebugPawn:EventGraph.K2Node_CallFunction_2617 or K2Node_CallFunction /Game/PlayerCharacter/Blueprints/VR_Character/DebugPawn.DebugPawn:EventGraph.K2Node_CallFunction_2617
+[2016.08.04-23.00.54:971][308]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/PlayerCharacter/Blueprints/VR_Character/DebugPawn.DebugPawn:EventGraph.K2Node_VariableGet_216 or K2Node_VariableGet /Game/PlayerCharacter/Blueprints/VR_Character/DebugPawn.DebugPawn:EventGraph.K2Node_VariableGet_216
+[2016.08.04-23.02.15:280][516]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.08.04-23.03.07:334][227]BlueprintLog: New page: Compile DebugPawn
+[2016.08.04-23.03.07:671][227]BlueprintEditorCompileResults: Info [1087.83] Compile of DebugPawn successful! [in 337 ms] (/Game/PlayerCharacter/Blueprints/VR_Character/DebugPawn.DebugPawn)
+[2016.08.04-23.03.15:078][577]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelContent/Meshes/Residential" FILE="C:/Users/GoLegitOrGoHome/Desktop/UE4-City-Building/Content/LevelContent/Meshes/Residential.uasset" SILENT=true
+[2016.08.04-23.03.15:116][577]LogSavePackage: Save=27.27ms
+[2016.08.04-23.03.15:116][577]LogSavePackage: Moving 'C:/Users/GoLegitOrGoHome/Desktop/UE4-City-Building/Saved/ResidentialF500D07847DDB383305FD78F4C6D069D.tmp' to 'C:/Users/GoLegitOrGoHome/Desktop/UE4-City-Building/Content/LevelContent/Meshes/Residential.uasset'
+[2016.08.04-23.03.15:120][577]LogSavePackage:Display: Finished SavePackage C:/Users/GoLegitOrGoHome/Desktop/UE4-City-Building/Content/LevelContent/Meshes/Residential.uasset
+[2016.08.04-23.03.15:148][577]LogSavePackage: Save=11.40ms
+[2016.08.04-23.03.15:148][577]LogSavePackage: Moving 'C:/Users/GoLegitOrGoHome/Desktop/UE4-City-Building/Saved/Residential0AFCE25343771169784703AF565E8E2D.tmp' to 'C:/Users/GoLegitOrGoHome/Desktop/UE4-City-Building/Content/LevelContent/Meshes/Residential/Residential.uasset'
+[2016.08.04-23.03.15:151][577]LogSavePackage:Display: Finished SavePackage C:/Users/GoLegitOrGoHome/Desktop/UE4-City-Building/Content/LevelContent/Meshes/Residential/Residential.uasset
+[2016.08.04-23.03.15:430][577]LogSavePackage: Save=206.82ms
+[2016.08.04-23.03.15:430][577]LogSavePackage: Moving 'C:/Users/GoLegitOrGoHome/Desktop/UE4-City-Building/Saved/DebugPawnF63946E8446140D7B36A5FBE182AA5B8.tmp' to 'C:/Users/GoLegitOrGoHome/Desktop/UE4-City-Building/Content/PlayerCharacter/Blueprints/VR_Character/DebugPawn.uasset'
+[2016.08.04-23.03.15:433][577]LogSavePackage:Display: Finished SavePackage C:/Users/GoLegitOrGoHome/Desktop/UE4-City-Building/Content/PlayerCharacter/Blueprints/VR_Character/DebugPawn.uasset
+[2016.08.04-23.03.15:713][577]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MP_MainMenu" FILE="C:/Users/GoLegitOrGoHome/Desktop/UE4-City-Building/Saved/Autosaves/Game/Maps/UEDPCMP_MainMenu.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2016.08.04-23.03.15:823][577]LogSavePackage: Save=91.33ms
+[2016.08.04-23.03.15:823][577]LogSavePackage: Moving 'C:/Users/GoLegitOrGoHome/Desktop/UE4-City-Building/Saved/UEDPCMP_MainMenuCAC86EC44CFE7E35F607B6BEA4D06497.tmp' to 'C:/Users/GoLegitOrGoHome/Desktop/UE4-City-Building/Saved/Autosaves/Game/Maps/UEDPCMP_MainMenu.umap'
+[2016.08.04-23.03.15:824][577]LogSavePackage:Display: Finished SavePackage C:/Users/GoLegitOrGoHome/Desktop/UE4-City-Building/Saved/Autosaves/Game/Maps/UEDPCMP_MainMenu.umap
+[2016.08.04-23.03.15:852][577]LogEditorTransaction: Undo Spawn Play From Here Start
+[2016.08.04-23.05.46:808][216]BlueprintLog: New page: Compile Residential
+[2016.08.04-23.05.46:984][216]BlueprintEditorCompileResults: Info [1247.14] Compile of Residential successful! [in 175 ms] (/Game/LevelContent/Meshes/Residential/Residential.Residential)
+[2016.08.04-23.06.21:230][495]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MP_MainMenu' took 0.016
+[2016.08.04-23.06.21:231][495]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/LevelContent/Meshes/Residential/Residential] ([1] browsable assets)...
+[2016.08.04-23.06.21:261][495]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/LevelContent/Meshes/Residential/Residential.Residential]
+[2016.08.04-23.06.21:261][495]OBJ SavePackage: Finished generating thumbnails for package [/Game/LevelContent/Meshes/Residential/Residential]
+[2016.08.04-23.06.21:359][495]LogSavePackage: Save=93.52ms
+[2016.08.04-23.06.21:359][495]LogSavePackage: Moving 'C:/Users/GoLegitOrGoHome/Desktop/UE4-City-Building/Saved/Residential_Auto2A2EF668F4F1B4367302D459CB02D4BF6.tmp' to 'C:/Users/GoLegitOrGoHome/Desktop/UE4-City-Building/Saved/Autosaves/Game/LevelContent/Meshes/Residential/Residential_Auto2.uasset'
+[2016.08.04-23.06.21:359][495]LogSavePackage:Display: Finished SavePackage C:/Users/GoLegitOrGoHome/Desktop/UE4-City-Building/Saved/Autosaves/Game/LevelContent/Meshes/Residential/Residential_Auto2.uasset
+[2016.08.04-23.06.21:359][495]LogFileHelpers: Auto-saving content packages took 0.129
+[2016.08.04-23.09.17:727][366]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/PlayerCharacter/Blueprints/VR_Character/DebugPawn.DebugPawn:EventGraph.K2Node_DynamicCast_539 or K2Node_DynamicCast /Game/PlayerCharacter/Blueprints/VR_Character/DebugPawn.DebugPawn:SetMaterial.K2Node_DynamicCast_539
+[2016.08.04-23.09.17:727][366]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/PlayerCharacter/Blueprints/VR_Character/DebugPawn.DebugPawn:EventGraph.K2Node_DynamicCast_539 or K2Node_DynamicCast /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_DynamicCast_539
+[2016.08.04-23.09.17:727][366]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_539.EdGraphPin_1240''
+[2016.08.04-23.09.17:727][366]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/PlayerCharacter/Blueprints/VR_Character/DebugPawn.DebugPawn:EventGraph.K2Node_DynamicCast_539 or K2Node_DynamicCast /Game/PlayerCharacter/Blueprints/VR_Character/DebugPawn.DebugPawn:SetMaterial.K2Node_DynamicCast_539
+[2016.08.04-23.09.17:727][366]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/PlayerCharacter/Blueprints/VR_Character/DebugPawn.DebugPawn:EventGraph.K2Node_DynamicCast_539 or K2Node_DynamicCast /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_DynamicCast_539
+[2016.08.04-23.09.17:727][366]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_539.EdGraphPin_1241''
+[2016.08.04-23.09.17:727][366]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/PlayerCharacter/Blueprints/VR_Character/DebugPawn.DebugPawn:EventGraph.K2Node_DynamicCast_539 or K2Node_DynamicCast /Game/PlayerCharacter/Blueprints/VR_Character/DebugPawn.DebugPawn:SetMaterial.K2Node_DynamicCast_539
+[2016.08.04-23.09.17:727][366]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/PlayerCharacter/Blueprints/VR_Character/DebugPawn.DebugPawn:EventGraph.K2Node_DynamicCast_539 or K2Node_DynamicCast /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_DynamicCast_539
+[2016.08.04-23.09.17:727][366]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_539.EdGraphPin_1243''
+[2016.08.04-23.09.17:728][366]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3107.EdGraphPin_1264''
+[2016.08.04-23.09.17:728][366]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3107.EdGraphPin_1262''
+[2016.08.04-23.10.15:292][540]BlueprintLog: New page: Compile DebugPawn
+[2016.08.04-23.10.15:453][540]BlueprintEditorCompileResults: Info [1515.61] Compile of DebugPawn successful! [in 159 ms] (/Game/PlayerCharacter/Blueprints/VR_Character/DebugPawn.DebugPawn)
+[2016.08.04-23.10.22:755][244]BlueprintLog: New page: Compile Residential
+[2016.08.04-23.10.22:881][244]BlueprintEditorCompileResults: Info [1523.04] Compile of Residential successful! [in 126 ms] (/Game/LevelContent/Meshes/Residential/Residential.Residential)
+[2016.08.04-23.10.32:330][889]LogSavePackage: Save=19.02ms
+[2016.08.04-23.10.32:331][889]LogSavePackage: Moving 'C:/Users/GoLegitOrGoHome/Desktop/UE4-City-Building/Saved/Residential4AB789374C69DCD2B51853A50EC3B0F4.tmp' to 'C:/Users/GoLegitOrGoHome/Desktop/UE4-City-Building/Content/LevelContent/Meshes/Residential/Residential.uasset'
+[2016.08.04-23.10.32:333][889]LogSavePackage:Display: Finished SavePackage C:/Users/GoLegitOrGoHome/Desktop/UE4-City-Building/Content/LevelContent/Meshes/Residential/Residential.uasset
+[2016.08.04-23.10.32:560][889]LogSavePackage: Save=186.02ms
+[2016.08.04-23.10.32:560][889]LogSavePackage: Moving 'C:/Users/GoLegitOrGoHome/Desktop/UE4-City-Building/Saved/DebugPawn8F95991843E6EE7EB9B5FD85E378301B.tmp' to 'C:/Users/GoLegitOrGoHome/Desktop/UE4-City-Building/Content/PlayerCharacter/Blueprints/VR_Character/DebugPawn.uasset'
+[2016.08.04-23.10.32:563][889]LogSavePackage:Display: Finished SavePackage C:/Users/GoLegitOrGoHome/Desktop/UE4-City-Building/Content/PlayerCharacter/Blueprints/VR_Character/DebugPawn.uasset
+[2016.08.04-23.10.32:623][889]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MP_MainMenu" FILE="C:/Users/GoLegitOrGoHome/Desktop/UE4-City-Building/Saved/Autosaves/Game/Maps/UEDPCMP_MainMenu.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2016.08.04-23.10.32:698][889]LogSavePackage: Save=66.73ms
+[2016.08.04-23.10.32:698][889]LogSavePackage: Moving 'C:/Users/GoLegitOrGoHome/Desktop/UE4-City-Building/Saved/UEDPCMP_MainMenuB4EC06F2406D4C3DEC0434922265F843.tmp' to 'C:/Users/GoLegitOrGoHome/Desktop/UE4-City-Building/Saved/Autosaves/Game/Maps/UEDPCMP_MainMenu.umap'
+[2016.08.04-23.10.32:699][889]LogSavePackage:Display: Finished SavePackage C:/Users/GoLegitOrGoHome/Desktop/UE4-City-Building/Saved/Autosaves/Game/Maps/UEDPCMP_MainMenu.umap
+[2016.08.04-23.10.32:712][889]LogEditorTransaction: Undo Spawn Play From Here Start
+[2016.08.04-23.17.00:300][952]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MP_MainMenu' took 0.015
+[2016.08.04-23.17.00:301][952]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/LevelContent/Meshes/Residential/Residential] ([1] browsable assets)...
+[2016.08.04-23.17.00:328][952]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/LevelContent/Meshes/Residential/Residential.Residential]
+[2016.08.04-23.17.00:328][952]OBJ SavePackage: Finished generating thumbnails for package [/Game/LevelContent/Meshes/Residential/Residential]
+[2016.08.04-23.17.00:355][952]LogSavePackage: Save=18.40ms
+[2016.08.04-23.17.00:355][952]LogSavePackage: Moving 'C:/Users/GoLegitOrGoHome/Desktop/UE4-City-Building/Saved/Residential_Auto390B181FA412E730FB327068E98ED7A4E.tmp' to 'C:/Users/GoLegitOrGoHome/Desktop/UE4-City-Building/Saved/Autosaves/Game/LevelContent/Meshes/Residential/Residential_Auto3.uasset'
+[2016.08.04-23.17.00:356][952]LogSavePackage:Display: Finished SavePackage C:/Users/GoLegitOrGoHome/Desktop/UE4-City-Building/Saved/Autosaves/Game/LevelContent/Meshes/Residential/Residential_Auto3.uasset
+[2016.08.04-23.17.00:356][952]LogFileHelpers: Auto-saving content packages took 0.055
+[2016.08.04-23.23.34:358][404]LogStaticMesh: Building static mesh R_ViveMotionController...
+[2016.08.04-23.23.34:828][404]LogStaticMesh: Built static mesh [0.47s] /Game/PlayerCharacter/Mesh/ViveController/R_ViveMotionController.R_ViveMotionController
+[2016.08.04-23.27.44:105][884]BlueprintLog: New page: Compile Residential
+[2016.08.04-23.27.44:326][884]BlueprintEditorCompileResults: Info [2564.48] Compile of Residential successful! [in 221 ms] (/Game/LevelContent/Meshes/Residential/Residential.Residential)
+[2016.08.04-23.28.20:291][304]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MP_MainMenu' took 0.015
+[2016.08.04-23.28.20:293][304]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/LevelContent/Meshes/Residential/Residential] ([1] browsable assets)...
+[2016.08.04-23.28.20:319][304]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/LevelContent/Meshes/Residential/Residential.Residential]
+[2016.08.04-23.28.20:319][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/LevelContent/Meshes/Residential/Residential]
+[2016.08.04-23.28.20:345][304]LogSavePackage: Save=19.05ms
+[2016.08.04-23.28.20:345][304]LogSavePackage: Moving 'C:/Users/GoLegitOrGoHome/Desktop/UE4-City-Building/Saved/Residential_Auto48122D9214EBB1534AEF6D180E1A5BCD4.tmp' to 'C:/Users/GoLegitOrGoHome/Desktop/UE4-City-Building/Saved/Autosaves/Game/LevelContent/Meshes/Residential/Residential_Auto4.uasset'
+[2016.08.04-23.28.20:346][304]LogSavePackage:Display: Finished SavePackage C:/Users/GoLegitOrGoHome/Desktop/UE4-City-Building/Saved/Autosaves/Game/LevelContent/Meshes/Residential/Residential_Auto4.uasset
+[2016.08.04-23.28.20:346][304]LogFileHelpers: Auto-saving content packages took 0.054
+[2016.08.04-23.29.52:576][508]LogSavePackage: Save=13.29ms
+[2016.08.04-23.29.52:576][508]LogSavePackage: Moving 'C:/Users/GoLegitOrGoHome/Desktop/UE4-City-Building/Saved/Residential761DCB1A49DB8AEC98E59F910D5D2688.tmp' to 'C:/Users/GoLegitOrGoHome/Desktop/UE4-City-Building/Content/LevelContent/Meshes/Residential/Residential.uasset'
+[2016.08.04-23.29.52:580][508]LogSavePackage:Display: Finished SavePackage C:/Users/GoLegitOrGoHome/Desktop/UE4-City-Building/Content/LevelContent/Meshes/Residential/Residential.uasset
+[2016.08.04-23.29.52:813][508]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.08.04-23.29.52:860][508]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.08.04-23.29.53:037][509]Cmd: QUIT_EDITOR
+[2016.08.04-23.29.53:148][509]LogExit: Preparing to exit.
+[2016.08.04-23.29.53:796][509]LogExit: Editor shut down
+[2016.08.04-23.29.53:796][509]LogExit: Transaction tracking system shut down
+[2016.08.04-23.29.53:932][509]LogObj: Freed 0b from 0 cluster array pools.
+[2016.08.04-23.29.53:932][509]LogExit: Object subsystem successfully closed.
+[2016.08.04-23.29.53:946][509]LogD3D11RHI: Shutdown
+[2016.08.04-23.29.53:946][509]LogD3D11RHI: CleanupD3DDevice
+[2016.08.04-23.29.54:050][509]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.08.04-23.29.54:098][509]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (215)
+[2016.08.04-23.29.54:105][509]LogModuleManager: Shutting down and abandoning module BlueprintGraph (214)
+[2016.08.04-23.29.54:105][509]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (213)
+[2016.08.04-23.29.54:105][509]LogModuleManager: Shutting down and abandoning module CrashTracker (212)
+[2016.08.04-23.29.54:105][509]LogModuleManager: Shutting down and abandoning module SceneOutliner (211)
+[2016.08.04-23.29.54:105][509]LogModuleManager: Shutting down and abandoning module WidgetCarousel (210)
+[2016.08.04-23.29.54:105][509]LogModuleManager: Shutting down and abandoning module AddContentDialog (209)
+[2016.08.04-23.29.54:107][509]LogModuleManager: Shutting down and abandoning module GameplayTags (208)
+[2016.08.04-23.29.54:107][509]LogModuleManager: Shutting down and abandoning module EditorWidgets (207)
+[2016.08.04-23.29.54:107][509]LogModuleManager: Shutting down and abandoning module CollectionManager (206)
+[2016.08.04-23.29.54:107][509]LogModuleManager: Shutting down and abandoning module StatsViewer (205)
+[2016.08.04-23.29.54:107][509]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
+[2016.08.04-23.29.54:107][509]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
+[2016.08.04-23.29.54:107][509]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
+[2016.08.04-23.29.54:107][509]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
+[2016.08.04-23.29.54:107][509]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
+[2016.08.04-23.29.54:107][509]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
+[2016.08.04-23.29.54:107][509]LogModuleManager: Shutting down and abandoning module BspMode (198)
+[2016.08.04-23.29.54:107][509]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
+[2016.08.04-23.29.54:107][509]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
+[2016.08.04-23.29.54:107][509]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
+[2016.08.04-23.29.54:107][509]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
+[2016.08.04-23.29.54:107][509]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
+[2016.08.04-23.29.54:107][509]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
+[2016.08.04-23.29.54:107][509]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
+[2016.08.04-23.29.54:108][509]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
+[2016.08.04-23.29.54:108][509]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
+[2016.08.04-23.29.54:108][509]LogModuleManager: Shutting down and abandoning module SessionServices (188)
+[2016.08.04-23.29.54:108][509]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
+[2016.08.04-23.29.54:108][509]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
+[2016.08.04-23.29.54:108][509]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
+[2016.08.04-23.29.54:108][509]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
+[2016.08.04-23.29.54:108][509]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
+[2016.08.04-23.29.54:108][509]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
+[2016.08.04-23.29.54:108][509]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
+[2016.08.04-23.29.54:108][509]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
+[2016.08.04-23.29.54:243][509]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
+[2016.08.04-23.29.54:243][509]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
+[2016.08.04-23.29.54:243][509]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
+[2016.08.04-23.29.54:243][509]LogModuleManager: Shutting down and abandoning module MergeActors (176)
+[2016.08.04-23.29.54:243][509]LogModuleManager: Shutting down and abandoning module SizeMap (175)
+[2016.08.04-23.29.54:243][509]LogModuleManager: Shutting down and abandoning module TreeMap (174)
+[2016.08.04-23.29.54:243][509]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
+[2016.08.04-23.29.54:243][509]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
+[2016.08.04-23.29.54:243][509]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
+[2016.08.04-23.29.54:243][509]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
+[2016.08.04-23.29.54:243][509]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
+[2016.08.04-23.29.54:243][509]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
+[2016.08.04-23.29.54:243][509]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
+[2016.08.04-23.29.54:243][509]LogModuleManager: Shutting down and abandoning module XmlParser (166)
+[2016.08.04-23.29.54:243][509]LogModuleManager: Shutting down and abandoning module Blutility (165)
+[2016.08.04-23.29.54:243][509]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
+[2016.08.04-23.29.54:243][509]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
+[2016.08.04-23.29.54:243][509]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
+[2016.08.04-23.29.54:243][509]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
+[2016.08.04-23.29.54:243][509]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
+[2016.08.04-23.29.54:243][509]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
+[2016.08.04-23.29.54:243][509]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
+[2016.08.04-23.29.54:243][509]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
+[2016.08.04-23.29.54:243][509]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
+[2016.08.04-23.29.54:243][509]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
+[2016.08.04-23.29.54:286][509]LogModuleManager: Shutting down and abandoning module AutomationController (154)
+[2016.08.04-23.29.54:286][509]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
+[2016.08.04-23.29.54:286][509]LogModuleManager: Shutting down and abandoning module Layers (152)
+[2016.08.04-23.29.54:286][509]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
+[2016.08.04-23.29.54:286][509]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
+[2016.08.04-23.29.54:286][509]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
+[2016.08.04-23.29.54:286][509]LogModuleManager: Shutting down and abandoning module Persona (148)
+[2016.08.04-23.29.54:286][509]LogModuleManager: Shutting down and abandoning module Kismet (147)
+[2016.08.04-23.29.54:286][509]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
+[2016.08.04-23.29.54:286][509]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
+[2016.08.04-23.29.54:287][509]LogModuleManager: Shutting down and abandoning module Toolbox (144)
+[2016.08.04-23.29.54:287][509]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
+[2016.08.04-23.29.54:287][509]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
+[2016.08.04-23.29.54:287][509]LogModuleManager: Shutting down and abandoning module OutputLog (141)
+[2016.08.04-23.29.54:287][509]LogModuleManager: Shutting down and abandoning module GammaUI (140)
+[2016.08.04-23.29.54:287][509]LogModuleManager: Shutting down and abandoning module Documentation (139)
+[2016.08.04-23.29.54:287][509]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
+[2016.08.04-23.29.54:287][509]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
+[2016.08.04-23.29.54:287][509]LogModuleManager: Shutting down and abandoning module Analytics (136)
+[2016.08.04-23.29.54:287][509]LogModuleManager: Shutting down and abandoning module PortalServices (135)
+[2016.08.04-23.29.54:287][509]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
+[2016.08.04-23.29.54:287][509]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
+[2016.08.04-23.29.54:287][509]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
+[2016.08.04-23.29.54:287][509]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
+[2016.08.04-23.29.54:287][509]LogModuleManager: Shutting down and abandoning module AIModule (130)
+[2016.08.04-23.29.54:287][509]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
+[2016.08.04-23.29.54:310][509]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
+[2016.08.04-23.29.54:310][509]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
+[2016.08.04-23.29.54:310][509]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (126)
+[2016.08.04-23.29.54:310][509]LogModuleManager: Shutting down and abandoning module OculusLibrary (125)
+[2016.08.04-23.29.54:310][509]LogModuleManager: Shutting down and abandoning module OculusInput (124)
+[2016.08.04-23.29.54:310][509]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (123)
+[2016.08.04-23.29.54:310][509]LogModuleManager: Shutting down and abandoning module CableComponent (122)
+[2016.08.04-23.29.54:310][509]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (121)
+[2016.08.04-23.29.54:310][509]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (120)
+[2016.08.04-23.29.54:310][509]LogModuleManager: Shutting down and abandoning module HTML5Networking (119)
+[2016.08.04-23.29.54:310][509]LogModuleManager: Shutting down and abandoning module SuperSearch (118)
+[2016.08.04-23.29.54:310][509]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (117)
+[2016.08.04-23.29.54:310][509]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (116)
+[2016.08.04-23.29.54:310][509]LogModuleManager: Shutting down and abandoning module PluginBrowser (115)
+[2016.08.04-23.29.54:310][509]LogModuleManager: Shutting down and abandoning module EpicSurvey (114)
+[2016.08.04-23.29.54:310][509]LogModuleManager: Shutting down and abandoning module DesktopPlatform (113)
+[2016.08.04-23.29.54:310][509]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (112)
+[2016.08.04-23.29.54:310][509]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (111)
+[2016.08.04-23.29.54:310][509]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (110)
+[2016.08.04-23.29.54:310][509]LogModuleManager: Shutting down and abandoning module SourceControl (109)
+[2016.08.04-23.29.54:310][509]LogModuleManager: Shutting down and abandoning module GitSourceControl (108)
+[2016.08.04-23.29.54:310][509]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (107)
+[2016.08.04-23.29.54:310][509]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (106)
+[2016.08.04-23.29.54:310][509]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (105)
+[2016.08.04-23.29.54:310][509]LogModuleManager: Shutting down and abandoning module MeshPaint (104)
+[2016.08.04-23.29.54:310][509]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (103)
+[2016.08.04-23.29.54:310][509]LogModuleManager: Shutting down and abandoning module HotReload (102)
+[2016.08.04-23.29.54:311][509]LogModuleManager: Shutting down and abandoning module MainFrame (101)
+[2016.08.04-23.29.54:311][509]LogModuleManager: Shutting down and abandoning module LevelEditor (100)
+[2016.08.04-23.29.54:311][509]LogModuleManager: Shutting down and abandoning module ContentBrowser (99)
+[2016.08.04-23.29.54:312][509]LogModuleManager: Shutting down and abandoning module Paper2DEditor (98)
+[2016.08.04-23.29.54:312][509]LogModuleManager: Shutting down and abandoning module UdpMessaging (97)
+[2016.08.04-23.29.54:412][509]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (96)
+[2016.08.04-23.29.54:412][509]LogModuleManager: Shutting down and abandoning module Paper2D (95)
+[2016.08.04-23.29.54:412][509]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (94)
+[2016.08.04-23.29.54:412][509]LogModuleManager: Shutting down and abandoning module Media (93)
+[2016.08.04-23.29.54:412][509]LogModuleManager: Shutting down and abandoning module WmfMedia (92)
+[2016.08.04-23.29.54:412][509]LogModuleManager: Shutting down and abandoning module MediaAssets (91)
+[2016.08.04-23.29.54:412][509]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (90)
+[2016.08.04-23.29.54:412][509]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (89)
+[2016.08.04-23.29.54:412][509]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (88)
+[2016.08.04-23.29.54:412][509]LogModuleManager: Shutting down and abandoning module VREditor (87)
+[2016.08.04-23.29.54:412][509]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (86)
+[2016.08.04-23.29.54:412][509]LogModuleManager: Shutting down and abandoning module PropertyEditor (85)
+[2016.08.04-23.29.54:413][509]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (84)
+[2016.08.04-23.29.54:413][509]LogModuleManager: Shutting down and abandoning module FunctionalTesting (83)
+[2016.08.04-23.29.54:413][509]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (82)
+[2016.08.04-23.29.54:413][509]LogModuleManager: Shutting down and abandoning module Sequencer (81)
+[2016.08.04-23.29.54:413][509]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (80)
+[2016.08.04-23.29.54:413][509]LogModuleManager: Shutting down and abandoning module MessageLog (79)
+[2016.08.04-23.29.54:413][509]LogModuleManager: Shutting down and abandoning module AssetTools (78)
+[2016.08.04-23.29.54:413][509]LogModuleManager: Shutting down and abandoning module UMGEditor (77)
+[2016.08.04-23.29.54:413][509]LogModuleManager: Shutting down and abandoning module UMG (76)
+[2016.08.04-23.29.54:413][509]LogModuleManager: Shutting down and abandoning module SlateReflector (75)
+[2016.08.04-23.29.54:413][509]LogModuleManager: Shutting down and abandoning module Slate (74)
+[2016.08.04-23.29.54:413][509]LogModuleManager: Shutting down and abandoning module EditorStyle (73)
+[2016.08.04-23.29.54:459][509]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (72)
+[2016.08.04-23.29.54:459][509]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (71)
+[2016.08.04-23.29.54:459][509]LogModuleManager: Shutting down and abandoning module XAudio2 (70)
+[2016.08.04-23.29.54:459][509]LogModuleManager: Shutting down and abandoning module Networking (69)
+[2016.08.04-23.29.54:459][509]LogModuleManager: Shutting down and abandoning module Core (68)
+[2016.08.04-23.29.54:459][509]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (67)
+[2016.08.04-23.29.54:459][509]LogModuleManager: Shutting down and abandoning module AssetRegistry (66)
+[2016.08.04-23.29.54:633][509]LogModuleManager: Shutting down and abandoning module KismetCompiler (65)
+[2016.08.04-23.29.54:633][509]LogModuleManager: Shutting down and abandoning module PhysXFormats (64)
+[2016.08.04-23.29.54:633][509]LogModuleManager: Shutting down and abandoning module MeshUtilities (63)
+[2016.08.04-23.29.54:633][509]LogModuleManager: Shutting down and abandoning module DerivedDataCache (62)
+[2016.08.04-23.29.54:703][509]LogDerivedDataCache: Shutdown
+[2016.08.04-23.29.54:703][509]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (61)
+[2016.08.04-23.29.54:703][509]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (60)
+[2016.08.04-23.29.54:703][509]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (59)
+[2016.08.04-23.29.54:703][509]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (58)
+[2016.08.04-23.29.54:703][509]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (57)
+[2016.08.04-23.29.54:703][509]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (56)
+[2016.08.04-23.29.54:703][509]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (55)
+[2016.08.04-23.29.54:703][509]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (54)
+[2016.08.04-23.29.54:703][509]LogModuleManager: Shutting down and abandoning module ImageWrapper (53)
+[2016.08.04-23.29.54:703][509]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (52)
+[2016.08.04-23.29.54:703][509]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (51)
+[2016.08.04-23.29.54:703][509]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (50)
+[2016.08.04-23.29.54:703][509]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (49)
+[2016.08.04-23.29.54:703][509]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (48)
+[2016.08.04-23.29.54:703][509]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (47)
+[2016.08.04-23.29.54:703][509]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (46)
+[2016.08.04-23.29.54:703][509]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (45)
+[2016.08.04-23.29.54:703][509]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (44)
+[2016.08.04-23.29.54:703][509]LogModuleManager: Shutting down and abandoning module Messaging (43)
+[2016.08.04-23.29.54:703][509]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (42)
+[2016.08.04-23.29.54:703][509]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (41)
+[2016.08.04-23.29.54:703][509]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (40)
+[2016.08.04-23.29.54:703][509]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (39)
+[2016.08.04-23.29.54:703][509]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (38)
+[2016.08.04-23.29.54:703][509]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (37)
+[2016.08.04-23.29.54:703][509]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (36)
+[2016.08.04-23.29.54:703][509]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (35)
+[2016.08.04-23.29.54:703][509]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (34)
+[2016.08.04-23.29.54:703][509]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (33)
+[2016.08.04-23.29.54:703][509]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (32)
+[2016.08.04-23.29.54:703][509]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (31)
+[2016.08.04-23.29.54:703][509]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (30)
+[2016.08.04-23.29.54:703][509]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (29)
+[2016.08.04-23.29.54:703][509]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (28)
+[2016.08.04-23.29.54:703][509]LogModuleManager: Shutting down and abandoning module TargetPlatform (27)
+[2016.08.04-23.29.54:703][509]LogModuleManager: Shutting down and abandoning module InputCore (26)
+[2016.08.04-23.29.54:703][509]LogModuleManager: Shutting down and abandoning module Settings (25)
+[2016.08.04-23.29.54:703][509]LogModuleManager: Shutting down and abandoning module Voice (23)
+[2016.08.04-23.29.54:703][509]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.08.04-23.29.54:703][509]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.08.04-23.29.54:704][509]LogOnline:Display: Unloading online subsystem: STEAM
+[2016.08.04-23.29.54:704][509]LogOnline:Display: Unloading online subsystem: NULL
+[2016.08.04-23.29.54:704][509]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.08.04-23.30.00:234][509]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.08.04-23.30.00:234][509]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.08.04-23.30.00:234][509]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.08.04-23.30.00:234][509]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.08.04-23.30.00:234][509]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.08.04-23.30.00:234][509]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.08.04-23.30.00:234][509]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.08.04-23.30.00:236][509]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.08.04-23.30.00:236][509]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.08.04-23.30.00:236][509]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.08.04-23.30.00:236][509]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.08.04-23.30.00:236][509]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.08.04-23.30.00:236][509]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.08.04-23.30.00:237][509]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.08.04-23.30.00:237][509]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.08.04-23.30.00:237][509]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.08.04-23.30.00:237][509]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.08.04-23.30.00:238][509]LogExit: Exiting.
+[2016.08.04-23.30.00:254][509]Log file closed, 08/04/16 19:30:00
